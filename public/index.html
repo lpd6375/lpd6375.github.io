@@ -282,7 +282,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.luopandeng.com/2019/07/19/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://www.luopandeng.com/2019/07/28/记录一下136版本的修改结果/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="LPD">
@@ -302,7 +302,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2019/07/19/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
+                <a href="/2019/07/28/记录一下136版本的修改结果/" class="post-title-link" itemprop="url">记录一下136版本的修改结果</a>
               
             
           </h1>
@@ -327,10 +327,14 @@
                 
               
 
-              <time title="创建时间：2019-07-19 20:33:56" itemprop="dateCreated datePublished" datetime="2019-07-19T20:33:56+08:00">2019-07-19</time>
+              <time title="创建时间：2019-07-28 20:09:38 / 修改时间：20:59:56" itemprop="dateCreated datePublished" datetime="2019-07-28T20:09:38+08:00">2019-07-28</time>
             </span>
           
 
+          
+            
+
+            
           
 
           
@@ -369,19 +373,177 @@
       
         
           
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+            <p>MiFi 设备送修收到到发现系统固件被更改了。变了 136 版本，之前是 83 。这样一来的话就不得不接受每天被限  17G 的蛋疼事实了。</p>
+<p>但是，作为一个经常混迹于吾爱论坛的我来说，这是一件不能接受的，对，完全全无法接受。</p>
+<p>从客服那里拿到系统刷机包后便。开始了一番折腾，由于懂的不多，导致我走了不少的弯路。折腾了几天都没成功，那几天心情实在是有点低落。FUCK！</p>
+<h4 id="第一步-找到修改点"><a href="#第一步-找到修改点" class="headerlink" title="第一步 找到修改点"></a>第一步 找到修改点</h4><p>脑子已经不好使了，只记得上次修改了某个值，但是不记得具体的数字是多少了。只好去搜索安卓手机统计流量用的方法。得到的结果是 TrafficStats 这个类的下的 </p>
+<p>getMobileRxBytes() 方法，按图索骥找到要修改的数 1048576 然后将其修改成比它的数。一切就是像上次那样进行。重新编译并打包后，满怀期待地把它刷入设备中。</p>
+<p>开机。。。BOOM!!! 机器一直在重启。</p>
+<h4 id="第二步-出问题不要慌，看日志"><a href="#第二步-出问题不要慌，看日志" class="headerlink" title="第二步 出问题不要慌，看日志"></a>第二步 出问题不要慌，看日志</h4><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adb pull /sdcard .</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>使用上面的命令把日志文件拉下来之后打开查看，发现</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java.lang.UnsatisfiedLinkError dlopen failed: library XXX/libxxx.so not found</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>于是又开始了一翻搜索，其中过程不表，反正在这一阶段失败了很多次。</p>
+<p>在这个过程中，遭到了部门领导全部门最低绩效的评价。这个意思是劝退了吧。郑州工资本来就低的情况下，再降点可不就是劝退的意思 ？ （关于这个我想多说两句，其实从进公司起就觉得我这个岗位一个人完全可以处理的了。只是领导自己觉得一个人处理不来吧。所以自己私下里一直在学习。）</p>
+<p>网上搜到的大多是有源码的情况下报这个错误怎么处理的。但是我这个完全是逆向出的东西，所以那个方法都不适用。最后还是找到了一个博客，博客里的那个才哥说他自己也是搜了很多地方都没有找到讨论这个问题的。他的方法就是检查以下几个文件、夹中是否有对应的 xxx.so 。</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">/system/etc/public.libraries.txt</span><br><span class="line">/system/vendor/public.libraries.txt</span><br><span class="line">/system/lib</span><br><span class="line">/system/vendor/lib</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>我查了一下果然没有。于是就分别添加了进去。</p>
+<h4 id="第三-成功啦"><a href="#第三-成功啦" class="headerlink" title="第三 成功啦"></a>第三 成功啦</h4><p>把导致错误的地方改正之后就开始了刷入修改后的系统包。没有任何异常。</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>面对问题一定不能慌，可是暂时放弃。因为如果一直没有思路的话，不管你怎么做都只是在耗着，对自己没有任何帮助。该放弃时就放弃。另外，就是注意与人的交流，虽然期间也去了论坛，也是给了一些思路，但是事后证明，那些是错误的。最后，做项目一定要条理分明，不然过程真的很痛苦。另外，安卓逆向还是很有意思的嘛，除了过程比较蛋疼之外。</p>
+<p><img src="./images/pic.png" alt></p>
 
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+          
+        
+      
+    </div>
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.luopandeng.com/2019/07/19/恢复：一年前的踩坑记录/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="LPD">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="LPD">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/07/19/恢复：一年前的踩坑记录/" class="post-title-link" itemprop="url">恢复：一年前的踩坑记录</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-07-19 22:46:01 / 修改时间：22:50:16" itemprop="dateCreated datePublished" datetime="2019-07-19T22:46:01+08:00">2019-07-19</time>
+            </span>
+          
+
+          
+            
+
+            
+          
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>最近几天在写一个小项目，在解析 XML 过程中遇到不少问题，这里写出来小结一下。<br>起初没把 XML 解析想的过于简单，结果在动手去做的时候遇到了不少的问题。代码报错、空指针、路径不对、没有得到正确的解析结果等等一些问题。<br>虽然通过谷歌最终都解决了问题，但是在解决问题的过程中也是遇到了不少的麻烦。整个业务的逻辑还没有理清楚。<br>下一步就得好好地把逻辑弄清楚。</p>
+<p>暂时就写这么多吧。虽然没什么技术上的东西</p>
 
           
         
@@ -468,7 +630,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
