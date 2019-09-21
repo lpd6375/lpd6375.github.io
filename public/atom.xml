@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.luopandeng.com/"/>
-  <updated>2019-08-27T01:16:40.738Z</updated>
+  <updated>2019-09-21T15:01:53.107Z</updated>
   <id>http://www.luopandeng.com/</id>
   
   <author>
@@ -17,9 +17,147 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>oracle数据库--从备份文件恢复</title>
+    <link href="http://www.luopandeng.com/2019/09/21/%E6%8A%80%E6%9C%AF/oracle%E6%95%B0%E6%8D%AE%E5%BA%93-%E4%BB%8E%E5%A4%87%E4%BB%BD%E6%96%87%E4%BB%B6%E6%81%A2%E5%A4%8D/"/>
+    <id>http://www.luopandeng.com/2019/09/21/技术/oracle数据库-从备份文件恢复/</id>
+    <published>2019-09-21T13:07:48.000Z</published>
+    <updated>2019-09-21T15:01:53.107Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Oracle 数据库 .dpdmp 文件导入数据库</p><p>使用命令<code>impdp system/root DIRECTORY=data_dump_dir DUMPFILE=MYDUMPFILE.DPDMP</code></p><p>其中<code>system/root</code>为对应的用户名和密码，后面两个参数依次是<code>dump</code>文件所在目录以及文件名。这个操作要求用户民具有<code>DBA</code>权限。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="oracle数据库" scheme="http://www.luopandeng.com/tags/oracle%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>来上海了</title>
+    <link href="http://www.luopandeng.com/2019/09/21/%E7%94%9F%E6%B4%BB/%E4%B8%8A%E6%B5%B7/"/>
+    <id>http://www.luopandeng.com/2019/09/21/生活/上海/</id>
+    <published>2019-09-21T09:37:58.000Z</published>
+    <updated>2019-09-21T09:41:31.303Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今天是到上海的第一天，从今天起，每天都要有进步。都要有反思，别人能做的事我也可以做，而且要做的更好。虽然说技术很菜，但是也做好了被虐的准备。每天进步，每天总结。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="上海" scheme="http://www.luopandeng.com/tags/%E4%B8%8A%E6%B5%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>最近看了微服务相关的书</title>
+    <link href="http://www.luopandeng.com/2019/09/10/%E8%AF%BB%E5%90%8E%E6%84%9F/%E6%9C%80%E8%BF%91%E7%9C%8B%E4%BA%86%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%9B%B8%E5%85%B3%E7%9A%84%E4%B9%A6/"/>
+    <id>http://www.luopandeng.com/2019/09/10/读后感/最近看了微服务相关的书/</id>
+    <published>2019-09-10T13:16:28.000Z</published>
+    <updated>2019-09-16T14:05:21.927Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>看了这本书之后，深刻地感觉到，不断的接触新技术是多么的重要。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="杂记" scheme="http://www.luopandeng.com/tags/%E6%9D%82%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>投资失败</title>
+    <link href="http://www.luopandeng.com/2019/08/28/%E6%9D%82%E4%BA%8B/%E6%8A%95%E8%B5%84%E5%A4%B1%E8%B4%A5/"/>
+    <id>http://www.luopandeng.com/2019/08/28/杂事/投资失败/</id>
+    <published>2019-08-28T07:06:08.000Z</published>
+    <updated>2019-08-28T07:25:05.828Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="写在大北农突破10元前夜"><a href="#写在大北农突破10元前夜" class="headerlink" title="写在大北农突破10元前夜"></a>写在大北农突破10元前夜</h1><p>卖掉大北农已经正好一个周了。今天大北农涨停价格至<code>5.46</code>。上周卖掉的价格是4.85，那时亏损是30%。假如拿到现在至少回血12%左右。保守估计还有两个涨停。最近半年的持有的股票都是猪肉股。金新农赚了30%左右，把曾经亏掉的一部分算了赚回来了。出掉后换了华贸物流，结果又损失了15%。心急之下又换回了猪肉票，但是没考虑到猪肉板块已经经历过一轮上涨了，刚好回调窗口。买下了金新农，结果就是上个周以30%的亏损出掉了。很惨对不对？这一轮已经启动了，因为每一次的启动都会有媒体争相报道生猪存栏状况，自相关部门禁止养猪后，养猪相关企业越来越集中。最后势必导致猪肉价格高企。</p><p>​    关注猪肉板块，以及估算相关个股是否到底可参考牧原股份，可以说这家公司所有业务都围绕生猪展开。另外注意每一次行情启动之间的间隔。还要注意网上相关新闻报道，此轮上涨，有条新闻印象特别深刻，就是有头猪竟然卖了快一万块。。。想赚钱，就必须事事留心。。。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="股票" scheme="http://www.luopandeng.com/tags/%E8%82%A1%E7%A5%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20190827学习笔记</title>
+    <link href="http://www.luopandeng.com/2019/08/27/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Spring/20190827%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>http://www.luopandeng.com/2019/08/27/学习笔记/Spring/20190827学习笔记/</id>
+    <published>2019-08-27T14:09:40.000Z</published>
+    <updated>2019-08-27T15:05:05.864Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今天学习了 Spring 的配置：</p><p>一是基于 XML 文件的配置；二是基于配置类的配置。其中第一种文件需要一个XML配置文件在使用Bean时需要从 xml 文件中加载需要的 bean 。第二种是写一个配置类，在配置类中进行相关的配置,以下是示例代码。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.xxx.config;</span><br><span class="line"><span class="keyword">import</span> com.mchange.v2.c3p0.ComboPooledDataSource;</span><br><span class="line"><span class="keyword">import</span> com.mchange.v2.c3p0.DataSources;</span><br><span class="line"><span class="keyword">import</span> org.apache.commons.dbutils.QueryRunner;</span><br><span class="line"><span class="keyword">import</span> org.springframework.context.annotation.Bean;</span><br><span class="line"><span class="keyword">import</span> org.springframework.context.annotation.ComponentScan;</span><br><span class="line"><span class="keyword">import</span> org.springframework.context.annotation.Configuration;</span><br><span class="line"><span class="keyword">import</span> org.springframework.context.annotation.Scope;</span><br><span class="line"><span class="keyword">import</span> javax.sql.DataSource;</span><br><span class="line"><span class="keyword">import</span> java.beans.PropertyVetoException;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 该类是一个配置类，它的作用和bean.xml是一样的</span></span><br><span class="line"><span class="comment"> * SPRING中的新注解</span></span><br><span class="line"><span class="comment"> * CONFIGRATION</span></span><br><span class="line"><span class="comment"> * 作用：指定当前类是一个配置类</span></span><br><span class="line"><span class="comment"> * 细节：当配置类作用AnnotationConfigApplicationContext对象创建的参数时，该注解可以不写</span></span><br><span class="line"><span class="comment"> * COMPONENTCSCAN</span></span><br><span class="line"><span class="comment"> * 作用：用于通过此注解指定spring 在创建容器时要扫描的包</span></span><br><span class="line"><span class="comment"> * 属性：</span></span><br><span class="line"><span class="comment"> * value: 它和basePackages的作用是一样的，都是用于包扫描.使用此注解相当于在xml中配置了：</span></span><br><span class="line"><span class="comment"> * &lt;context:component-scan base-package="com.luopandeng"/&gt;</span></span><br><span class="line"><span class="comment"> * Bean</span></span><br><span class="line"><span class="comment"> * 作用：用于把当前方法的返回值作为Bean对象存入spring的ioc容器中</span></span><br><span class="line"><span class="comment"> * 属性：name: 用于指定bean的id.当不写时默认值是当前方法的名称</span></span><br><span class="line"><span class="comment"> * 细节：当我们使用注解配置方法时，如果方法有参数，spring 框架会去容器中查找有没有可用的bean对象。</span></span><br><span class="line"><span class="comment"> * 查找的方式和autowired注解的作用是一样的</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@PropertySource</span></span></span><br><span class="line"><span class="comment"> *  作用：用于指定properties 文件的位置</span></span><br><span class="line"><span class="comment"> *  性情：文件的名称和路径</span></span><br><span class="line"><span class="comment"> *      关键字：classpath 表示类路径</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@ComponentScan</span>(basePackages = &#123;<span class="string">"com.luopandeng"</span>&#125;)</span><br><span class="line"><span class="meta">@Configuration</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">SpringConfiguration</span> </span>&#123;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Configration Code</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>总结，xml 方件配置是通过读取配置文件利用反射的方式创建 bean，而配置类则是通过直接创建对象的方式进行 bean 的创建。这个描述可能不准确。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="学习笔记 Spring" scheme="http://www.luopandeng.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-Spring/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>电话面试失败有感</title>
+    <link href="http://www.luopandeng.com/2019/08/27/%E7%94%9F%E6%B4%BB/%E9%9D%A2%E8%AF%95%E5%A4%B1%E8%B4%A5%E6%9C%89%E6%84%9F/"/>
+    <id>http://www.luopandeng.com/2019/08/27/生活/面试失败有感/</id>
+    <published>2019-08-27T13:58:30.000Z</published>
+    <updated>2019-08-27T14:07:10.186Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="失败总是有原因的"><a href="#失败总是有原因的" class="headerlink" title="失败总是有原因的"></a>失败总是有原因的</h2><p>今天上午按照约定, PwC 的 HR 的小姐姐给我来了电话。也算第一次有了电话面试的经历，聊的有点尴尬，没能把故事讲好。感觉自己还是老样子没什么改进，现在都不想说出那句话了。很多事情都是可以提前准备的，无论什么事都是可以的。预案做不好，相应地什么事情都会做不好。</p><p>​    下午的时候，接了英语测试电话。我的口语真的是很烂，又想起了当年在学院办公室的那次，尴尬的和外国人聊天，但是人家会说中文，很流利的那种，而我说的非常的烂。当时给了我很大的刺激。时至今日仍然很烂，做什么事都坚持不下去，不够专注。各种为自己找借口，找理由。自己该怎么办呢？眼看着龄人在不断地超越自己，自己竟然还阿Q式的安慰自己。真是太失败了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="日常" scheme="http://www.luopandeng.com/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
     <title>最近在忙什么</title>
-    <link href="http://www.luopandeng.com/2019/08/27/%E6%9C%80%E8%BF%91%E5%9C%A8%E5%BF%99%E4%BB%80%E4%B9%88/"/>
-    <id>http://www.luopandeng.com/2019/08/27/最近在忙什么/</id>
+    <link href="http://www.luopandeng.com/2019/08/27/%E7%94%9F%E6%B4%BB/%E6%9C%80%E8%BF%91%E5%9C%A8%E5%BF%99%E4%BB%80%E4%B9%88/"/>
+    <id>http://www.luopandeng.com/2019/08/27/生活/最近在忙什么/</id>
     <published>2019-08-27T00:48:03.000Z</published>
     <updated>2019-08-27T01:16:40.738Z</updated>
     
@@ -41,8 +179,8 @@
   
   <entry>
     <title>又一个大坑</title>
-    <link href="http://www.luopandeng.com/2019/08/27/%E5%8F%88%E4%B8%80%E4%B8%AA%E5%A4%A7%E5%9D%91/"/>
-    <id>http://www.luopandeng.com/2019/08/27/又一个大坑/</id>
+    <link href="http://www.luopandeng.com/2019/08/27/%E6%8A%80%E6%9C%AF/%E5%8F%88%E4%B8%80%E4%B8%AA%E5%A4%A7%E5%9D%91/"/>
+    <id>http://www.luopandeng.com/2019/08/27/技术/又一个大坑/</id>
     <published>2019-08-27T00:31:53.000Z</published>
     <updated>2019-08-27T00:44:32.979Z</updated>
     
@@ -63,9 +201,51 @@
   </entry>
   
   <entry>
+    <title>没事就瞎写点东西，做个小总结</title>
+    <link href="http://www.luopandeng.com/2019/07/29/%E7%94%9F%E6%B4%BB/%E6%B2%A1%E4%BA%8B%E5%B0%B1%E7%9E%8E%E5%86%99%E7%82%B9%E4%B8%9C%E8%A5%BF%EF%BC%8C%E5%81%9A%E4%B8%AA%E5%B0%8F%E6%80%BB%E7%BB%93/"/>
+    <id>http://www.luopandeng.com/2019/07/29/生活/没事就瞎写点东西，做个小总结/</id>
+    <published>2019-07-29T13:36:32.000Z</published>
+    <updated>2019-07-29T14:15:32.676Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="这篇文章没有任何有用的信息。"><a href="#这篇文章没有任何有用的信息。" class="headerlink" title="这篇文章没有任何有用的信息。"></a>这篇文章没有任何有用的信息。</h3><p>就是想写点东西，也算是没有追求的追求。</p><p>别人写博客是必须有东西才写出来，而我就是不一样了，我是无病申吟。不是为了写出有用的东西，纯粹为了写而写，如果你在看的话，我劝你放弃。</p><p>写完了。再见。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://www.luopandeng.com/2019/07/29/%E6%8A%80%E6%9C%AF/Django%20%E6%95%B0%E6%8D%AE%E5%BA%93%E6%93%8D%E4%BD%9C/"/>
+    <id>http://www.luopandeng.com/2019/07/29/技术/Django 数据库操作/</id>
+    <published>2019-07-29T10:50:19.417Z</published>
+    <updated>2019-07-29T10:50:12.651Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Django-数据库操作"><a href="#Django-数据库操作" class="headerlink" title="Django 数据库操作"></a>Django 数据库操作</h1><h2 id="从现有数据库自动生成-Model"><a href="#从现有数据库自动生成-Model" class="headerlink" title="从现有数据库自动生成 Model"></a>从现有数据库自动生成 Model</h2><p>命令是</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">python manage.py inspectdb <span class="comment">#运行后会把表生成的model结构打印出来</span></span><br><span class="line">python manage.py inspectdb &gt; app/models.py <span class="comment">#这一步是将上一步生成的写入文件</span></span><br></pre></td></tr></table></figure><p>数据库基础设置在 settings.py 文件中，default 名必须存在，否则会报错。</p><p>django 数据库配置文件：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">DATABASES = &#123;</span><br><span class="line">    <span class="comment"># 'default': &#123;</span></span><br><span class="line">    <span class="comment">#     'ENGINE': 'django.db.backends.sqlite3',</span></span><br><span class="line">    <span class="comment">#     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),</span></span><br><span class="line">    <span class="comment"># &#125;,</span></span><br><span class="line">    <span class="string">'default'</span>: &#123;</span><br><span class="line">        <span class="string">'ENGINE'</span>: <span class="string">'django.db.backends.mysql'</span>,</span><br><span class="line">        <span class="string">'NAME'</span>:<span class="string">'xxxxxxxx'</span>,</span><br><span class="line">        <span class="string">'HOST'</span>:<span class="string">'xx.xx.xx.xx'</span>,</span><br><span class="line">        <span class="string">'USER'</span>:<span class="string">'root'</span>,</span><br><span class="line">        <span class="string">'PASSWORD'</span>:<span class="string">'xxxxxxxxxxxx'</span>,</span><br><span class="line">        <span class="string">'PORT'</span>:<span class="string">'3306'</span>,</span><br><span class="line"></span><br><span class="line">    &#125;,</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>记录一下136版本的修改结果</title>
-    <link href="http://www.luopandeng.com/2019/07/28/%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B136%E7%89%88%E6%9C%AC%E7%9A%84%E4%BF%AE%E6%94%B9%E7%BB%93%E6%9E%9C/"/>
-    <id>http://www.luopandeng.com/2019/07/28/记录一下136版本的修改结果/</id>
+    <link href="http://www.luopandeng.com/2019/07/28/%E6%8A%80%E6%9C%AF/%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B136%E7%89%88%E6%9C%AC%E7%9A%84%E4%BF%AE%E6%94%B9%E7%BB%93%E6%9E%9C/"/>
+    <id>http://www.luopandeng.com/2019/07/28/技术/记录一下136版本的修改结果/</id>
     <published>2019-07-28T12:09:38.000Z</published>
     <updated>2019-08-26T04:16:20.254Z</updated>
     
@@ -85,8 +265,8 @@
   
   <entry>
     <title>恢复：一年前的踩坑记录</title>
-    <link href="http://www.luopandeng.com/2019/07/19/%E6%81%A2%E5%A4%8D%EF%BC%9A%E4%B8%80%E5%B9%B4%E5%89%8D%E7%9A%84%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/"/>
-    <id>http://www.luopandeng.com/2019/07/19/恢复：一年前的踩坑记录/</id>
+    <link href="http://www.luopandeng.com/2019/07/19/%E8%BF%87%E5%8E%BB/%E6%81%A2%E5%A4%8D%EF%BC%9A%E4%B8%80%E5%B9%B4%E5%89%8D%E7%9A%84%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/"/>
+    <id>http://www.luopandeng.com/2019/07/19/过去/恢复：一年前的踩坑记录/</id>
     <published>2019-07-19T14:46:01.000Z</published>
     <updated>2019-08-26T04:16:20.254Z</updated>
     
