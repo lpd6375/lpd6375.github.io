@@ -1,4 +1,16 @@
-# Django 数据库操作
+---
+title: Django数据库操作
+date: 2019-09-29 19:58:48
+tags: Python
+---
+
+因为使用`Pyecharts `的时候遇到了，所以在这里写一下，权当笔记了。
+
+
+
+<!--more-->
+
+
 
 ## 从现有数据库自动生成 Model
 
