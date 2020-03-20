@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+<!-- <script data-ad-client="ca-pub-9369276261261324" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
+
+  
+
+  
+  <title>安卓逆向--二杀 | LPD</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="MiFi 设备送修收到到发现系统固件被更改了。变了 136 版本，之前是 83 。这样一来的话就不得不接受每天被限  17G 的蛋疼事实了。">
+<meta name="keywords" content="技术">
+<meta property="og:type" content="article">
+<meta property="og:title" content="安卓逆向--二杀">
+<meta property="og:url" content="https://www.luopandeng.com/2019/07/28/technique/记录一下136版本的修改结果/index.html">
+<meta property="og:site_name" content="LPD">
+<meta property="og:description" content="MiFi 设备送修收到到发现系统固件被更改了。变了 136 版本，之前是 83 。这样一来的话就不得不接受每天被限  17G 的蛋疼事实了。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://www.luopandeng.com/images/pic.png">
+<meta property="og:updated_time" content="2020-03-17T09:54:27.874Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="安卓逆向--二杀">
+<meta name="twitter:description" content="MiFi 设备送修收到到发现系统固件被更改了。变了 136 版本，之前是 83 。这样一来的话就不得不接受每天被限  17G 的蛋疼事实了。">
+<meta name="twitter:image" content="https://www.luopandeng.com/images/pic.png">
+  
+    <link rel="alternate" href="/atom.xml" title="LPD" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+</html>
+<body >
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">LPD</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">自说自话</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://www.luopandeng.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-technique/记录一下136版本的修改结果" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/07/28/technique/记录一下136版本的修改结果/" class="article-date">
+  <time datetime="2019-07-28T12:09:38.000Z" itemprop="datePublished">2019-07-28</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      安卓逆向--二杀
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>MiFi 设备送修收到到发现系统固件被更改了。变了 136 版本，之前是 83 。这样一来的话就不得不接受每天被限  17G 的蛋疼事实了。</p>
+<a id="more"></a>
+
+
+
+<p>但是，作为一个经常混迹于吾爱论坛的我来说，这是一件不能接受的，对，完全全无法接受。</p>
+<p>从客服那里拿到系统刷机包后便。开始了一番折腾，由于懂的不多，导致我走了不少的弯路。折腾了几天都没成功，那几天心情实在是有点低落。FUCK！</p>
+<h4 id="第一步-找到修改点"><a href="#第一步-找到修改点" class="headerlink" title="第一步 找到修改点"></a>第一步 找到修改点</h4><p>脑子已经不好使了，只记得上次修改了某个值，但是不记得具体的数字是多少了。只好去搜索安卓手机统计流量用的方法。得到的结果是 TrafficStats 这个类的下的 </p>
+<p>getMobileRxBytes() 方法，按图索骥找到要修改的数 1048576 然后将其修改成比它的数。一切就是像上次那样进行。重新编译并打包后，满怀期待地把它刷入设备中。</p>
+<p>开机。。。BOOM!!! 机器一直在重启。</p>
+<h4 id="第二步-出问题不要慌，看日志"><a href="#第二步-出问题不要慌，看日志" class="headerlink" title="第二步 出问题不要慌，看日志"></a>第二步 出问题不要慌，看日志</h4><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adb pull /sdcard .</span><br></pre></td></tr></table></figure>
+
+<p>使用上面的命令把日志文件拉下来之后打开查看，发现</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java.lang.UnsatisfiedLinkError dlopen failed: library XXX/libxxx.so not found</span><br></pre></td></tr></table></figure>
+
+<p>于是又开始了一翻搜索，其中过程不表，反正在这一阶段失败了很多次。</p>
+<p><del>在这个过程中，遭到了部门领导全部门最低绩效的评价。这个意思是劝退了吧。郑州工资本来就低的情况下，再降点可不就是劝退的意思 ？ （关于这个我想多说两句，其实从进公司起就觉得我这个岗位一个人完全可以处理的了。只是领导自己觉得一个人处理不来吧。所以自己私下里一直在学习。）</del></p>
+<p>Comment: 记下来多是让自己不能释怀，还是自己能力不够。</p>
+<p>网上搜到的大多是有源码的情况下报这个错误怎么处理的。但是我这个完全是逆向出的东西，所以那个方法都不适用。最后还是找到了一个博客，博客里的那个才哥说他自己也是搜了很多地方都没有找到讨论这个问题的。他的方法就是检查以下几个文件、夹中是否有对应的 xxx.so 。</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">/system/etc/public.libraries.txt</span><br><span class="line">/system/vendor/public.libraries.txt</span><br><span class="line">/system/lib</span><br><span class="line">/system/vendor/lib</span><br></pre></td></tr></table></figure>
+
+<p>我查了一下果然没有。于是就分别添加了进去。</p>
+<h4 id="第三-成功啦"><a href="#第三-成功啦" class="headerlink" title="第三 成功啦"></a>第三 成功啦</h4><p>把导致错误的地方改正之后就开始了刷入修改后的系统包。没有任何异常。</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>面对问题一定不能慌，可是暂时放弃。因为如果一直没有思路的话，不管你怎么做都只是在耗着，对自己没有任何帮助。该放弃时就放弃。另外，就是注意与人的交流，虽然期间也去了论坛，也是给了一些思路，但是事后证明，那些是错误的。最后，做项目一定要条理分明，不然过程真的很痛苦。另外，安卓逆向还是很有意思的嘛，除了过程比较蛋疼之外。</p>
+<p>【参考链接】</p>
+<ol>
+<li><a href="http://www.yanglajiao.com/article/ngyzqf/78991929" target="_blank" rel="noopener">Android 8.0 dlopen failed 问题</a></li>
+<li><a href="https://www.jianshu.com/p/4be3d1dafbec" target="_blank" rel="noopener">Framework基础：Android N 公共so库怎么定义呢？</a></li>
+<li><a href="http://huzhengyu.com/2018/05/05/Android%E4%B8%ADpublic%E7%9A%84So%E5%BA%93%E7%9A%84%E5%BC%95%E7%94%A8%E9%97%AE%E9%A2%98/" target="_blank" rel="noopener">Android中public的So库的引用问题</a></li>
+<li><a href="http://www.ishenping.com/ArtInfo/2114481.html" target="_blank" rel="noopener">浅谈Android系统编译apk后so文件在dlopen时出现linker权限问题</a></li>
+</ol>
+<p><img src="/images/pic.png" alt="假图一张"></p>
+<hr>
+<p>更新于：2019/10/03</p>
+<hr>
+<p>这次逆向的是最新设备的软件，版本号<code>22</code>。</p>
+<p>关键步骤：在安装包目录下添加lib/arm/libXXX.so。应该是他们在系统打包的时候将相关的东西整合到odex文件中了。</p>
+<hr>
+<p>另：接安卓逆向项目</p>
+<hr>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://www.luopandeng.com/2019/07/28/technique/记录一下136版本的修改结果/" data-id="ck7zupbvz003xlgkihcztk1yc" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/技术/">技术</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2019/07/29/living/没事就瞎写点东西，做个小总结/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          没事就瞎写点东西，做个小总结
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2019/07/19/gone/恢复：一年前的踩坑记录/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">恢复：一年前的踩坑记录</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/OPEC/">OPEC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/chaos/">chaos</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/cheatsheet/">cheatsheet</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hackerrank/">hackerrank</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/invest/">invest</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/investment/">investment</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/life/">life</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mynotes-Linux/">mynotes Linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/坑/">坑</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/学习笔记/">学习笔记</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/小程序/">小程序</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/小钱钱/">小钱钱</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/技术/">技术</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/有意思的东西/">有意思的东西</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/有意的东西/">有意的东西</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/杂事/">杂事</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/生活/">生活</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/算法-hackerrank/">算法 hackerrank</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/读后感/">读后感</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/过去/">过去</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/项目/">项目</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/OPEC/" style="font-size: 10px;">OPEC</a> <a href="/tags/chaos/" style="font-size: 12.86px;">chaos</a> <a href="/tags/cheatsheet/" style="font-size: 10px;">cheatsheet</a> <a href="/tags/hackerrank/" style="font-size: 17.14px;">hackerrank</a> <a href="/tags/invest/" style="font-size: 11.43px;">invest</a> <a href="/tags/investment/" style="font-size: 10px;">investment</a> <a href="/tags/life/" style="font-size: 10px;">life</a> <a href="/tags/mynotes-Linux/" style="font-size: 10px;">mynotes Linux</a> <a href="/tags/坑/" style="font-size: 10px;">坑</a> <a href="/tags/学习笔记/" style="font-size: 10px;">学习笔记</a> <a href="/tags/小程序/" style="font-size: 14.29px;">小程序</a> <a href="/tags/小钱钱/" style="font-size: 10px;">小钱钱</a> <a href="/tags/技术/" style="font-size: 20px;">技术</a> <a href="/tags/有意思的东西/" style="font-size: 10px;">有意思的东西</a> <a href="/tags/有意的东西/" style="font-size: 10px;">有意的东西</a> <a href="/tags/杂事/" style="font-size: 18.57px;">杂事</a> <a href="/tags/生活/" style="font-size: 15.71px;">生活</a> <a href="/tags/算法-hackerrank/" style="font-size: 10px;">算法 hackerrank</a> <a href="/tags/读后感/" style="font-size: 10px;">读后感</a> <a href="/tags/过去/" style="font-size: 10px;">过去</a> <a href="/tags/项目/" style="font-size: 10px;">项目</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">三月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">二月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">一月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/12/">十二月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">十一月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/10/">十月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/09/">九月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/08/">八月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/07/">七月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/1970/01/">一月 1970</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/03/13/living/My-Equipment/">My Equipment</a>
+          </li>
+        
+          <li>
+            <a href="/2020/03/09/invest/Something-that-irregular/">Something that irregular</a>
+          </li>
+        
+          <li>
+            <a href="/2020/03/08/invest/Something-Usefull/">Something Usefull</a>
+          </li>
+        
+          <li>
+            <a href="/2020/03/08/invest/About-US/">About US</a>
+          </li>
+        
+          <li>
+            <a href="/2020/03/07/invest/About-North-Korea/">About North Korea</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+    <div class="widget tag">
+	<h3 class="title">友情链接</h3>
+	<ul class="entry">
+	<li><a href="https://fziqian.github.io/blog/" title="FZQ">FZQ的博客</a></li>
+	</ul>
+</div>
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer" style="text-align: center;">
+    <div id="footer-info" class="inner" >
+      &copy; 2020 LPD<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+      <div style="vertical-align: middle;"><a target="_blank" href="https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=9M3EwsbGzMPDw7SFhdqXm5k" ><img src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_01.png" style="-webkit-user-select: none;margin: auto;"/></a></div>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
