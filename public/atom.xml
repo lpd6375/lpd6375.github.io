@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.luopandeng.com/"/>
-  <updated>2020-03-20T07:42:35.260Z</updated>
+  <updated>2020-03-27T00:31:58.877Z</updated>
   <id>https://www.luopandeng.com/</id>
   
   <author>
@@ -15,6 +15,66 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>碎碎念</title>
+    <link href="https://www.luopandeng.com/2020/03/26/chaos/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    <id>https://www.luopandeng.com/2020/03/26/chaos/碎碎念/</id>
+    <published>2020-03-26T12:48:44.000Z</published>
+    <updated>2020-03-27T00:31:58.877Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>灾难面前都是弱弱者，这个时候逞英雄是不是就有点弱智呢？武汉这次疫情之严重完全是人为造成的。也许体制内最大的问题就在于不敢担责任吧。</p><a id="more"></a><p>果然，人年纪越大越容易被各种感人的场面感动。丧失理性，这还不是可怕的地方，可怕的是有人会利用这种情绪。所以说，遇到问题应该先让脑子转起来。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;灾难面前都是弱弱者，这个时候逞英雄是不是就有点弱智呢？武汉这次疫情之严重完全是人为造成的。也许体制内最大的问题就在于不敢担责任吧。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="chaos" scheme="https://www.luopandeng.com/tags/chaos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>什么是隐私</title>
+    <link href="https://www.luopandeng.com/2020/03/26/chaos/%E4%BB%80%E4%B9%88%E6%98%AF%E9%9A%90%E7%A7%81/"/>
+    <id>https://www.luopandeng.com/2020/03/26/chaos/什么是隐私/</id>
+    <published>2020-03-26T12:29:52.000Z</published>
+    <updated>2020-03-27T00:19:59.817Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今天上海下雨了，挺不好意思今天下单的。让快递员冒雨送快递，心里蛮过意不去的。说起来挺尴尬的，在房间里坐着没有听到他敲门的声音，还让人家打了个电话。其实下单的时候眼看天就放晴了。。。好了，进入正题。</p><a id="more"></a><p>接到快递员的电话时，他说我的快递是牙膏，嗯，不错，的确是牙膏。可我的问题是，他怎么就知道我的东西是牙膏呢？首先快递包装上以及快递单上都没有注明（写下此文前还专门找到包装箱看了一下，确认是没有的）。那么这个快递箱里面的东西快递员是怎么知道的呢？应该是他从手持扫描设备中知道的，那么问题来了，这样一来的话，你不管买了什么东西，包装再好也没用，终端快递员是知道的，那其所谓的宣传隐私包装其实就只是包装而已，送货的人还是知道的。</p><p>所以，京东自营平台能提供给你的隐私也只是除京东以外的人不了解而已。</p><p>所以隐私是有边界的。要保护自己的隐私就需要知道隐私的边界在哪里。</p>]]></content>
+    
+    <summary type="html">
+    
+      洗澡的时候突然想到了下午送来的快递
+    
+    </summary>
+    
+    
+      <category term="chaos" scheme="https://www.luopandeng.com/tags/chaos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Try on BCH</title>
+    <link href="https://www.luopandeng.com/2020/03/26/mynote/Cloud/Try-on-BCH/"/>
+    <id>https://www.luopandeng.com/2020/03/26/mynote/Cloud/Try-on-BCH/</id>
+    <published>2020-03-26T11:45:31.000Z</published>
+    <updated>2020-03-27T00:36:12.494Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>本文主要记录使用BCH时踩到的坑。</p><a id="more"></a><blockquote><p>证书坑</p><blockquote><p>配置证书时的坑，由于使用了 Let’s encrypt 的自签名证书在配置的时候着实费了少时间。<strong>解决方法是服务器证书填生成的证书包里的fullchain.cer,私钥部分填key结尾的那个</strong></p></blockquote></blockquote><blockquote><p>重定向的坑</p><blockquote><p>wordpress中配置了https后发现在登录时浏览器会返回重定向过多问题。还有就是页面会出现加载不完整的问题，浏览器控制台出现403错误，这是由于wordpress中有部分资源不没有用https方式请求导致。<strong>解决方法是将如下代码加进wp-config.php中即可。</strong></p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt; &gt; $_SERVER[<span class="string">'HTTPS'</span>] = <span class="string">'on'</span>;</span><br><span class="line">&gt; &gt; define(<span class="string">'FORCE_SSL_LOGIN'</span>, <span class="keyword">true</span>);</span><br><span class="line">&gt; &gt; define(<span class="string">'FORCE_SSL_ADMIN'</span>, <span class="keyword">true</span>);</span><br><span class="line">&gt; &gt;</span><br></pre></td></tr></table></figure></blockquote></blockquote><blockquote><blockquote></blockquote></blockquote><p>以上就是使用BCH过程中遇到的坑，希望有缘人能搜到这个解决你的问题。还可以用邮箱联系我</p><p><a href="mailto:admin@stupromo.com" target="_blank" rel="noopener">admin@stupromo.com</a></p>]]></content>
+    
+    <summary type="html">
+    
+      使用BCH 踩的坑
+    
+    </summary>
+    
+    
+      <category term="Cloud" scheme="https://www.luopandeng.com/tags/Cloud/"/>
+    
+  </entry>
   
   <entry>
     <title>My Equipment</title>
@@ -41,9 +101,9 @@
     <link href="https://www.luopandeng.com/2020/03/09/invest/Something-that-irregular/"/>
     <id>https://www.luopandeng.com/2020/03/09/invest/Something-that-irregular/</id>
     <published>2020-03-09T08:12:07.000Z</published>
-    <updated>2020-03-20T07:42:35.252Z</updated>
+    <updated>2020-03-26T07:15:51.213Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这篇文章写操作心得。</p><a id="more"></a><p>2020/3/5 - 今日沪深两市主力资金净流入47.26亿元。其中沪市主力净流入104.17亿元，深市主力净流出56.91元，中小板主力净流出38.57亿元，创业板主力净流出40.94亿元。</p><p>2020/3/9 - 今日三大股指重挫。写一下心得体会。早上看了一下APP 说是本月以来收益有 14% ，但是到收盘恐怕连4%都不到了。做这个没有十足的把握最好的，有收益就收手，让资金动起来。毕竟到了口袋里的才是自己的，否则只是个数字而已。上面5 号的新闻没有引起足够的重视，如果有人意识到了的话恐怕是会赚一大笔，聪明的资金有足够的信息源，我们普通人，尤其是没有足够信息源的就只能做个有心人了，所有看到的事情都只是结果，要把看似不连续的事件联系起来，或许可以还原事情的本来。</p><p>作弊这个事，没有好与坏，重要的是不被发现。</p><p>2020/3/10 - <strong>SZ37.83 SH18.42</strong> 通信、电子、计算机、国防军工、休闲服务、电气设备、汽车、建筑材料、传媒、家用电器、非银金融</p><p>2020/3/11 - <strong>SZ.-61.27 SH.7.55</strong> 休闲服务、交通运输、国防军工、农林牧渔</p><p>2020/3/12 - <strong>SZ.-5.25 SH.-55.33</strong> </p><p>2020/3/13 - <strong>SZ.-34.37 SH.-97.05</strong> 休闲服务、电气设备、计算机、农林牧渔</p><p>2020/2/16 - <strong>SZ. -39.39</strong> <strong>SH.-48.71</strong> </p><p>2020/3/17 - <strong>SZ.-21.00</strong> <strong>SH.-50.42</strong></p><p>2020/3/18 - <strong>SZ.-27.01</strong> <strong>SH.-36.92</strong></p><p>2020/3/19 - <strong>SZ.-42.18</strong> <strong>SH.-52.38</strong> 通信、商业贸易、电子、计算机、传媒、国防军工、电气设备、农林牧渔、机械设备、</p><p>2020/3/20 - <strong>SZ.-12.72 SH.46.73</strong> 休闲服务、建筑材料、食品饮料、医药生物、房地产、轻工制造、银行、传媒、机械设备、建筑装饰、有色金属、交通运输、公用事业、化工、纺织服装、家用电器、汽车、采掘、国防军工、通信、钢铁、商业贸易、农林牧渔、计算机</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这篇文章写操作心得。</p><a id="more"></a><p>2020/3/5 - 今日沪深两市主力资金净流入47.26亿元。其中沪市主力净流入104.17亿元，深市主力净流出56.91元，中小板主力净流出38.57亿元，创业板主力净流出40.94亿元。</p><p>2020/3/9 - 今日三大股指重挫。写一下心得体会。早上看了一下APP 说是本月以来收益有 14% ，但是到收盘恐怕连4%都不到了。做这个没有十足的把握最好的，有收益就收手，让资金动起来。毕竟到了口袋里的才是自己的，否则只是个数字而已。上面5 号的新闻没有引起足够的重视，如果有人意识到了的话恐怕是会赚一大笔，聪明的资金有足够的信息源，我们普通人，尤其是没有足够信息源的就只能做个有心人了，所有看到的事情都只是结果，要把看似不连续的事件联系起来，或许可以还原事情的本来。</p><p>作弊这个事，没有好与坏，重要的是不被发现。</p><p>2020/3/10 - <strong>SZ37.83 SH18.42</strong> 通信、电子、计算机、国防军工、休闲服务、电气设备、汽车、建筑材料、传媒、家用电器、非银金融</p><p>2020/3/11 - <strong>SZ.-61.27 SH.7.55</strong> 休闲服务、交通运输、国防军工、农林牧渔</p><p>2020/3/12 - <strong>SZ.-5.25 SH.-55.33</strong> </p><p>2020/3/13 - <strong>SZ.-34.37 SH.-97.05</strong> 休闲服务、电气设备、计算机、农林牧渔</p><p>2020/2/16 - <strong>SZ. -39.39</strong> <strong>SH.-48.71</strong> </p><p>2020/3/17 - <strong>SZ.-21.00</strong> <strong>SH.-50.42</strong></p><p>2020/3/18 - <strong>SZ.-27.01</strong> <strong>SH.-36.92</strong></p><p>2020/3/19 - <strong>SZ.-42.18</strong> <strong>SH.-52.38</strong> 通信、商业贸易、电子、计算机、传媒、国防军工、电气设备、农林牧渔、机械设备、</p><p>2020/3/20 - <strong>SZ.-12.72 SH.46.73</strong> 休闲服务、建筑材料、食品饮料、医药生物、房地产、轻工制造、银行、传媒、机械设备、建筑装饰、有色金属、交通运输、公用事业、化工、纺织服装、家用电器、汽车、采掘、国防军工、通信、钢铁、商业贸易、农林牧渔、计算机</p><p>2020/3/23 - <strong>SZ.-12.78 SH.-58.78</strong>  尾盘有拉升8左右</p><p>今天上了特别的一课。领教了。<strong>三全食品</strong></p><p>2020/3/24 - <strong>SZ.14.96 SH.36.05</strong> 汽车、有色金属、食品饮料、家用电器、建筑材料、非银金融、农林牧渔、通信、轻工制造、银行、综合、房地产、计算机、医药生物、采掘、机械设备、公用事业、钢铁、交通运输、纺织服装、休闲服饰、国防军工、化工、商业贸易、电子、建筑装饰、传媒、电气设备</p><p>2020/3/25 - <strong>SZ.17.89 SH.18.79</strong> 汽车、房地产、综合、电子、医药生物、家用电器、纺织服装、电气设备、传媒、交通运输、农林牧渔、轻工制造、非银金融、食品饮料、有色金属、机械设备、计算机、休闲服务、化工、商业贸易、建筑装饰、通信、国防军工、建筑材料、银行、钢铁、公用事业、采掘</p><p>2020/3/26 - <strong>SZ.-1.81 SH.0.12</strong>  医药生物、农林牧渔、银行、食品饮料、商业贸易 尾盘有资金进入</p>]]></content>
     
     <summary type="html">
     
@@ -366,67 +426,6 @@
     
     
       <category term="investment" scheme="https://www.luopandeng.com/tags/investment/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Something You Should Not Ignore</title>
-    <link href="https://www.luopandeng.com/2020/02/06/chaos/Something-You-Should-Not-Ignore/"/>
-    <id>https://www.luopandeng.com/2020/02/06/chaos/Something-You-Should-Not-Ignore/</id>
-    <published>2020-02-06T14:24:18.000Z</published>
-    <updated>2020-03-20T07:42:35.189Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Recently Coronavirus related news are too many to bear. Even when you want some news that are not about the Virus you will find it hard to receive.</p><a id="more"></a><p>It’s true that the outbreak is a disaster caused by Bureaucracies’  ignorance. And still the officials are propagandizing those people who are contributing on sacrifice of doctors and nurses or just normal person who did something benefit for containing the disaster. </p><p>I am so sick of propaganda. Whatever the situation is they just can not stop doing propagandizing. I do not know how to tell it, but i do feel bad for every Chinese suffering.</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Recently Coronavirus related news are too many to bear. Even when you want some news that are not about the Virus you will find it hard to receive.&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="chaos" scheme="https://www.luopandeng.com/tags/chaos/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>notes of daliy use</title>
-    <link href="https://www.luopandeng.com/2020/01/20/mynote/Linux/notes-of-daily-use/"/>
-    <id>https://www.luopandeng.com/2020/01/20/mynote/Linux/notes-of-daily-use/</id>
-    <published>2020-01-20T09:09:45.000Z</published>
-    <updated>2020-03-20T07:42:35.295Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Scripts that been used frequently.</p><p>常用脚本：</p><a id="more"></a><p>Issue a ssh key </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096 -C &quot;your_email@example.com&quot;</span><br></pre></td></tr></table></figure><p>Issue cert:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl https://get.acme.sh | sh</span><br></pre></td></tr></table></figure><p>Or:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -O -  https://get.acme.sh | sh</span><br></pre></td></tr></table></figure><p>V2ray:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash &lt;(curl -L -s https://install.direct/go.sh)</span><br></pre></td></tr></table></figure><p>Shadowsocks:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh</span><br></pre></td></tr></table></figure><p>Git:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">git config --global https.proxy http://127.0.0.1:10086</span><br><span class="line"></span><br><span class="line">git config --global https.proxy https://127.0.0.1:10086</span><br><span class="line"></span><br><span class="line">git config --global --unset http.proxy</span><br><span class="line"></span><br><span class="line">git config --global --unset https.proxy</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Scripts that been used frequently.&lt;/p&gt;
-&lt;p&gt;常用脚本：&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="mynotes Linux" scheme="https://www.luopandeng.com/tags/mynotes-Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>In The Midnight</title>
-    <link href="https://www.luopandeng.com/2020/01/09/chaos/In-The-Midnight/"/>
-    <id>https://www.luopandeng.com/2020/01/09/chaos/In-The-Midnight/</id>
-    <published>2020-01-08T16:30:42.000Z</published>
-    <updated>2020-03-20T07:42:35.186Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>I don’t know why I am still awake. I think this should be a habit of mine. But it could be a suicide behavior. And there is something disturb me . And I will don’t want talk about it here.</p><a id="more"></a><p>Life is harder than you think it should be. Just smile and face it straightly, totally bullshit.</p><p>Life sucks.</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;I don’t know why I am still awake. I think this should be a habit of mine. But it could be a suicide behavior. And there is something disturb me . And I will don’t want talk about it here.&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="chaos" scheme="https://www.luopandeng.com/tags/chaos/"/>
     
   </entry>
   
