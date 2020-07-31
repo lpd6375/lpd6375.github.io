@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>LPD</title>
+  
+  <subtitle>自说自话</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://www.luopandeng.com/"/>
+  <updated>2020-07-31T07:01:50.856Z</updated>
+  <id>https://www.luopandeng.com/</id>
+  
+  <author>
+    <name>LPD</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>纪律</title>
+    <link href="https://www.luopandeng.com/2020/07/15/invest/%E7%BA%AA%E5%BE%8B/"/>
+    <id>https://www.luopandeng.com/2020/07/15/invest/纪律/</id>
+    <published>2020-07-15T01:12:18.000Z</published>
+    <updated>2020-07-31T07:01:50.856Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>平日里操作中出现的失误以及在学习中遇到的问题</p><a id="more"></a><p>1、 刚才美的30分钟涨破2倍标准差上轨了，回调正常，那是买盘冲高导致的，会激发获利盘兑现</p><p>2、分笔中发现股价上窜下跳可以确定是庄家在出货。吃亏两次。。。一次是丽岛新材，一次是中装建设</p><p>3、一般大盘调整时，“暴涨有科创负责，抗暴跌有大金融地产”–By. <a href="https://weibo.com/sexbond" target="_blank" rel="noopener">@八大山债人</a></p><p>4、错过一只金达威，注意平台调整。</p><p>5、该防守的时候一定要防守，不能抱侥幸心理</p><p>6、今天又把省广集团卖飞了，很惨，已经第二次卖飞了。总结一下教训，选出来的股除了看技术面还要看它的业务方向，以及与之相关的动态。纯技术是赚不来超额收益的。</p><p><strong>省广集团卖飞点位：</strong></p><p><img src="https://sh-oss-a.oss-cn-shanghai.aliyuncs.com/github/002400.png" alt="操作标记"></p><p><strong>大基金持股</strong></p><p><img src="https://sh-oss-a.oss-cn-shanghai.aliyuncs.com/github/WeChat%20Image_20200715092628.jpg" alt="基金持股"></p>]]></content>
+    
+    <summary type="html">
+    
+      总结失败教训
+    
+    </summary>
+    
+    
+      <category term="invest" scheme="https://www.luopandeng.com/tags/invest/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>他们在说什么---新闻联播</title>
+    <link href="https://www.luopandeng.com/2020/06/03/invest/%E4%BB%96%E4%BB%AC%E5%9C%A8%E8%AF%B4%E4%BB%80%E4%B9%88-%E6%96%B0%E9%97%BB%E8%81%94%E6%92%AD/"/>
+    <id>https://www.luopandeng.com/2020/06/03/invest/他们在说什么-新闻联播/</id>
+    <published>2020-06-03T11:13:46.000Z</published>
+    <updated>2020-06-03T12:01:11.551Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>总结点新闻联播上一点有用的东西。</p><a id="more"></a><p>今天是2020063。</p><p>昨天新闻联播报道了医疗卫生，今天也进行了报道。跟昨天相同，都提到了中医药。</p><p>韩正有可能成为下一任国家主席。今天会见了林郑月娥。</p><p>报道了长三江一体化，重点在行政改革。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;总结点新闻联播上一点有用的东西。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="invest" scheme="https://www.luopandeng.com/tags/invest/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>plan</title>
+    <link href="https://www.luopandeng.com/2020/04/28/proj/plan/"/>
+    <id>https://www.luopandeng.com/2020/04/28/proj/plan/</id>
+    <published>2020-04-28T13:58:08.000Z</published>
+    <updated>2020-04-28T15:08:07.935Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>spring boot redis MQ jpa/mybatis poi security </p><a id="more"></a><p><strong>用户权限管理</strong></p><p><strong>商城</strong></p><p><strong>小程序</strong></p><p><strong>热更新</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;spring boot redis MQ jpa/mybatis poi security &lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>碎碎念</title>
+    <link href="https://www.luopandeng.com/2020/03/26/chaos/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    <id>https://www.luopandeng.com/2020/03/26/chaos/碎碎念/</id>
+    <published>2020-03-26T12:48:44.000Z</published>
+    <updated>2020-03-27T00:31:58.877Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>灾难面前都是弱弱者，这个时候逞英雄是不是就有点弱智呢？武汉这次疫情之严重完全是人为造成的。也许体制内最大的问题就在于不敢担责任吧。</p><a id="more"></a><p>果然，人年纪越大越容易被各种感人的场面感动。丧失理性，这还不是可怕的地方，可怕的是有人会利用这种情绪。所以说，遇到问题应该先让脑子转起来。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;灾难面前都是弱弱者，这个时候逞英雄是不是就有点弱智呢？武汉这次疫情之严重完全是人为造成的。也许体制内最大的问题就在于不敢担责任吧。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="chaos" scheme="https://www.luopandeng.com/tags/chaos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>什么是隐私</title>
+    <link href="https://www.luopandeng.com/2020/03/26/chaos/%E4%BB%80%E4%B9%88%E6%98%AF%E9%9A%90%E7%A7%81/"/>
+    <id>https://www.luopandeng.com/2020/03/26/chaos/什么是隐私/</id>
+    <published>2020-03-26T12:29:52.000Z</published>
+    <updated>2020-03-27T00:19:59.817Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今天上海下雨了，挺不好意思今天下单的。让快递员冒雨送快递，心里蛮过意不去的。说起来挺尴尬的，在房间里坐着没有听到他敲门的声音，还让人家打了个电话。其实下单的时候眼看天就放晴了。。。好了，进入正题。</p><a id="more"></a><p>接到快递员的电话时，他说我的快递是牙膏，嗯，不错，的确是牙膏。可我的问题是，他怎么就知道我的东西是牙膏呢？首先快递包装上以及快递单上都没有注明（写下此文前还专门找到包装箱看了一下，确认是没有的）。那么这个快递箱里面的东西快递员是怎么知道的呢？应该是他从手持扫描设备中知道的，那么问题来了，这样一来的话，你不管买了什么东西，包装再好也没用，终端快递员是知道的，那其所谓的宣传隐私包装其实就只是包装而已，送货的人还是知道的。</p><p>所以，京东自营平台能提供给你的隐私也只是除京东以外的人不了解而已。</p><p>所以隐私是有边界的。要保护自己的隐私就需要知道隐私的边界在哪里。</p>]]></content>
+    
+    <summary type="html">
+    
+      洗澡的时候突然想到了下午送来的快递
+    
+    </summary>
+    
+    
+      <category term="chaos" scheme="https://www.luopandeng.com/tags/chaos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Try on BCH</title>
+    <link href="https://www.luopandeng.com/2020/03/26/mynote/Cloud/Try-on-BCH/"/>
+    <id>https://www.luopandeng.com/2020/03/26/mynote/Cloud/Try-on-BCH/</id>
+    <published>2020-03-26T11:45:31.000Z</published>
+    <updated>2020-03-27T00:36:12.494Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>本文主要记录使用BCH时踩到的坑。</p><a id="more"></a><blockquote><p>证书坑</p><blockquote><p>配置证书时的坑，由于使用了 Let’s encrypt 的自签名证书在配置的时候着实费了少时间。<strong>解决方法是服务器证书填生成的证书包里的fullchain.cer,私钥部分填key结尾的那个</strong></p></blockquote></blockquote><blockquote><p>重定向的坑</p><blockquote><p>wordpress中配置了https后发现在登录时浏览器会返回重定向过多问题。还有就是页面会出现加载不完整的问题，浏览器控制台出现403错误，这是由于wordpress中有部分资源不没有用https方式请求导致。<strong>解决方法是将如下代码加进wp-config.php中即可。</strong></p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$_SERVER[<span class="string">'HTTPS'</span>] = <span class="string">'on'</span>;</span><br><span class="line">define(<span class="string">'FORCE_SSL_LOGIN'</span>, <span class="keyword">true</span>);</span><br><span class="line">define(<span class="string">'FORCE_SSL_ADMIN'</span>, <span class="keyword">true</span>);</span><br></pre></td></tr></table></figure></blockquote></blockquote><p>以上就是使用BCH过程中遇到的坑，希望有缘人能搜到这个解决你的问题。还可以用邮箱联系我</p><p><a href="mailto:admin@stupromo.com">admin@stupromo.com</a></p>]]></content>
+    
+    <summary type="html">
+    
+      使用BCH 踩的坑
+    
+    </summary>
+    
+    
+      <category term="Cloud" scheme="https://www.luopandeng.com/tags/Cloud/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>My Equipment</title>
+    <link href="https://www.luopandeng.com/2020/03/13/life/My-Equipment/"/>
+    <id>https://www.luopandeng.com/2020/03/13/life/My-Equipment/</id>
+    <published>2020-03-13T06:09:23.000Z</published>
+    <updated>2020-03-20T07:42:35.260Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Today deliver man has my keyboard delivered. It cost ￥469. A little bit expensive compared to normal keyboard. And i love it.</p><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      record of my new equipment
+    
+    </summary>
+    
+    
+      <category term="life" scheme="https://www.luopandeng.com/tags/life/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>My Equipment</title>
+    <link href="https://www.luopandeng.com/2020/03/13/living/My-Equipment/"/>
+    <id>https://www.luopandeng.com/2020/03/13/living/My-Equipment/</id>
+    <published>2020-03-13T06:09:23.000Z</published>
+    <updated>2020-03-30T10:01:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Today deliver man has my keyboard delivered. It cost ￥469. A little bit expensive compared to normal keyboard. And i love it.</p><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      record of my new equipment
+    
+    </summary>
+    
+    
+      <category term="life" scheme="https://www.luopandeng.com/tags/life/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Something that irregular</title>
+    <link href="https://www.luopandeng.com/2020/03/09/invest/Something-that-irregular/"/>
+    <id>https://www.luopandeng.com/2020/03/09/invest/Something-that-irregular/</id>
+    <published>2020-03-09T08:12:07.000Z</published>
+    <updated>2020-04-23T07:06:38.524Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这篇文章写操作心得。</p><a id="more"></a><p>2020/3/5 - 今日沪深两市主力资金净流入47.26亿元。其中沪市主力净流入104.17亿元，深市主力净流出56.91元，中小板主力净流出38.57亿元，创业板主力净流出40.94亿元。</p><p>2020/3/9 - 今日三大股指重挫。写一下心得体会。早上看了一下APP 说是本月以来收益有 14% ，但是到收盘恐怕连4%都不到了。做这个没有十足的把握最好的，有收益就收手，让资金动起来。毕竟到了口袋里的才是自己的，否则只是个数字而已。上面5 号的新闻没有引起足够的重视，如果有人意识到了的话恐怕是会赚一大笔，聪明的资金有足够的信息源，我们普通人，尤其是没有足够信息源的就只能做个有心人了，所有看到的事情都只是结果，要把看似不连续的事件联系起来，或许可以还原事情的本来。</p><p>作弊这个事，没有好与坏，重要的是不被发现。</p><p>2020/3/10 - <strong>SZ37.83 SH18.42</strong> 通信、电子、计算机、国防军工、休闲服务、电气设备、汽车、建筑材料、传媒、家用电器、非银金融</p><p>2020/3/11 - <strong>SZ.-61.27 SH.7.55</strong> 休闲服务、交通运输、国防军工、农林牧渔</p><p>2020/3/12 - <strong>SZ.-5.25 SH.-55.33</strong> </p><p>2020/3/13 - <strong>SZ.-34.37 SH.-97.05</strong> 休闲服务、电气设备、计算机、农林牧渔</p><p>2020/2/16 - <strong>SZ. -39.39</strong> <strong>SH.-48.71</strong> </p><p>2020/3/17 - <strong>SZ.-21.00</strong> <strong>SH.-50.42</strong></p><p>2020/3/18 - <strong>SZ.-27.01</strong> <strong>SH.-36.92</strong></p><p>2020/3/19 - <strong>SZ.-42.18</strong> <strong>SH.-52.38</strong> 通信、商业贸易、电子、计算机、传媒、国防军工、电气设备、农林牧渔、机械设备、</p><p>2020/3/20 - <strong>SZ.-12.72 SH.46.73</strong> 休闲服务、建筑材料、食品饮料、医药生物、房地产、轻工制造、银行、传媒、机械设备、建筑装饰、有色金属、交通运输、公用事业、化工、纺织服装、家用电器、汽车、采掘、国防军工、通信、钢铁、商业贸易、农林牧渔、计算机</p><p>2020/3/23 - <strong>SZ.-12.78 SH.-58.78</strong>  尾盘有拉升8左右</p><p>今天上了特别的一课。领教了。<strong>三全食品</strong></p><p>2020/3/24  - <strong>SZ.14.96 SH.36.05</strong> 汽车、有色金属、食品饮料、家用电器、建筑材料、非银金融、农林牧渔、通信、轻工制造、银行、综合、房地产、计算机、医药生物、采掘、机械设备、公用事业、钢铁、交通运输、纺织服装、休闲服饰、国防军工、化工、商业贸易、电子、建筑装饰、传媒、电气设备</p><p>2020/3/25  - <strong>SZ.17.89 SH.18.79</strong> 汽车、房地产、综合、电子、医药生物、家用电器、纺织服装、电气设备、传媒、交通运输、农林牧渔、轻工制造、非银金融、食品饮料、有色金属、机械设备、计算机、休闲服务、化工、商业贸易、建筑装饰、通信、国防军工、建筑材料、银行、钢铁、公用事业、采掘</p><p>2020/3/26  - <strong>SZ.-1.81 SH. 0.12</strong>  医药生物、农林牧渔、银行、食品饮料、商业贸易 尾盘有资金进入</p><p>2020/3/27  - <strong>SZ.18.33 SH. 28.95</strong></p><p>2020/3/30  - <strong>SZ. 6.61 SH. 6.19</strong></p><p>2020/3/31  -  <strong>SZ. 19.54 SH. 11.12</strong></p><p>2020/4/1    - <strong>SZ.44.69 SH.9.84</strong> 电子、有色金属、房地产、休闲服务、电气设备、家用电器、银行。港资连续三天净注入，其中流入深市最多。</p><p>2020/4/2     - <strong>SZ.29.88 SH.29.69</strong> 沪市尾出现大幅注入。10亿左右。电子、计算机、通信、采掘、电气设备、休闲服务、化工；国防军工、传媒、纺织服装、食品饮料、机械设备、综合、轻工制造、钢铁、非银金融、建筑装饰、医药生物、公用事业、家用电器、有色金属、房地产、交通运输、汽车、银行、建筑材料、商业贸易、农林牧渔。</p><p>2020/4/3/     - <strong>SZ.-18.08 SH.11.44</strong>     盘尾出现大幅流入，合计16亿左右。农林牧渔、医药生物、综合、休闲服务、食品饮料、商业贸易      </p><p>2020/4/7       - <strong>SZ.73.52 SH.71.69</strong>     建筑材料、农林牧渔、计算机、国防军工、有色金属、休闲服务、机械设备、传媒、电气设备、电子、综合、食品饮料、通信、商业贸易、医药生物、轻工制造、化工、建筑装饰、汽车、非银金融、钢铁、交通运输、纺织服装、家用电器、房地产、公用事业、采掘、银行   </p><p>2020/4/8        - <strong>SZ.-6.84 SH.-10.03</strong>    盘尾出现大幅流入，合计14亿左右。国防军工、休闲服务、通信、纺织服装、钢铁、传媒、电子、交通运输、化工、有色金属、公用事业、建筑材料、计算机、医药生物  </p><p>2020/4/9                                               医药生物、传媒、休闲服务、计算机、综合、通信、轻工制造、商业贸易、汽车、钢铁、食品饮料、建筑材料、非银金融、农林牧渔、电气设备、化工、机械设备、家用电器、公用事业、交通运输、国防军工、建筑装饰</p><p>2020/4/10                                             家用电器、食品饮料</p><p>2020/4/15      - <strong>SZ.106.67 SH.58.45</strong>  医药生物、电气设备、电子 </p><p>2020/4/16      - <strong>SZ.28.72 SH.28.40</strong>    电气设备、计算机、传媒、国防军工、公用事业、医药生物、轻工制造、电子、通信、商业贸易、非银金融、房地产、有色金属、汽车、机械设备、钢铁                                                                                                                                                                                                                                                                                                                                                                                                                                                                   </p><p>国轩高科、江南高纤 每次都是差个几天。。。</p><p>2020/4/17       - <strong>SZ.45.87 SH.57.50</strong>    休闲服务、建筑装饰、电子、非银金融、食品饮料、交通运输、电气设备、机械设备、化工、银行、采掘、计算机、房地产、家用电器、农林牧渔、通信、汽车、综合、钢铁、轻工制造</p><p>2020/4/20        - <strong>SZ.17.37 SH.0.62</strong>      尾盘流入20左右且今日沪市不活跃；建筑材料、计算机、通信、国防军工、医药生物、化工、综合、休闲服务、电子、建筑装饰、农林牧渔、商业贸易、家用电器、轻工制造、机械设备、传媒、非银金融、纺织服装、食品饮料、电气设备、汽车、交通运输、钢铁</p><p>2020/4/21         - <strong>SZ.5.98 SH.-4.28</strong>      北向资金净流出27.53 。计算机、建筑材料、国防军工、建筑装饰</p><p>2020/4/22          - <strong>SZ.14.72 SH.16.46</strong>  最后半小时，流入突然加大。农林牧渔、食品饮料、休闲服务、商业服务、家用电器、电气设备、医药生物、化工、传媒、纺织服装、交通运输、综合、公用事业、电子、机械设备、轻工制造、通信、房地产、有色金属、国防军工、建筑材料、非银金融、计算机、汽车、建筑装饰</p><p>2020/4/23           - <strong>SZ.-0.22 SH.23.94</strong>  最后20分钟，流入突然加大。采掘、交通运输、国防军工家用电器、食品饮料、医药生物、商业贸易、休闲服务、化工、有色金属</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这篇文章写操作心得。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="invest" scheme="https://www.luopandeng.com/tags/invest/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Something Usefull</title>
+    <link href="https://www.luopandeng.com/2020/03/08/invest/Something-Usefull/"/>
+    <id>https://www.luopandeng.com/2020/03/08/invest/Something-Usefull/</id>
+    <published>2020-03-08T05:02:29.000Z</published>
+    <updated>2020-03-20T07:42:35.249Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><a id="more"></a><p><img src="https://sh-oss-a.oss-cn-shanghai.aliyuncs.com/politicsdivide.png" alt="Area Divide"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>About US</title>
+    <link href="https://www.luopandeng.com/2020/03/08/invest/About-US/"/>
+    <id>https://www.luopandeng.com/2020/03/08/invest/About-US/</id>
+    <published>2020-03-08T05:01:50.000Z</published>
+    <updated>2020-03-20T07:42:35.247Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>About North Korea</title>
+    <link href="https://www.luopandeng.com/2020/03/07/invest/About-North-Korea/"/>
+    <id>https://www.luopandeng.com/2020/03/07/invest/About-North-Korea/</id>
+    <published>2020-03-07T03:07:33.000Z</published>
+    <updated>2020-03-20T07:42:35.237Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>About Latin America</title>
+    <link href="https://www.luopandeng.com/2020/03/07/invest/About-Latin-America/"/>
+    <id>https://www.luopandeng.com/2020/03/07/invest/About-Latin-America/</id>
+    <published>2020-03-07T03:07:27.000Z</published>
+    <updated>2020-03-20T07:42:35.232Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>About South East Asia</title>
+    <link href="https://www.luopandeng.com/2020/03/07/invest/About-South-East-Asia/"/>
+    <id>https://www.luopandeng.com/2020/03/07/invest/About-South-East-Asia/</id>
+    <published>2020-03-07T03:07:21.000Z</published>
+    <updated>2020-03-20T07:42:35.242Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>About Middle East</title>
+    <link href="https://www.luopandeng.com/2020/03/07/invest/About-Middle-East/"/>
+    <id>https://www.luopandeng.com/2020/03/07/invest/About-Middle-East/</id>
+    <published>2020-03-07T03:07:16.000Z</published>
+    <updated>2020-03-20T07:42:35.235Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://en.wikipedia.org/wiki/OPEC" target="_blank" rel="noopener">OPEC</a> include five countries Iran/Iraq/Kuwait/Saudi Arabia/Venezuela </p><p>And this article will give attention to those countries.</p><a id="more"></a><p>2020/3/6 - Saudis Plan Big Oil Output Hike, Beginning All-Out Price War</p><p>Saudi Arabia plans to increase oil output next month, going well above 10 million barrels a day, as the kingdom responds aggressively to the collapse of its OPEC+ alliance with Russia.</p><p>The world’s largest oil exporter started a price war on Saturday by slashing the prices it sells crude into foreign markets by the most in at least 20 years, offering unprecedented discounts in Europe, the Far East and the U.S. to entice refiners to purchase Saudi crude at the expense of other suppliers.</p><p>At the same time, Saudi Arabia has privately told some market participants it could raise production much higher if needed, even going to a record of 12 million barrels a day, according to people familiar with the conversations, who asked not to be named to protect commercial relations. With demand being ravaged by the coronavirus outbreak, opening the taps like that would throw oil market into chaos.</p><p>2020/3/8 - KEY POINTS</p><ul><li>Prince Ahmed bin Abdulaziz, the younger brother of King Salman, and Prince Mohammed bin Nayef, the king’s nephew, have reportedly been held.</li><li>Sources say the move is aimed at heading off threats to the Crown Prince.</li><li>Crown Prince Mohammed bin Salman has moved to consolidate power since ousting Mohammed bin Nayef as heir to the throne in a 2017 palace coup.</li></ul><p>Saudi Arabia has detained three senior Saudi princes including Prince Ahmed bin Abdulaziz, the younger brother of King Salman, and Prince Mohammed bin Nayef, the king’s nephew, for allegedly planning a coup, sources with knowledge of the matter said.</p><p>Crown Prince Mohammed bin Salman, King Salman’s son and de facto ruler of the country, which is the world’s top oil exporter and a key U.S. ally, has moved to consolidate power since ousting Mohammed bin Nayef as heir to the throne in a 2017 palace coup.</p><p><img src="https://image.cnbcfm.com/api/v1/image/106182057-1571142619494rts2r42w.jpg?v=1571142700&w=678&h=381" alt="RT: Mohammed bin Salman, 191014"></p><p>Saudi Arabia’s Crown Prince Mohammed bin Salman attends a meeting with Russian President Vladimir Putin in Riyadh, Saudi Arabia, October 14, 2019.</p><p>Alexei Nikolsky | Sputnik | Kremlin via Reuters</p><p>Later that year, he arrested several royals and other prominent Saudis, holding them for months at Riyadh’s Ritz Carlton hotel, in an anti-corruption campaign that caused shockwaves at home and abroad.</p><p>Four sources told Reuters that Prince Ahmed and Mohammed bin Nayef were detained in the latest operation. Two sources, including a regional source, said Mohammed bin Nayef and his half-brother, Nawaf, were detained while at a private desert camp on Friday.</p><p>Crown Prince Mohammed, who is also referred to as MbS, “accused them (the princes) of conducting contacts with foreign powers, including the Americans and others, to carry out a coup d’etat,” the regional source said.</p><p>“With these arrests, MbS consolidated his full grip on power. It’s over with this purge,” the source added, indicating that no rivals remain to challenge his succession to the throne.</p><p>Another source said the princes were accused of “treason”.</p><p>The Saudi government media office did not respond to a Reuters request for comment on the detentions, which were first reported by The Wall Street Journal.</p><p>The regional source said King Salman had approved the latest detentions.</p><p>“The king signed off on the arrests,” the source said, adding that the king is in a mental and physically sound state.</p><p>The king met British Foreign Secretary Dominic Raab on Thursday in the Saudi capital Riyadh. Both King Salman and the crown prince attended a cabinet meeting on Tuesday.</p><p>WATCH NOW</p><p>VIDEO02:08</p><p>Expect a ‘youth transformation’ in Saudi Arabia by 2030: SABIC CEO</p><p>Crown Prince Mohammed, 34, has fuelled resentment among some prominent branches of the ruling family by tightening his grip on power. Some critics have questioned his ability to lead after the 2018 murder of a prominent journalist by Saudi agents and the largest-ever attack on Saudi oil infrastructure last year, sources have said.</p><p>They said royals seeking to change the line of succession view Prince Ahmed, King Salman’s only surviving full brother, as a possible choice who would have support of family members, the security apparatus, and some Western powers.</p><p>Saudi authorities have not commented on issues of succession or criticism of the crown prince’s leadership. Prince Mohammed is popular among Saudi youth and also has staunch supporters within the royal Al Saud family, which numbers around 10,000 members.</p><h2 id="King-supports-son"><a href="#King-supports-son" class="headerlink" title="King supports son"></a>King supports son</h2><p>Saudi insiders and Western diplomats say the family is unlikely to oppose the crown prince while the 84-year-old king remains alive, saying the monarch is unlikely to turn against his favourite son, to whom he has delegated most responsibilities of rule.</p><p>Prince Ahmed has largely kept a low profile since returning to Riyadh in October 2018 after 2-1/2 months abroad and Saudi watchers have said there is no evidence he is willing to take the throne. During that trip abroad, he appeared to criticize the Saudi leadership while responding to protesters outside a London residence chanting for the downfall of the Al Saud dynasty.</p><p>Ahmed was one of only three people on the Allegiance Council, made up of the ruling Al Saud family’s senior members, who opposed Mohammed bin Salman becoming crown prince in 2017, sources have earlier said.</p><p>Mohammed bin Nayef’s movements have been restricted and monitored since then, sources have previously said.</p><p>The latest detentions come at a time of heightened tension with rival Iran and as the crown prince implements social and economic reforms, including an initial public offering by oil giant Saudi Aramco on the domestic bourse last December. Saudi Arabia is also the current chair for the Group of 20 major economies.</p><p>The crown prince has been lauded at home for easing social restrictions in the conservative Muslim kingdom and trying to <a href="https://www.cnbc.com/2020/03/06/opec-meeting-coronavirus-weighs-on-oil-demand-as-oil-prices-fall.html" target="_blank" rel="noopener">diversify the economy away from oil</a>.</p><p>But he has come under international criticism over a devastating war in Yemen, the murder of journalist Jamal Khashoggi in the kingdom’s Istanbul consulate, and the detention of women’s rights activists seen as part of a crackdown on dissent.</p><p><a href="https://www.cnbc.com/2020/03/06/opec-meeting-coronavirus-weighs-on-oil-demand-as-oil-prices-fall.html" target="_blank" rel="noopener">CNBC NEWS ON FAILED TO AGREE TO CUT ON OIL PRODUCE</a></p><p>Here is a <strong>description</strong> in Chinese:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">世界原油主要分布地区</span><br><span class="line"></span><br><span class="line">原油的分布从总体上来看极端不平衡：从东西半球来看，约3／4的石油资源集中于东半球，西半球占1／4；从南北半球看，石油资源主要集中于北半球；从纬度分布看，主要集中在北纬20°-40°和50°-70°两个纬度带内。波斯湾及墨西哥湾两大油区和北非油田均处于北纬20°-40°内，该带集中了51.3%的世界石油储量；50°-70°纬度带内有著名的北海油田、俄罗斯伏尔加及西伯利亚油田和阿拉斯加湾油区。</span><br><span class="line"></span><br><span class="line">一、中东波斯湾沿岸</span><br><span class="line"></span><br><span class="line">中东海湾地区地处欧、亚、非三洲的枢纽位置，原油资源非常丰富，被誉为“世界油库”。据美国《油气杂志》2006年最新的数据显示，世界原油探明储量为1804.9亿吨。其中，中东地区的原油探明储量为1012.7亿吨，约占世界总储量的2&#x2F;3。在世界原油储量排名的前十位中，中东国家占了五位，依次是沙特阿拉伯、伊朗、伊拉克、科威特和阿联酋。其中，沙特阿拉伯已探明的储量为355.9亿吨，居世界首位。伊朗已探明的原油储量为186.7亿吨，居世界第三位。</span><br><span class="line"></span><br><span class="line">二、北美洲</span><br><span class="line"></span><br><span class="line">北美洲原油储量最丰富的国家是加拿大、美国和墨西哥。加拿大原油探明储量为245.5亿吨，居世界第二位。美国原油探明储量为29.8亿吨，主要分布在墨西哥湾沿岸和加利福尼亚湾沿岸，以得克萨斯州和俄克拉荷马州最为著名，阿拉斯加州也是重要的石油产区。美国是世界第二大产油国，但因消耗量过大，每年仍需进口大量石油。墨西哥原油探明储量为16.9亿吨，是西半球第三大传统原油战略储备国，也是世界第六大产油国。</span><br><span class="line"></span><br><span class="line">三、欧洲及欧亚大陆</span><br><span class="line"></span><br><span class="line">欧洲及欧亚大陆原油探明储量为157.1亿吨，约占世界总储量的8%。其中，俄罗斯原油探明储量为82.2亿吨，居世界第八位，但俄罗斯是世界第一大产油国，2006年的石油产量为4.7亿吨。中亚的哈萨克斯坦也是该地区原油储量较为丰富的国家，已探明的储量为41.1亿吨。挪威、英国、丹麦是西欧已探明原油储量最丰富的三个国家，分别为10.7亿吨、5.3亿吨和1.7亿吨，其中挪威是世界第十大产油国。</span><br><span class="line"></span><br><span class="line">四、非洲</span><br><span class="line"></span><br><span class="line">非洲是近几年原油储量和石油产量增长最快的地区，被誉为“第二个海湾地区”。2006年，非洲探明的原油总储量为156.2亿吨，主要分布于西非几内亚湾地区和北非地区。专家预测，到2010年，非洲国家石油产量在世界石油总产量中的比例有望上升到20%。</span><br><span class="line"></span><br><span class="line">利比亚、尼日利亚、阿尔及利亚、安哥拉和苏丹排名非洲原油储量前五位。尼日利亚是非洲地区第一大产油国。目前，尼日利亚、利比亚、阿尔及利亚、安哥拉和埃及等5个国家的石油产量占非洲总产量的85%。</span><br><span class="line"></span><br><span class="line">五、中南美洲</span><br><span class="line"></span><br><span class="line">中南美洲是世界重要的石油生产和出口地区之一，也是世界原油储量和石油产量增长较快的地区之一，委内瑞拉、巴西和厄瓜多尔是该地区原油储量最丰富的国家。2006年，委内瑞拉原油探明储量为109.6亿吨，居世界第七位。2006年，巴西原油探明储量为16.1亿吨，仅次于委内瑞拉。巴西东南部海域坎坡斯和桑托斯盆地的原油资源，是巴西原油储量最主要的构成部分。厄瓜多尔位于南美洲大陆西北部，是中南美洲第三大产油国，境内石油资源丰富，主要集中在东部亚马孙盆地，另外，在瓜亚斯省西部半岛地区和瓜亚基尔湾也有少量油田分布。</span><br><span class="line"></span><br><span class="line">六、亚太地区</span><br><span class="line"></span><br><span class="line">亚太地区原油探明储量约为45.7亿吨，也是目前世界石油产量增长较快的地区之一。中国、印度、印度尼西亚和马来西亚是该地区原油探明储量最丰富的国家，分别为21.9亿吨、7.7亿吨、5.8亿吨和4.1亿吨。中国和印度虽原油储量丰富，但是每年仍需大量进口。</span><br><span class="line"></span><br><span class="line">由于地理位置优越和经济的飞速发展，东南亚国家已经成为世界新兴的石油生产国。印尼和马来西亚是该地区最重要的产油国，越南也于2006年取代文莱成为东南亚第三大石油生产国和出口国。印尼的苏门答腊岛、加里曼丹岛，马来西亚近海的马来盆地、沙捞越盆地和沙巴盆地是主要的原油分布区。</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/OPEC&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;OPEC&lt;/a&gt; include five countries Iran/Iraq/Kuwait/Saudi Arabia/Venezuela &lt;/p&gt;
+&lt;p&gt;And this article will give attention to those countries.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="OPEC" scheme="https://www.luopandeng.com/tags/OPEC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>About Africa</title>
+    <link href="https://www.luopandeng.com/2020/03/07/invest/About-Africa/"/>
+    <id>https://www.luopandeng.com/2020/03/07/invest/About-Africa/</id>
+    <published>2020-03-07T03:07:11.000Z</published>
+    <updated>2020-03-20T07:42:35.217Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>About EU</title>
+    <link href="https://www.luopandeng.com/2020/03/07/invest/About-EU/"/>
+    <id>https://www.luopandeng.com/2020/03/07/invest/About-EU/</id>
+    <published>2020-03-07T03:07:05.000Z</published>
+    <updated>2020-03-20T07:42:35.221Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>About UK</title>
+    <link href="https://www.luopandeng.com/2020/03/07/invest/About-UK/"/>
+    <id>https://www.luopandeng.com/2020/03/07/invest/About-UK/</id>
+    <published>2020-03-07T03:04:56.000Z</published>
+    <updated>2020-03-20T07:42:35.245Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>About German</title>
+    <link href="https://www.luopandeng.com/2020/03/07/invest/About-German/"/>
+    <id>https://www.luopandeng.com/2020/03/07/invest/About-German/</id>
+    <published>2020-03-07T03:04:30.000Z</published>
+    <updated>2020-03-20T07:42:35.223Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>About India</title>
+    <link href="https://www.luopandeng.com/2020/03/07/invest/About-India/"/>
+    <id>https://www.luopandeng.com/2020/03/07/invest/About-India/</id>
+    <published>2020-03-07T03:04:12.000Z</published>
+    <updated>2020-03-20T07:42:35.225Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
