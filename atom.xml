@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.luopandeng.com/"/>
-  <updated>2020-08-10T08:30:53.750Z</updated>
+  <updated>2020-08-10T09:00:31.593Z</updated>
   <id>https://www.luopandeng.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://www.luopandeng.com/2020/08/10/living/%E6%B5%8B%E8%AF%95/"/>
     <id>https://www.luopandeng.com/2020/08/10/living/测试/</id>
     <published>2020-08-10T08:23:12.000Z</published>
-    <updated>2020-08-10T08:30:53.750Z</updated>
+    <updated>2020-08-10T09:00:31.593Z</updated>
     
-    <content type="html"><![CDATA[<p>测试新插件，看看效果如何。</p><a id="more"></a>        <style>.bbplayer{width: 100%; max-width: 850px; margin: auto}</style>        <div class="bbplayer">        <iframe class="bbplayer" id="mmedia-kzrNnVjA" src="//player.bilibili.com/player.html?bvid=BV1XW411Y7Qj&page=1&high_quality=1&danmaku=true"            allowfullscreen="no"            scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups"></iframe>        </div>        <script>            document.getElementById("mmedia-kzrNnVjA").style.height=document.getElementById("mmedia-kzrNnVjA").scrollWidth*0.76+"px";            window.onresize = function(){              document.getElementById("mmedia-kzrNnVjA").style.height=document.getElementById("mmedia-kzrNnVjA").scrollWidth*0.76+"px";            };        </script>        ]]></content>
+    <content type="html"><![CDATA[<p>测试新插件，看看效果如何。</p><a id="more"></a>        <style>.bbplayer{width: 100%; max-width: 850px; margin: auto}</style>        <div class="bbplayer">        <iframe class="bbplayer" id="mmedia-ItjYakYn" src="//player.bilibili.com/player.html?bvid=BV1Yb411q7wa&page=1&high_quality=1&danmaku=true"            allowfullscreen="no"            scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups"></iframe>        </div>        <script>            document.getElementById("mmedia-ItjYakYn").style.height=document.getElementById("mmedia-ItjYakYn").scrollWidth*0.76+"px";            window.onresize = function(){              document.getElementById("mmedia-ItjYakYn").style.height=document.getElementById("mmedia-ItjYakYn").scrollWidth*0.76+"px";            };        </script>        ]]></content>
     
     <summary type="html">
     
@@ -154,10 +154,10 @@
   
   <entry>
     <title>My Equipment</title>
-    <link href="https://www.luopandeng.com/2020/03/13/life/My-Equipment/"/>
-    <id>https://www.luopandeng.com/2020/03/13/life/My-Equipment/</id>
+    <link href="https://www.luopandeng.com/2020/03/13/living/My-Equipment/"/>
+    <id>https://www.luopandeng.com/2020/03/13/living/My-Equipment/</id>
     <published>2020-03-13T06:09:23.000Z</published>
-    <updated>2020-03-20T07:42:35.260Z</updated>
+    <updated>2020-03-30T10:01:57.000Z</updated>
     
     <content type="html"><![CDATA[<p>Today deliver man has my keyboard delivered. It cost ￥469. A little bit expensive compared to normal keyboard. And i love it.</p><a id="more"></a>]]></content>
     
@@ -174,10 +174,10 @@
   
   <entry>
     <title>My Equipment</title>
-    <link href="https://www.luopandeng.com/2020/03/13/living/My-Equipment/"/>
-    <id>https://www.luopandeng.com/2020/03/13/living/My-Equipment/</id>
+    <link href="https://www.luopandeng.com/2020/03/13/life/My-Equipment/"/>
+    <id>https://www.luopandeng.com/2020/03/13/life/My-Equipment/</id>
     <published>2020-03-13T06:09:23.000Z</published>
-    <updated>2020-03-30T10:01:57.000Z</updated>
+    <updated>2020-03-20T07:42:35.260Z</updated>
     
     <content type="html"><![CDATA[<p>Today deliver man has my keyboard delivered. It cost ￥469. A little bit expensive compared to normal keyboard. And i love it.</p><a id="more"></a>]]></content>
     
