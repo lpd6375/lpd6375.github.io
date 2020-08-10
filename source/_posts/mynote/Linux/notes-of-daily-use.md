@@ -34,6 +34,19 @@ Or:
 wget -O -  https://get.acme.sh | sh
 ```
 
+Renew the certs:
+
+```shell
+acme.sh --renew -d example.com --force
+```
+
+Upgrade:
+
+```
+acme.sh --upgrade
+acme.sh --upgrade --auto-upgrade
+```
+
 V2ray:
 
 ```bash
@@ -48,13 +61,37 @@ https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsock
 
 Git:
 
-```
-git config --global https.proxy http://127.0.0.1:10086
+```shell
+git config --global http.proxy socks5://127.0.0.1:10086
 
-git config --global https.proxy https://127.0.0.1:10086
+git config --global https.proxy socks5://127.0.0.1:10086
 
 git config --global --unset http.proxy
 
 git config --global --unset https.proxy
+
+git config --global user.email "xxx@xx.com"
+
+git config --global user.name  "xxx"
+
 ```
 
+Repository Config For SSH:
+
+```text
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = git@github.com:xxx/xxx.github.io.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "all"]
+	remote = origin
+	merge = refs/heads/all
+```
+
+上面的配置中，url 决定了使用哪种方式与git仓库进行连接。
