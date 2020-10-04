@@ -65,14 +65,14 @@
   </url>
   
   <url>
-    <loc>https://www.luopandeng.com/2020/01/04/living/2020-should-be-a-tough-year/</loc>
+    <loc>https://www.luopandeng.com/2020/03/13/living/My-Equipment/</loc>
     
     <lastmod>2020-03-30</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.luopandeng.com/2020/03/13/living/My-Equipment/</loc>
+    <loc>https://www.luopandeng.com/2020/01/04/living/2020-should-be-a-tough-year/</loc>
     
     <lastmod>2020-03-30</lastmod>
     
@@ -655,20 +655,6 @@
   </url>
   
   <url>
-    <loc>https://www.luopandeng.com/tags/%E6%9C%89%E6%84%8F%E7%9A%84%E4%B8%9C%E8%A5%BF/</loc>
-    <lastmod>2020-10-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.luopandeng.com/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E4%B8%9C%E8%A5%BF/</loc>
-    <lastmod>2020-10-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.luopandeng.com/tags/%E6%9D%82%E4%BA%8B/</loc>
     <lastmod>2020-10-04</lastmod>
     <changefreq>daily</changefreq>
@@ -677,6 +663,20 @@
   
   <url>
     <loc>https://www.luopandeng.com/tags/chaos/</loc>
+    <lastmod>2020-10-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.luopandeng.com/tags/%E6%9C%89%E6%84%8F%E7%9A%84%E4%B8%9C%E8%A5%BF/</loc>
+    <lastmod>2020-10-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.luopandeng.com/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E4%B8%9C%E8%A5%BF/</loc>
     <lastmod>2020-10-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -753,14 +753,14 @@
   </url>
   
   <url>
-    <loc>https://www.luopandeng.com/tags/%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://www.luopandeng.com/tags/cheatsheet/</loc>
     <lastmod>2020-10-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.luopandeng.com/tags/cheatsheet/</loc>
+    <loc>https://www.luopandeng.com/tags/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2020-10-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
