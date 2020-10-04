@@ -95,3 +95,17 @@ Repository Config For SSH:
 ```
 
 上面的配置中，url 决定了使用哪种方式与git仓库进行连接。
+
+**SSH 设置别名**
+
+以下配置可以实现 `ssh xxx`直接登录服务器。
+
+```yaml
+Host aliasofyourserver
+    HostName YOURIP
+    User username
+    Port port
+    IdentityFile /path/to/your/private_key
+
+```
+
