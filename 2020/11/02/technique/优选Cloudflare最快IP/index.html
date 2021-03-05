@@ -17,7 +17,7 @@
 <meta property="og:description" content="优选Cloudflare">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-11-02T01:12:53.000Z">
-<meta property="article:modified_time" content="2020-11-02T01:25:16.199Z">
+<meta property="article:modified_time" content="2021-03-05T03:52:58.331Z">
 <meta property="article:author" content="LPD">
 <meta property="article:tag" content="Cloudflare">
 <meta name="twitter:card" content="summary">
@@ -104,12 +104,12 @@
 <figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Start-Transcript</span> <span class="literal">-Path</span> .\cf_full.txt</span><br><span class="line">(<span class="built_in">Get-Content</span> .\cf_ips_full.txt) | <span class="built_in">ForEach-Object</span> <span class="literal">-ThrottleLimit</span> <span class="number">24000</span> <span class="literal">-Parallel</span> &#123;</span><br><span class="line">    <span class="built_in">Write-Host</span> <span class="variable">$_</span><span class="string">&#x27;,&#x27;</span>,([<span class="type">System.Net.NetworkInformation.Ping</span>]::new().Send(<span class="variable">$_</span>)).RoundtripTime</span><br><span class="line">    &#125;</span><br><span class="line"><span class="built_in">Stop-Transcript</span></span><br></pre></td></tr></table></figure>
 
 <p>这一步的结果出来就要手动选了。</p>
-<p>这里我给出联通网络下 PING 值较好的 IP <a target="_blank" rel="noopener" href="https://sh-oss-a.oss-cn-shanghai.aliyuncs.com/github/file/below200.csv">文件</a>。</p>
+<p>这里我给出联通网络下 PING 值较好的 IP <a href="/images/github/file/below200.csv">文件</a>。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://www.luopandeng.com/2020/11/02/technique/%E4%BC%98%E9%80%89Cloudflare%E6%9C%80%E5%BF%ABIP/" data-id="cklvr9ht3004qm4ma3ofg8i1w" class="article-share-link">Share</a>
+      <a data-url="https://www.luopandeng.com/2020/11/02/technique/%E4%BC%98%E9%80%89Cloudflare%E6%9C%80%E5%BF%ABIP/" data-id="cklvris1n004r6gma5zov9h1p" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Cloudflare/" rel="tag">Cloudflare</a></li></ul>
