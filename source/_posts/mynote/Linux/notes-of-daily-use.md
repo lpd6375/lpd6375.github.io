@@ -18,19 +18,19 @@ Scripts that been used frequently.
 
 Issue a ssh key 
 
-```
+```bash
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
 Issue cert:
 
-```
+```bash
 curl https://get.acme.sh | sh
 ```
 
 Or:
 
-```
+```bash
 wget -O -  https://get.acme.sh | sh
 ```
 
@@ -42,9 +42,15 @@ acme.sh --renew -d example.com --force
 
 Upgrade:
 
-```
+```bash
 acme.sh --upgrade
 acme.sh --upgrade --auto-upgrade
+```
+
+生成 pem 文件：
+
+```bash
+cat fullchain.cer domain.key >> domain.pem
 ```
 
 V2ray:

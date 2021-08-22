@@ -3,10 +3,10 @@
   <title>LPD</title>
   
   <subtitle>自说自话</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="https://www.luopandeng.com/atom.xml" rel="self"/>
   
   <link href="https://www.luopandeng.com/"/>
-  <updated>2020-08-10T09:00:31.593Z</updated>
+  <updated>2021-08-22T04:40:34.712Z</updated>
   <id>https://www.luopandeng.com/</id>
   
   <author>
@@ -14,22 +14,152 @@
     
   </author>
   
-  <generator uri="http://hexo.io/">Hexo</generator>
+  <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>测试</title>
-    <link href="https://www.luopandeng.com/2020/08/10/living/%E6%B5%8B%E8%AF%95/"/>
-    <id>https://www.luopandeng.com/2020/08/10/living/测试/</id>
-    <published>2020-08-10T08:23:12.000Z</published>
-    <updated>2020-08-10T09:00:31.593Z</updated>
+    <title>《扫黑风暴》观后感</title>
+    <link href="https://www.luopandeng.com/2021/08/22/chaos/%E3%80%8A%E6%89%AB%E9%BB%91%E9%A3%8E%E6%9A%B4%E3%80%8B%E8%A7%82%E5%90%8E%E6%84%9F/"/>
+    <id>https://www.luopandeng.com/2021/08/22/chaos/%E3%80%8A%E6%89%AB%E9%BB%91%E9%A3%8E%E6%9A%B4%E3%80%8B%E8%A7%82%E5%90%8E%E6%84%9F/</id>
+    <published>2021-08-22T04:03:33.000Z</published>
+    <updated>2021-08-22T04:40:34.712Z</updated>
     
-    <content type="html"><![CDATA[<p>测试新插件，看看效果如何。</p><a id="more"></a>        <style>.bbplayer{width: 100%; max-width: 850px; margin: auto}</style>        <div class="bbplayer">        <iframe class="bbplayer" id="mmedia-TzKFRlUX" src="//player.bilibili.com/player.html?bvid=BV1Yb411q7wa&page=1&high_quality=1&danmaku=true"            allowfullscreen="no"            scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups"></iframe>        </div>        <script>            document.getElementById("mmedia-TzKFRlUX").style.height=document.getElementById("mmedia-TzKFRlUX").scrollWidth*0.76+"px";            window.onresize = function(){              document.getElementById("mmedia-TzKFRlUX").style.height=document.getElementById("mmedia-TzKFRlUX").scrollWidth*0.76+"px";            };        </script>        ]]></content>
+    <content type="html"><![CDATA[<p>​    我大概是从前天开始看的《扫黑风暴》，花了一天的时间从网上把这个片子看完了。</p><p>​    总体上来说，这是一部不错的主旋律电视剧。</p><span id="more"></span><p>​    有几个问题是我看完这部后想到的。首先，这部剧和《人民的名义》这部剧一样出现了送审版；其次，这两者从剧情上来看都是由中央派出工作组推动了沉冤昭雪；其三，地方上的政治势力其实就是财富势力的缩影。</p><p>​    先来说说这个送审版，送审版，顾名思义就是送去审查的版本。这个泄露就很有意思，上次《人民的名义》泄露的也是送审版。上个泄露版并没有找到泄露源，这次相信也是。为什么？因为不想让它赚了这个主旋律的钱。另外一点，这种电视剧宣传效果确实是一流的，可以让一些人死心踏地地相信ZYZF。</p><p>​    然后再看剧情，这两部剧有着相似的内核。中央政府是永远向人民的，所以可以永远相信中央。然后他们要求你拥护的时候，你是不是会不假思索地就去拥护了？是的，绝大多数的人都会。你几乎不能拒绝这种想法。</p><p>​    最后再说说这个地方势力。一个人在生活中接触最多的就是基层的一些机构了吧。如果你是在经济发达地区还好，那里的基层组织从各方面来讲都比欠发达地区要好的多。小地方的地方组织基本上是谁势力大就是谁来做主。反正我个人的体会倒是挺深的。</p><p>​    谈了个皮毛而已，见笑了。</p><p>​    </p>]]></content>
     
-    <summary type="html">
     
-      &lt;p&gt;测试新插件，看看效果如何。&lt;/p&gt;
+    <summary type="html">&lt;p&gt;​    我大概是从前天开始看的《扫黑风暴》，花了一天的时间从网上把这个片子看完了。&lt;/p&gt;
+&lt;p&gt;​    总体上来说，这是一部不错的主旋律电视剧。&lt;/p&gt;</summary>
     
-    </summary>
+    
+    
+    
+    <category term="chaos" scheme="https://www.luopandeng.com/tags/chaos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一级建造师之经济</title>
+    <link href="https://www.luopandeng.com/2021/08/11/%E4%B8%80%E5%BB%BA/%E4%B8%80%E7%BA%A7%E5%BB%BA%E9%80%A0%E5%B8%88%E4%B9%8B%E7%BB%8F%E6%B5%8E/"/>
+    <id>https://www.luopandeng.com/2021/08/11/%E4%B8%80%E5%BB%BA/%E4%B8%80%E7%BA%A7%E5%BB%BA%E9%80%A0%E5%B8%88%E4%B9%8B%E7%BB%8F%E6%B5%8E/</id>
+    <published>2021-08-11T12:09:01.000Z</published>
+    <updated>2021-08-14T07:14:59.246Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="考试大纲"><a href="#考试大纲" class="headerlink" title="考试大纲"></a>考试大纲</h1><p><strong>1Z100000 建设工程经济</strong></p><span id="more"></span><h3 id="1Z101000-工程经济"><a href="#1Z101000-工程经济" class="headerlink" title="1Z101000  工程经济"></a>1Z101000  工程经济</h3><h4 id="1Z101010-资金时间价值的计算及应用"><a href="#1Z101010-资金时间价值的计算及应用" class="headerlink" title="1Z101010 资金时间价值的计算及应用"></a><strong>1Z101010 资金时间价值的计算及应用</strong></h4><p>1Z101011 利息的计算</p><p>1Z101012 资金等值计算及应用</p><p>1Z101013 名义利率与有效利率的计算</p><p><strong>1Z101020  技术方案经济效果评价</strong></p><p>1Z101021 经济效果评价的内容</p><p>1Z101022 经济效果评价指标体系</p><p>1Z101023 投资收益率分析</p><p>1Z101024 投资回收期分析</p><p>1Z101025 财务净现值分析</p><p>1Z101026 财务内部收益率分析</p><p>1Z101027 基准收益率的确定</p><p>1Z101028 偿债能力分析</p><p><strong>1Z101030  技术方案不确定性分析</strong></p><p>1Z101031 不确定性分析</p><p>1Z101032 盈亏平衡分析</p><p>1Z101033 敏感性分析</p><p><strong>1Z101040  技术方案现金流量表的编制</strong></p><p>1Z101041 技术方案现金流量表</p><p>1Z101042 技术方案现金流量表的构成要素</p><p><strong>1Z101050  设备更新分析</strong></p><p>1Z101051 设备磨损与补偿</p><p>1Z101052 设备更新方案的比选原则</p><p>1Z101053 设备更新时机的确定方法</p><p>1Z101054 设备租赁与购买方案的比选分析</p><p><strong>1Z101060 价值工程在工程建设中的应用</strong></p><p>1Z101061 提高价值的途径</p><p>1Z101062 价值工程在工程建设应用中的实施步骤</p><p><strong>1Z101070  新技术、新工艺和新材料应用方案的技术经济分析</strong></p><p>1Z101071 新技术、新工艺和新材料应用方案的选择原则</p><p>1Z101072 新技术、新工艺和新材料应用方案的技术分析</p><p>1Z101073 新技术、新工艺和新材料应用方案的经济分析</p><p>1Z102000 工程财务</p><p><strong>1Z102010 财务会计基础</strong></p><p>1Z102011 财务会计的内涵</p><p>1Z102012 财务会计工作基本内容</p><p>1Z102013 会计核算的原则</p><p>1Z102014 会计核算的基本前提</p><p>1Z102015 会计等式及其应用</p><p>1Z102016 会计监督的内容</p><p><strong>1Z102020 成本与费用</strong></p><p>1Z102021 费用与成本的关系</p><p>1Z102022 工程成本的确认和结算方法</p><p>1Z102023 工程成本的核算</p><p>1Z102024 施工企业期间费用的核算</p><p><strong>1Z102030 收入</strong></p><p>1Z102031 收入的分类及确认</p><p>1Z102032 建造（施工）合同收入的核算</p><p><strong>1Z102040  利润和所得税费用</strong></p><p>1Z102041 利润的计算</p><p>1Z102042 所得税费用的确认</p><p><strong>1Z102050 企业财务报表</strong></p><p>1Z102051 财务报表的构成和列报的基本要求</p><p>1Z102052 资产负债表的内容和作用</p><p>1Z102053 利润表的内容和作用</p><p>1Z102054 现金流量表的内容和作用</p><p>1Z102055 财务报表附注的内容和作用</p><p><strong>1Z102060财务分析</strong></p><p>1Z102061 财务分析的常用方法</p><p>1Z102062 基本财务比率的计算和分析</p><p><strong>1Z102070筹资管理</strong></p><p>1Z102071 筹资主体</p><p>1Z102072 筹资方式</p><p>1Z102073 资金成本的计算与应用</p><p>1Z102074 资本结构分析与优化</p><p><strong>1Z102080 流动资产财务管理</strong></p><p>1Z102081 现金和有价证券的财务管理</p><p>1Z102082 应收账款的财务管理</p><p>1Z102083 存货的财务管理</p><p>1Z103000  建设工程估价</p><p><strong>1Z103010 建设项目总投资</strong></p><p>1Z103011 建设项目总投资费用项目组成</p><p>1Z103012 建筑安装工程费用项目组成</p><p>1Z103013 建筑安装工程费用计算</p><p>1Z103014 增值税计算</p><p>1Z103015 设备购置费计算</p><p>1Z103016 工程建设其他费用项目组成</p><p>1Z103017 预备费计算</p><p>1Z103018 资金筹措费计算</p><p>1Z103019  流动资金计算</p><p><strong>1Z103020 建设工程定额</strong></p><p>1Z103021 建设工程定额的分类</p><p>1Z103022 人工定额的编制</p><p>1Z103023 材料消耗定额的编制</p><p>1Z103024 施工机械台班使用定额的编制</p><p>1Z103025 施工定额和企业定额的编制</p><p>1Z103026 预算定额及其基价的编制</p><p>1Z103027 概算定额与概算指标的编制</p><p><strong>1Z103030 建设工程项目设计概算</strong></p><p>1Z103031 设计概算的内容和作用</p><p>1Z103032 设计概算的编制依据、程序和步骤</p><p>1Z103033 设计概算的编制方法</p><p>1Z103034 设计概算的审查内容</p><p><strong>1Z103040 建设工程项目施工图预算</strong></p><p>1Z103041 施工图预算的作用</p><p>1Z103042 施工图预算的编制依据</p><p>1Z103043 施工图预算的编制方法</p><p>1Z103044 施工图预算的审查内容</p><p><strong>1Z103050 工程量清单编制</strong></p><p>1Z103051 工程量清单的作用</p><p>1Z103052 工程量清单编制的方法</p><p><strong>1Z103060 工程量清单计价</strong></p><p>1Z103061 工程量清单计价的方法</p><p>1Z103062 招标控制价的编制方法</p><p>1Z103063 投标报价的编制方法</p><p>1Z103064 合同价款的约定</p><p><strong>1Z103070 计量与支付</strong></p><p>1Z103071工程计量</p><p>1Z103072 合同价款调整</p><p>1Z103073 工程变更价款的确定</p><p>1Z103074 施工索赔与现场签证</p><p>1Z103075 预付款及期中支付</p><p>1Z103076 竣工结算与支付</p><p>1Z103077 质量保证金的处理</p><p>1Z103078 合同价款纠纷的处理</p><p><strong>1Z103080 国际工程投标报价</strong></p><p>1Z103081 国际工程投标报价的程序</p><p>1Z103082 国际工程投标报价的组成</p><p>1Z103083 单价分析和标价汇总的方法</p><p>1Z103084 国际工程投标报价的分析方法</p><p>1Z103085 国际工程投标报价的技巧</p><p>1Z103086 国际工程投标报价决策的影响因素</p>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;考试大纲&quot;&gt;&lt;a href=&quot;#考试大纲&quot; class=&quot;headerlink&quot; title=&quot;考试大纲&quot;&gt;&lt;/a&gt;考试大纲&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;1Z100000 建设工程经济&lt;/strong&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>一级建造师之法规</title>
+    <link href="https://www.luopandeng.com/2021/08/11/%E4%B8%80%E5%BB%BA/%E4%B8%80%E7%BA%A7%E5%BB%BA%E9%80%A0%E5%B8%88%E4%B9%8B%E6%B3%95%E8%A7%84/"/>
+    <id>https://www.luopandeng.com/2021/08/11/%E4%B8%80%E5%BB%BA/%E4%B8%80%E7%BA%A7%E5%BB%BA%E9%80%A0%E5%B8%88%E4%B9%8B%E6%B3%95%E8%A7%84/</id>
+    <published>2021-08-11T12:08:54.000Z</published>
+    <updated>2021-08-14T07:14:49.801Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>《建设工程法规及相关知识》</strong></p><p><strong>科目考试大纲</strong></p><span id="more"></span><p><strong>1Z300000</strong> <strong>建设工程法规及相关知识</strong></p><p>1Z301000 建设工程基本法律知识</p><p><strong>1Z301010</strong> <strong>建设工程法律体系</strong></p><p>1Z301011 法律体系的基本框架</p><p>1Z301012 法的形式和效力层级</p><p>1Z301013 建设法律、行政法规和相关法律的关系</p><p><strong>1Z301020 建设工程法人制度</strong></p><p>1Z301021 法人应具备的条件</p><p>1Z301022 法人在建设工程中的地位和作用</p><p>1Z301023 企业法人与项目经理部的法律关系</p><p><strong>1Z301030 建设工程代理制度</strong></p><p>1Z301031 代理的法律特征和主要种类</p><p>1Z301032 建设工程代理行为的设立和终止</p><p>1Z301033 代理人和被代理人的权利、义务及法律责任</p><p><strong>1Z301040 建设工程物权制度</strong></p><p>1Z301041 物权的法律特征和主要种类</p><p>1Z301042 土地所有权、建设用地使用权和地役权</p><p>1Z301043 物权的设立、变更、转让、消灭和保护</p><p><strong>1Z301050 建设工程债权制度</strong></p><p>1Z301051 债的基本法律关系</p><p>1Z301052 建设工程债的发生根据</p><p>1Z301053 建设工程债的常见种类</p><p><strong>1Z301060 建设工程知识产权制度</strong></p><p>1Z301061 知识产权的法律特征</p><p>1Z301062 建设工程知识产权的常见种类</p><p>1Z301063 建设工程知识产权的保护</p><p>1Z301064 建设工程知识产权侵权的法律责任</p><p><strong>1Z301070 建设工程担保制度</strong></p><p>1Z301071 担保与担保合同的规定</p><p>1Z301072 建设工程保证担保的方式和责任</p><p>1Z301073 抵押权、质权、留置权、定金的规定</p><p><strong>1Z301080 建设工程保险制度</strong></p><p>1Z301081 保险与保险索赔的规定</p><p>1Z301082 建设工程保险的主要种类和投保权益</p><p><strong>1Z301090 建设工程税收制度</strong></p><p>1Z301091 企业和个人所得税的规定</p><p>1Z301092 企业增值税的规定</p><p>1Z301093 环境保护税的规定</p><p>1Z301094 其他相关税收的规定</p><p><strong>1Z301100 建设工程法律责任制度</strong></p><p>1Z301101 法律责任的基本种类和特征</p><p>1Z301102 建设工程民事责任的种类及承担方式</p><p>1Z301103 建设工程行政责任的种类及承担方式</p><p>1Z301104 建设工程刑事责任的种类及承担方式</p><p>1Z302000 施工许可法律制度</p><p><strong>1Z302010 建设工程施工许可制度</strong></p><p>1Z302011 施工许可证和开工报告的适用范围</p><p>1Z302012 申请主体和法定批准条件</p><p>1Z302013 延期开工、核验和重新办理批准的规定</p><p>1Z302014 违法行为应承担的法律责任</p><p><strong>1Z302020 施工企业从业资格制度</strong></p><p>1Z302021 企业资质的法定条件和等级  </p><p>1Z302022 禁止无资质或越级承揽工程的规定</p><p>1Z302023 禁止以他企业或他企业以本企业名义承揽工程的规定</p><p>1Z302024 违法行为应承担的法律责任</p><p><strong>1Z302030 建造师注册执业制度</strong></p><p>1Z302031 建设工程专业人员执业资格的准入管理</p><p>1Z302032 建造师考试、注册和继续教育的规定</p><p>1Z302033　建造师的受聘单位和执业岗位范围</p><p>1Z302034　建造师的基本权利和义务</p><p>1Z302035 违法行为应承担的法律责任</p><p>1Z303000 建设工程发承包法律制度</p><p><strong>1Z303010 建设工程招标投标制度</strong></p><p>1Z303011 建设工程法定招标的范围、招标方式和交易场所</p><p>1Z303012 招标基本程序和禁止肢解发包、限制排斥投标人的规定</p><p>1Z303013 投标人、投标文件的法定要求和投标保证金</p><p>1Z303014 禁止串通投标和其他不正当竞争行为的规定</p><p>1Z303015 联合体投标的规定</p><p>1Z303016 中标的法定要求和招标投标投诉处理</p><p>1Z303017 违法行为应承担的法律责任</p><p><strong>1Z303020 建设工程承包制度</strong></p><p>1Z303021 建设工程总承包的规定</p><p>1Z303022 建设工程共同承包的规定</p><p>1Z303023 建设工程分包的规定</p><p>1Z303024 违法行为应承担的法律责任</p><p><strong>1Z303030 建筑市场信用体系建设</strong></p><p>1Z303031 建筑市场诚信行为信息的分类</p><p>1Z303032 建筑市场施工单位不良行为记录认定标准</p><p>1Z303033 建筑市场诚信行为的公布和奖惩机制</p><p>1Z303034 建筑市场主体诚信评价的基本规定</p><p>1Z304000 建设工程合同和劳动合同法律制度</p><p><strong>1Z304010 建设工程合同制度</strong></p><p>1Z304011 合同的法律特征和订立原则</p><p>1Z304012 合同的要约与承诺</p><p>1Z304013 建设工程施工合同的法定形式和内容</p><p>1Z304014 建设工程工期和价款的规定</p><p>1Z304015 建设工程赔偿损失的规定</p><p>1Z304016 无效合同和效力待定合同的规定</p><p>1Z304017 合同的履行、变更、转让、撤销和终止</p><p>1Z304018 违约责任及违约责任的免除</p><p>1Z304019 建设工程合同示范文本的性质与作用</p><p><strong>1Z304020 劳动合同及劳动者权益保护制度</strong></p><p>1Z304021 劳动合同订立的规定</p><p>1Z304022 劳动合同的履行、变更、解除和终止</p><p>1Z304023 合法用工方式与违法用工模式的规定</p><p>1Z304024 劳动保护的规定</p><p>1Z304025 劳动争议的解决</p><p>1Z304026 违法行为应承担的法律责任</p><p><strong>1Z304030 相关合同制度</strong></p><p>1Z304031 承揽合同的法律规定</p><p>1Z304032 买卖合同的法律规定</p><p>1Z304033 借款合同的法律规定</p><p>1Z304034 租赁合同的法律规定</p><p>1Z304035 融资租赁合同的法律规定</p><p>1Z304036 运输合同的法律规定</p><p>1Z304037 仓储合同的法律规定</p><p>1Z304038 委托合同的法律规定</p><p>1Z305000 建设工程施工环境保护、节约能源和文物保护法律制度</p><p><strong>1Z305010 施工现场环境保护制度</strong></p><p>1Z305011 施工现场环境噪声污染防治的规定</p><p>1Z305012 施工现场大气污染防治的规定</p><p>1Z305013 施工现场水污染防治的规定</p><p>1Z305014 施工现场固体废物污染环境防治的规定</p><p>1Z305015 违法行为应承担的法律责任</p><p><strong>1Z305020 施工节约能源制度</strong></p><p>1Z305021 施工合理使用与节约能源的规定</p><p>1Z305022 施工节能技术进步和激励措施的规定</p><p>1Z305023 违法行为应承担的法律责任</p><p><strong>1Z305030 施工文物保护制度</strong></p><p>1Z305031 受法律保护的文物范围</p><p>1Z305032 在文物保护单位保护范围和建设控制地带施工的规定</p><p>1Z305033 施工发现文物报告和保护的规定</p><p>1Z305034 违法行为应承担的法律责任</p><p>1Z306000 建设工程安全生产法律制度</p><p><strong>1Z306010 施工安全生产许可证制度</strong></p><p>1Z306011 申请领取安全生产许可证的条件</p><p>1Z306012 安全生产许可证的有效期和政府监管的规定</p><p>1Z306013 违法行为应承担的法律责任</p><p><strong>1Z306020 施工安全生产责任和安全生产教育培训制度</strong></p><p>1Z306021 施工单位的安全生产责任</p><p>1Z306022 施工项目负责人的安全生产责任</p><p>1Z306023 施工总承包和分包单位的安全生产责任</p><p>1Z306024 施工作业人员安全生产的权利和义务</p><p>1Z306025 施工单位安全生产教育培训的规定</p><p>1Z306026 违法行为应承担的法律责任</p><p><strong>1Z306030 施工现场安全防护制度</strong></p><p>1Z306031 编制安全技术措施、专项施工方案和安全技术交底的规定</p><p>1Z306032 施工现场安全防范措施、安全费用和特种设备安全管理的规定 </p><p>1Z306033 施工现场消防安全职责和应采取的消防安全措施</p><p>1Z306034 工伤保险和意外伤害保险的规定</p><p>1Z306035 违法行为应承担的法律责任</p><p><strong>1Z306040 施工安全事故的应急救援与调查处理</strong></p><p>1Z306041 生产安全事故的等级划分标准</p><p>1Z306042 施工生产安全事故应急救援预案的规定</p><p>1Z306043 施工生产安全事故报告及采取相应措施的规定</p><p>1Z306044 违法行为应承担的法律责任</p><p><strong>1Z306050 建设单位和相关单位的建设工程安全责任制度</strong></p><p>1Z306051 建设单位相关的安全责任</p><p>1Z306052 勘察、设计单位相关的安全责任</p><p>1Z306053 工程监理、检验检测单位相关的安全责任</p><p>1Z306054 机械设备等单位相关的安全责任</p><p>1Z306055 政府主管部门安全监督管理的相关规定</p><p>1Z307000 建设工程质量法律制度</p><p><strong>1Z307010 工程建设标准</strong></p><p>1Z307011 工程建设标准的分类</p><p>1Z307012 工程建设强制性标准实施的规定</p><p>1Z307013 违法行为应承担的法律责任</p><p><strong>1Z307020 施工单位的质量责任和义务</strong></p><p>1Z307021 对施工质量负责和总分包单位的质量责任</p><p>1Z307022 按照工程设计图纸和施工技术标准施工的规定</p><p>1Z307023 对建筑材料、设备等进行检验检测的规定</p><p>1Z307024 施工质量检验和返修的规定</p><p>1Z307025 建立健全职工教育培训制度的规定</p><p>1Z307026 违法行为应承担的法律责任</p><p><strong>1Z307030 建设单位及相关单位的质量责任和义务</strong></p><p>1Z307031 建设单位相关的质量责任和义务</p><p>1Z307032 勘察、设计单位相关的质量责任和义务</p><p>1Z307033 工程监理单位相关的质量责任和义务</p><p>1Z307034 政府主管部门工程质量监督管理的相关规定</p><p><strong>1Z307040 建设工程竣工验收制度</strong></p><p>1Z307041 竣工验收的主体和法定条件</p><p>1Z307042 施工单位应提交的档案资料</p><p>1Z307043 规划、消防、节能、环保等验收的规定</p><p>1Z307044 竣工结算、质量争议的规定</p><p>1Z307045 竣工验收报告备案的规定</p><p><strong>1Z307050 建设工程质量保修制度</strong></p><p>1Z307051 质量保修书和最低保修期限的规定</p><p>1Z307052 质量责任的损失赔偿</p><p>1Z307053 违法行为应承担的法律责任</p><p>1Z308000 解决建设工程纠纷法律制度</p><p><strong>1Z308010 建设工程纠纷主要种类和法律解决途径</strong></p><p>1Z308011 建设工程纠纷的主要种类</p><p>1Z308012 民事纠纷的法律解决途径</p><p>1Z308013 行政纠纷的法律解决途径</p><p><strong>1Z308020 民事诉讼制度</strong> </p><p>1Z308021 民事诉讼的法院管辖</p><p>1Z308022 民事诉讼当事人和代理人的规定</p><p>1Z308023 民事诉讼证据的种类、保全和应用</p><p>1Z308024 民事诉讼时效的规定</p><p>1Z308025 民事诉讼的审判程序</p><p>1Z308026 民事诉讼的执行</p><p><strong>1Z308030 仲裁制度</strong> </p><p>1Z308031 仲裁协议的规定</p><p>1Z308032 仲裁的申请和受理</p><p>1Z308033 仲裁的开庭和裁决</p><p>1Z308034 仲裁裁决的执行</p><p>1Z308035 涉外仲裁的特别规定</p><p><strong>1Z308040 调解、和解制度与争议评审</strong></p><p>1Z308041 调解的规定</p><p>1Z308042 和解的规定</p><p>1Z308043 争议评审机制的规定</p><p><strong>1Z308050 行政复议和行政诉讼制度</strong></p><p>1Z308051 行政许可和行政强制的种类及法定程序</p><p>1Z308052 行政复议范围和行政诉讼受案范围</p><p>1Z308053 行政复议的申请、受理和决定的有关规定</p><p>1Z308054 行政诉讼的法院管辖、起诉和受理</p><p>1Z308055 行政诉讼的审理、判决和执行</p><p>1Z308056 行使行政职权时侵权的赔偿责任</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;《建设工程法规及相关知识》&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;科目考试大纲&lt;/strong&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>一级建造师之管理</title>
+    <link href="https://www.luopandeng.com/2021/08/11/%E4%B8%80%E5%BB%BA/%E4%B8%80%E7%BA%A7%E5%BB%BA%E9%80%A0%E5%B8%88%E4%B9%8B%E7%AE%A1%E7%90%86/"/>
+    <id>https://www.luopandeng.com/2021/08/11/%E4%B8%80%E5%BB%BA/%E4%B8%80%E7%BA%A7%E5%BB%BA%E9%80%A0%E5%B8%88%E4%B9%8B%E7%AE%A1%E7%90%86/</id>
+    <published>2021-08-11T12:08:45.000Z</published>
+    <updated>2021-08-14T07:14:41.164Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>《建设工程项目管理》</strong></p><p><strong>科目考试大纲</strong></p><span id="more"></span><p><strong>1Z200000</strong> <strong>建设工程项目管理</strong></p><p>1Z201000 建设工程项目的组织与管理</p><p><strong>1Z201010 建设工程管理的内涵和任务</strong></p><p>1Z201011 建设工程管理的内涵</p><p>1Z201012 建设工程管理的任务</p><p><strong>1Z201020 建设工程项目管理的目标和任务</strong>  </p><p>1Z201021 业主方、设计方和供货方项目管理的目标和任务</p><p>1Z201022 项目总承包方项目管理的目标和任务</p><p>1Z201023 施工方项目管理的目标和任务</p><p><strong>1Z201030 建设工程项目的组织</strong> </p><p>1Z201031 项目结构分析在项目管理中的应用</p><p>1Z201032 组织结构在项目管理中的应用</p><p>1Z201033 工作任务分工在项目管理中的应用</p><p>1Z201034 管理职能分工在项目管理中的应用</p><p>1Z201035 工作流程组织在项目管理中的应用</p><p>1Z201036 合同结构在项目管理中的应用</p><p><strong>1Z201040 建设工程项目策划</strong></p><p>1Z201041 项目决策阶段策划的工作内容</p><p>1Z201042 项目实施阶段策划的工作内容</p><p><strong>1Z201050 建设工程项目采购的模式</strong>  </p><p>1Z201051 项目管理委托的模式</p><p>1Z201052 设计任务委托的模式</p><p>1Z201053 项目总承包的模式</p><p>1Z201054 施工任务委托的模式 </p><p>1Z201055 物资采购的模式</p><p><strong>1Z201060 建设工程项目管理规划的内容和编制方法</strong> </p><p>1Z201061 项目管理规划的内容</p><p>1Z201062 项目管理规划的编制方法</p><p><strong>1Z201070 施工组织设计的内容和编制方法</strong></p><p>1Z201071 施工组织设计的内容</p><p>1Z201072 施工组织设计的编制方法</p><p><strong>1Z201080 建设工程项目目标的动态控制</strong>  </p><p>1Z201081 项目目标动态控制的方法及其应用</p><p>1Z201082 动态控制在进度控制中的应用</p><p>1Z201083 动态控制在投资控制中的应用</p><p><strong>1Z201090 施工企业项目经理的工作性质、任务和责任</strong> </p><p>1Z201091 施工企业项目经理的工作性质</p><p>1Z201092 施工企业项目经理的任务</p><p>1Z201093 施工企业项目经理的责任</p><p>1Z201094 项目各参与方之间的沟通方法</p><p>1Z201095 施工企业人力资源管理的任务</p><p><strong>1Z201100 建设工程项目的风险和风险管理的工作流程</strong> </p><p>1Z201101 项目的风险类型</p><p>1Z201102 项目风险管理的工作流程</p><p><strong>1Z201110 建设工程监理的工作性质、工作任务和工作方法</strong>  </p><p>1Z201111 监理的工作性质 </p><p>1Z201112 监理的工作任务</p><p>1Z201113 监理的工作方法</p><p>1Z202000 建设工程项目成本管理          </p><p><strong>1Z202010 成本管理的任务、程序和措施</strong> </p><p>1Z202011 成本管理的任务和程序</p><p>1Z202012 成本管理的措施</p><p><strong>1Z202020 成本计划</strong></p><p>1Z202021 成本计划的类型</p><p>1Z202022 成本计划的编制依据和编制程序</p><p>1Z202023 按成本组成编制成本计划的方法</p><p>1Z202024 按项目结构编制成本计划的方法</p><p>1Z202025 按工程实施阶段编制成本计划的方法</p><p><strong>1Z202030 成本控制</strong></p><p>1Z202031 成本控制的依据和程序</p><p>1Z202032 成本控制的方法</p><p><strong>1Z202040 成本核算</strong></p><p>1Z202041 成本核算的原则、依据、范围和程序</p><p>1Z202042 成本核算的方法</p><p><strong>1Z202050 成本分析和成本考核</strong></p><p>1Z202051 成本分析的依据、内容和步骤</p><p>1Z202052 成本分析的方法</p><p>1Z202053 成本考核的依据和方法</p><p>1Z203000 建设工程项目进度控制   </p><p><strong>1Z203010 建设工程项目进度控制与进度计划系统</strong> </p><p>1Z203011 项目进度控制的目的</p><p>1Z203012 项目进度控制的任务</p><p>1Z203013 项目进度计划系统的建立</p><p>1Z203014 计算机辅助建设工程项目进度控制</p><p><strong>1Z203020 建设工程项目总进度目标的论证</strong> </p><p>1Z203021 项目总进度目标论证的工作内容</p><p>1Z203022 项目总进度目标论证的工作步骤</p><p><strong>1Z203030 建设工程项目进度计划的编制和调整方法</strong></p><p>1Z203031 横道图进度计划的编制方法</p><p>1Z203032 工程网络计划的编制方法</p><p>1Z203033 工程网络计划有关时间参数的计算</p><p>1Z203034 关键工作、关键路线和时差的确定</p><p>1Z203035 进度计划调整的方法</p><p><strong>1Z203040 建设工程项目进度控制的措施</strong>  </p><p>1Z203041 项目进度控制的组织措施</p><p>1Z203042 项目进度控制的管理措施</p><p>1Z203043 项目进度控制的经济措施</p><p>1Z203044 项目进度控制的技术措施</p><p>1Z204000 建设工程项目质量控制</p><p><strong>1Z204010 建设工程项目质量控制的内涵</strong></p><p>1Z204011 项目质量控制的目标、任务与责任</p><p>1Z204012 项目质量的形成过程和影响因素分析</p><p>1Z204013 项目质量风险分析和控制</p><p><strong>1Z204020 建设工程项目质量控制体系</strong></p><p>1Z204021 全面质量管理思想和方法的应用</p><p>1Z204022 项目质量控制体系的建立和运行</p><p>1Z204023 施工企业质量管理体系的建立与认证</p><p><strong>1Z204030 建设工程项目施工质量控制</strong></p><p>1Z204031 施工质量控制的依据与基本环节</p><p>1Z204032 施工质量计划的内容与编制方法</p><p>1Z204033 施工生产要素的质量控制</p><p>1Z204034 施工准备的质量控制</p><p>1Z204035 施工过程的质量控制</p><p>1Z204036 施工质量与设计质量的协调</p><p><strong>1Z204040 建设工程项目施工质量验收</strong></p><p>1Z204041 施工过程的质量验收</p><p>1Z204042 竣工质量验收</p><p><strong>1Z204050 施工质量不合格的处理</strong></p><p>1Z204051 工程质量问题和质量事故的分类</p><p>1Z204052 施工质量事故的预防</p><p>1Z204053 施工质量问题和质量事故的处理</p><p><strong>1Z204060 数理统计方法在工程质量管理中的应用</strong></p><p>1Z204061 分层法的应用</p><p>1Z204062 因果分析图法的应用</p><p>1Z204063 排列图法的应用</p><p>1Z204064 直方图法的应用</p><p><strong>1Z204070 建设工程项目质量的政府监督</strong></p><p>1Z204071 政府对工程项目质量监督的职能与权限</p><p>1Z204072 政府对工程项目质量监督的内容与实施</p><p>1Z205000 建设工程职业健康安全与环境管理</p><p><strong>1Z205010 职业健康安全管理体系与环境管理体系</strong></p><p>1Z205011 职业健康安全管理体系与环境管理体系标准</p><p>1Z205012 职业健康安全与环境管理的特点和要求</p><p>1Z205013 职业健康安全管理体系与环境管理体系的建立和运行</p><p><strong>1Z205020 建设工程安全生产管理</strong></p><p>1Z205021 安全生产管理制度</p><p>1Z205022 安全生产管理预警体系的建立和运行</p><p>1Z205023 施工安全技术措施和安全技术交底</p><p>1Z205024 安全生产检查监督的类型和内容</p><p>1Z205025 安全隐患的处理</p><p><strong>1Z205030 建设工程生产安全事故应急预案和事故处理</strong></p><p>1Z205031 生产安全事故应急预案的内容</p><p>1Z205032 生产安全事故应急预案的管理</p><p>1Z205033 职业健康安全事故的分类和处理</p><p><strong>1Z205040 建设工程施工现场职业健康安全与环境管理的要求</strong></p><p>1Z205041 施工现场文明施工的要求</p><p>1Z205042 施工现场环境保护的要求</p><p>1Z205043 施工现场职业健康安全卫生的要求</p><p>1Z206000 建设工程合同与合同管理        </p><p><strong>1Z206010 建设工程施工招标与投标</strong></p><p>1Z206011 施工招标</p><p>1Z206012 施工投标</p><p>1Z206013 合同谈判与签约</p><p><strong>1Z206020 建设工程合同的内容</strong></p><p>1Z206021 施工承包合同的内容</p><p>1Z206022 物资采购合同的内容</p><p>1Z206023 施工专业分包合同的内容</p><p>1Z206024 施工劳务分包合同的内容</p><p>1Z206025 工程总承包合同的内容</p><p>1Z206026 工程监理合同的内容</p><p>1Z206027 工程咨询合同的内容</p><p><strong>1Z206030 合同计价方式</strong></p><p>1Z206031 单价合同</p><p>1Z206032 总价合同</p><p>1Z206033 成本加酬金合同</p><p>1Z206034 工程咨询合同计价方式</p><p><strong>1Z206040 建设工程施工合同风险管理、工程保险和工程担保</strong></p><p>1Z206041 施工合同风险管理</p><p>1Z206042 工程保险</p><p>1Z206043 工程担保</p><p><strong>1Z206050 建设工程施工合同实施</strong></p><p>1Z206051 施工合同分析</p><p>1Z206052 施工合同交底</p><p>1Z206053 施工合同实施控制</p><p>1Z206054 施工分包管理方法</p><p>1Z206055 施工合同履行过程中的诚信自律</p><p><strong>1Z206060 建设工程索赔</strong></p><p>1Z206061 索赔依据</p><p>1Z206062 索赔方法</p><p>1Z206063 索赔费用计算</p><p>1Z206064 工期索赔计算</p><p><strong>1Z206070 国际建设工程施工承包合同</strong></p><p>1Z206071 国际常用的施工承包合同条件</p><p>1Z206072 施工承包合同争议的解决方式</p><p>1Z207000 建设工程项目信息管理   </p><p><strong>1Z207010 建设工程项目信息管理的目的和任务</strong>  </p><p>1Z207011 项目信息管理的目的</p><p>1Z207012 项目信息管理的任务</p><p><strong>1Z207020 建设工程项目信息的分类、编码和处理方法</strong></p><p>1Z207021 项目信息的分类</p><p>1Z207022 项目信息编码的方法</p><p>1Z207023 项目信息处理的方法</p><p><strong>1Z207030 建设工程管理信息化及建设工程项目管理信息系统的功能</strong></p><p>1Z207031 工程管理信息化</p><p>1Z207032 工程项目管理信息系统的功能</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;《建设工程项目管理》&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;科目考试大纲&lt;/strong&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>一级建造师之实务</title>
+    <link href="https://www.luopandeng.com/2021/08/11/%E4%B8%80%E5%BB%BA/%E4%B8%80%E7%BA%A7%E5%BB%BA%E9%80%A0%E5%B8%88%E4%B9%8B%E5%AE%9E%E5%8A%A1/"/>
+    <id>https://www.luopandeng.com/2021/08/11/%E4%B8%80%E5%BB%BA/%E4%B8%80%E7%BA%A7%E5%BB%BA%E9%80%A0%E5%B8%88%E4%B9%8B%E5%AE%9E%E5%8A%A1/</id>
+    <published>2021-08-11T12:08:00.000Z</published>
+    <updated>2021-08-14T07:15:03.665Z</updated>
+    
+    <content type="html"><![CDATA[<p>​    以此来记录一建备考过程</p><p>​    只要是考试，就没有考不过的道理。如果考不过那就是你准备不够充分。</p><span id="more"></span><p><strong>《专业工程管理与实务》</strong></p><p><strong>（建筑工程）</strong></p><p><strong>科目考试大纲</strong>  </p><p><strong>1A400000 建筑工程管理与实务</strong></p><p>1A410000 建筑工程技术</p><p><strong>1A411000 建筑设计与构造</strong>        </p><p><strong>1A411010 建筑设计</strong>             </p><p>1A411011 建筑物分类与构成体系</p><p>1A411012 建筑设计要求</p><p><strong>1A411020 建筑构造</strong></p><p>1A411021建筑构造设计要求</p><p>1A411022建筑装饰装修构造要求</p><p><strong>1A412000 结构设计与构造</strong>        </p><p><strong>1A412010结构可靠性要求</strong></p><p>1A412011结构工程的安全性</p><p>1A412012结构工程的适用性</p><p>1A412013结构工程的耐久性</p><p><strong>1A412020结构设计</strong></p><p>1A412021常用建筑结构体系和应用</p><p>1A412022结构设计作用（荷载）</p><p><strong>1A412030结构构造</strong></p><p>1A412031结构构造设计要求</p><p>1A412032结构抗震设计构造要求</p><p><strong>1A413000 装配式建筑</strong>          </p><p>1A413001装配式混凝土建筑</p><p>1A413002装配式钢结构建筑</p><p>1A413003装配式装饰装修      </p><p><strong>1A414000 建筑工程材料</strong>         </p><p><strong>1A414010常用建筑结构材料</strong>        </p><p>1A414011 水泥的性能和应用</p><p>1A414012建筑钢材的性能和应用</p><p>1A414013混凝土的性能和应用</p><p>1A414014砌体结构材料的性能和应用</p><p><strong>1A414020建筑装饰装修材料</strong>         </p><p>1A414021饰面板材和建筑陶瓷的特性与应用</p><p>1A414022 木材和木制品的特性与应用</p><p>1A414023 建筑玻璃的特性与应用</p><p>1A414024建筑金属材料的特性与应用</p><p><strong>1A414030建筑功能材料</strong>          </p><p>1A414031建筑防水材料的特性与应用</p><p>1A414032建筑防火材料的特性与应用</p><p>1A414033建筑保温材料的特性与应用</p><p><strong>1A415000 建筑工程施工技术</strong>         </p><p><strong>1A415010施工测量</strong></p><p>1A415011施工测量的内容和方法</p><p>1A415012常用工程测量仪器的性能与应用</p><p><strong>1A415020土石方工程施工</strong></p><p>1A415021 岩土的分类和性能</p><p>1A415022基坑支护施工</p><p>1A415023人工降排地下水的施工</p><p>1A415024土石方开挖施工</p><p>1A415025基坑验槽方法</p><p><strong>1A415030地基与基础工程施工</strong></p><p>1A415031常用地基处理方法</p><p>1A415032桩基础施工</p><p>1A415033混凝土基础施工</p><p>1A415034砌体基础施工</p><p><strong>1A415040主体结构工程施工</strong></p><p>1A415041混凝土结构工程施工</p><p>1A415042砌体结构工程施工</p><p>1A415043钢结构工程施工</p><p>1A415044装配式混凝土结构工程施工</p><p>1A415045钢-混凝土组合结构工程施工</p><p><strong>1A415050防水工程施工</strong>           </p><p>1A415051地下防水工程施工</p><p>1A415052屋面防水工程施工</p><p>1A415053室内防水工程施工</p><p><strong>1A415060装饰装修工程施工</strong>        </p><p>1A415061抹灰工程施工</p><p>1A415062轻质隔墙工程施工</p><p>1A415063吊顶工程施工</p><p>1A415064地面工程施工</p><p>1A415065涂饰、裱糊等工程施工</p><p>1A415066幕墙工程施工</p><p>1A415067节能工程施工</p><p>1A420000 建筑工程项目施工管理</p><p><strong>1A421000项目组织管理</strong>       </p><p><strong>1A421010施工现场平面布置</strong></p><p>1A421011 施工平面图设计</p><p>1A421012施工平面管理</p><p><strong>1A421020施工临时用电</strong></p><p>1A421021 临时用电管理</p><p>1A421022 配电线路布置</p><p>1A421023 配电箱与开关箱的设置</p><p><strong>1A421030施工临时用水</strong></p><p>1A421031 临时用水管理</p><p>1A421032 临时用水计算　　</p><p><strong>1A421040环境保护与职业健康</strong>       </p><p>1A421041绿色建筑与绿色施工</p><p>1A421042施工现场卫生与防疫</p><p>1A421043文明施工</p><p>1A421044职业病防范　　</p><p><strong>1A421050施工现场消防</strong>         </p><p>1A421051施工现场防火要求</p><p>1A421052施工现场消防管理</p><p><strong>1A421060技术应用管理</strong></p><p>1A421061施工试验与检验管理</p><p>1A421062季节性施工技术管理</p><p>1A421063新技术应用管理</p><p>1A421064项目管理信息化</p><p><strong>1A422000项目施工进度管理</strong>        </p><p><strong>1A422010施工进度控制方法</strong></p><p>1A422011 流水施工方法</p><p>1A422012 网络计划技术</p><p><strong>1A422020施工进度计划</strong></p><p>1A422021施工进度计划编制</p><p>1A422022施工进度控制</p><p><strong>1A423000项目施工质量管理</strong>        </p><p><strong>1A423010项目质量计划管理</strong></p><p>1A423011项目质量计划编制</p><p>1A423012项目质量计划应用</p><p><strong>1A423020项目材料质量管理</strong></p><p>1A423021建筑材料复试</p><p>1A423022建筑材料质量控制</p><p><strong>1A423030项目施工质量检查与检验</strong></p><p>1A423031地基基础工程质量检查与检验</p><p>1A423032主体结构工程质量检查与检验</p><p>1A423033防水工程质量检查与检验</p><p>1A423034装饰装修工程质量检查与检验</p><p><strong>1A423040工程质量问题防治</strong></p><p>1A423041质量问题分类</p><p>1A423042重大质量事故处理</p><p>1A423043地基与基础工程质量通病防治</p><p>1A423044 主体结构工程质量通病防治</p><p>1A423045 防水工程质量通病防治</p><p>1A423046 建筑装饰装修工程质量通病防治  </p><p>1A423047节能工程质量通病防治</p><p><strong>1A424000项目施工安全管理</strong>       </p><p><strong>1A424010工程安全生产管理计划</strong></p><p>1A424011施工安全管理内容</p><p>1A424012施工安全危险源管理</p><p><strong>1A424020工程安全生产检查</strong></p><p>1A424021 安全检查内容</p><p>1A424022安全检查方法</p><p>1A424023安全检查标准</p><p><strong>1A424030工程安全生产管理要点</strong></p><p>1A424031基础工程安全管理要点</p><p>1A424032脚手架工程安全管理要点</p><p>1A424033现浇混凝土工程安全管理要点</p><p>1A424034吊装工程安全管理要点</p><p>1A424035高处作业安全管理要点</p><p>1A424036拆除工程安全管理要点</p><p>1A424037装饰装修工程安全管理要点     </p><p>1A424038建筑机具安全操作要点</p><p><strong>1A424040常见安全事故类型及其原因</strong></p><p>1A424041常见安全事故类型</p><p>1A424042常见安全事故原因分析</p><p><strong>1A425000项目合同与成本管理</strong>        </p><p><strong>1A425010施工合同管理</strong></p><p>1A425011总包合同管理</p><p>1A425012分包合同管理</p><p>1A425013其他合同管理</p><p><strong>1A425020工程量清单计价规范应用</strong></p><p>1A425021 工程量清单计价内容与特点</p><p>1A425022工程量清单计价适用范围</p><p>1A425023 工程量清单构成与编制要求　　</p><p><strong>1A425030工程造价管理</strong></p><p>1A425031 工程造价概念</p><p>1A425032工程造价构成</p><p>1A425033工程造价计价</p><p>1A425034工程造价审查与管理</p><p><strong>1A425040 施工商务管理</strong></p><p>1A425041 项目资金管理</p><p>1A425042 合同价款确定与调整</p><p>1A425043工程价款计算与调整</p><p>1A425044竣工结算确定与调整</p><p>1A425045设计变更、签证与索赔</p><p><strong>1A425050施工成本管理</strong></p><p>1A425051施工成本构成</p><p>1A425052施工成本控制</p><p>1A425053施工成本分析与考核　　</p><p><strong>1A426000项目资源管理</strong>        </p><p><strong>1A426010材料管理</strong></p><p>1A426011 项目材料计划</p><p>1A426012 现场材料管理</p><p><strong>1A426020机械设备管理</strong></p><p>1A426021 施工机械设备的配置</p><p>1A426022 大型施工机械设备管理</p><p><strong>1A426030劳动力管理</strong></p><p>1A426031 劳务用工管理</p><p>1A426032 劳动力的配置　　</p><p><strong>1A427000建筑工程验收管理</strong>        </p><p>1A427001工程资料与档案</p><p>1A427002地基基础工程质量验收</p><p>1A427003主体结构工程质量验收</p><p>1A427004 防水工程质量验收</p><p>1A427005 装饰装修工程质量验收     </p><p>1A427006单位工程竣工验收</p><p>1A430000建筑工程项目施工相关法规与标准　　 </p><p><strong>1A431000建筑工程相关法规</strong></p><p><strong>1A431010建筑工程建设相关法规</strong>        </p><p>1A431011城市道路、地下管线与建筑工程施工的管理规定</p><p>1A431012城市建设档案的管理规定</p><p>1A431013民用建筑节能管理规定</p><p><strong>1A431020施工安全生产及施工现场管理相关法规</strong>  </p><p>1A431021工程建设生产安全事故处理的有关规定</p><p>1A431022危险性较大的分部分项工程安全管理的有关规定　　</p><p><strong>1A432000建筑工程相关技术标准</strong></p><p><strong>1A432010安全防火及室内环境污染控制相关规定</strong>  </p><p>1A432011民用建筑装饰装修防火设计的有关规定</p><p>1A432012建筑内部装饰装修防火设计的有关规定</p><p>1A432013建筑内部装饰装修防火施工与验收的有关规定</p><p>1A432014民用建筑工程室内环境污染控制管理的有关规定</p><p><strong>1A432020地基基础工程相关标准</strong>       </p><p>1A432021 地基基础工程施工质量管理的有关规定</p><p>1A432022地下防水工程质量管理的有关规定</p><p>1A432023地基处理技术的有关规定</p><p>1A432024 基坑支护技术的有关规定</p><p><strong>1A432030主体结构工程相关标准</strong>     </p><p>1A432031 砌体结构工程施工质量管理的有关规定</p><p>1A432032混凝土结构工程施工质量管理的有关规定</p><p>1A432033钢结构工程施工质量管理的有关规定</p><p>1A432034 装配式建筑技术标准的有关规定</p><p><strong>1A432040屋面及装饰装修工程相关标准</strong>    </p><p>1A432041屋面工程质量管理的有关规定</p><p>1A432042地面工程施工质量管理的有关规定</p><p>1A432043装饰装修工程质量管理的有关规定</p><p>1A432044 住宅装饰装修工程施工管理的有关规定</p><p>1A432045 幕墙工程技术的有关规定</p><p><strong>1A432050项目管理相关规定</strong>         </p><p>1A432051建设工程项目管理的有关规定</p><p>1A432052建设项目工程总承包管理的有关规定</p><p>1A432053建筑施工组织设计管理的有关规定</p><p>1A432054建筑节能工程施工质量验收的有关规定</p><h2 id="1A411010-建筑设计"><a href="#1A411010-建筑设计" class="headerlink" title="1A411010 建筑设计"></a>1A411010 建筑设计</h2><h3 id="建筑的分类："><a href="#建筑的分类：" class="headerlink" title="建筑的分类："></a>建筑的分类：</h3><h4 id="按用途分"><a href="#按用途分" class="headerlink" title="按用途分"></a>按用途分</h4><p>农业建筑、工业建筑、民用建筑。</p><p>其中民用建筑又分为居住建筑（住宅建筑、宿舍建筑）和公共建筑（行政办公建筑、文教建筑、科研建筑、医疗建筑、商业建筑）两类</p><p>工业建筑也可称为厂房类建筑</p><h4 id="按高度或者层数分"><a href="#按高度或者层数分" class="headerlink" title="按高度或者层数分"></a>按高度或者层数分</h4><p>《民用建筑设计统一标准》GB 50352-2019</p><p><img src="/images/image-20210811204110741.png" alt="image-20210811204110741"></p><p>建筑高度计算</p><ol><li><p>坡屋面，高度为建筑室外设计地面至其檐口与屋脊的平均高度</p></li><li><p>平屋面（包括有女儿墙的平屋面）室外设计地面至其屋面面层的高度</p></li><li><p>多种形式屋面，取最大值</p></li><li><p>对于台阶式地坪，当位于不同高程地坪上的同一建筑之间有防火墙分隔，各自 有符合规范规定的安全出口，且可沿建筑的两个长边设置贯通式或尽头式消防车道时，可 分别计算各自的建筑高度。否则，应按其中建筑高度最大者确定该建筑的建筑高度。</p></li><li><p>局部突出屋顶的晾望塔、冷却塔、水箱间、微波天线间或设施、电梯机房、排 风和排烟机房以及楼梯出口小间等辅助用房占屋面面积不大于 114 者，可不计人建筑高度。</p></li><li><p>对于住宅建筑，设置在底部且室内高度不大于 2.2m 的自行车库、储藏室、敞开 空间，室内外高差或建筑的地下或半地下室的顶板面高出室外设计地面的高度不大于 1.5m 的部分，可不计人建筑高度。</p></li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;​    以此来记录一建备考过程&lt;/p&gt;
+&lt;p&gt;​    只要是考试，就没有考不过的道理。如果考不过那就是你准备不够充分。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="一建" scheme="https://www.luopandeng.com/tags/%E4%B8%80%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>升级所有 Python 包</title>
+    <link href="https://www.luopandeng.com/2021/04/03/technique/%E5%8D%87%E7%BA%A7%E6%89%80%E6%9C%89-Python-%E5%8C%85/"/>
+    <id>https://www.luopandeng.com/2021/04/03/technique/%E5%8D%87%E7%BA%A7%E6%89%80%E6%9C%89-Python-%E5%8C%85/</id>
+    <published>2021-04-03T09:32:23.000Z</published>
+    <updated>2021-04-03T09:41:20.510Z</updated>
+    
+    <content type="html"><![CDATA[<p>运行以下代码即可。其实还是调用</p><span id="more"></span><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pip </span><br><span class="line"><span class="keyword">from</span> subprocess <span class="keyword">import</span> call</span><br><span class="line"><span class="keyword">from</span> pip._internal.utils.misc <span class="keyword">import</span> get_installed_distritutions</span><br><span class="line"><span class="keyword">for</span> x <span class="keyword">in</span> get_installed_distritutions():</span><br><span class="line">    call(<span class="string">&quot;pip install --upgrade &quot;</span>+x.project_name,shell=<span class="literal">True</span>)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">有时候你就是想一键升级所有的包是不是？我也是，搜到了，记录一下</summary>
+    
+    
+    
+    
+    <category term="technique" scheme="https://www.luopandeng.com/tags/technique/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>优选Cloudflare最快IP</title>
+    <link href="https://www.luopandeng.com/2020/11/02/technique/%E4%BC%98%E9%80%89Cloudflare%E6%9C%80%E5%BF%ABIP/"/>
+    <id>https://www.luopandeng.com/2020/11/02/technique/%E4%BC%98%E9%80%89Cloudflare%E6%9C%80%E5%BF%ABIP/</id>
+    <published>2020-11-02T01:12:53.000Z</published>
+    <updated>2021-03-05T03:52:58.331Z</updated>
+    
+    <content type="html"><![CDATA[<p>套 CF 保命的时候总会遇到网速不快的问题，经实践，可以更换由 CF 提供的默认 IP 来达到提速的目的。</p><span id="more"></span><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> threadpool</span><br><span class="line"><span class="keyword">from</span> IPy <span class="keyword">import</span> IP</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">IP_Test</span>(<span class="params">ip</span>):</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        r = requests.get(<span class="string">&#x27;http://&#x27;</span> + ip + <span class="string">&#x27;/&#x27;</span>, timeout=<span class="number">3</span>)</span><br><span class="line">        <span class="keyword">if</span> <span class="string">&#x27;Direct IP access not allowed&#x27;</span> <span class="keyword">in</span> r.text:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&#x27;可用:&#x27;</span> + ip, flush=<span class="literal">True</span>)</span><br><span class="line">            <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;cf_ips_full.txt&#x27;</span>, mode=<span class="string">&#x27;a&#x27;</span>) <span class="keyword">as</span> filename:</span><br><span class="line">                filename.write(ip)</span><br><span class="line">                filename.write(<span class="string">&#x27;\n&#x27;</span>) <span class="comment"># 换行</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&#x27;不可用:&#x27;</span> + ip, flush=<span class="literal">True</span>)</span><br><span class="line">    <span class="keyword">except</span> requests.exceptions.ConnectionError:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;无服务:&#x27;</span> + ip, flush=<span class="literal">True</span>)</span><br><span class="line">    <span class="keyword">except</span> requests.exceptions.ReadTimeout:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;无服务:&#x27;</span> + ip, flush=<span class="literal">True</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">iplist = <span class="built_in">list</span>()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">cidr=[<span class="string">&#x27;173.245.48.0/20&#x27;</span>,<span class="string">&#x27;103.21.244.0/22&#x27;</span>,<span class="string">&#x27;103.22.200.0/22&#x27;</span>,<span class="string">&#x27;103.31.4.0/22&#x27;</span>,<span class="string">&#x27;141.101.64.0/18&#x27;</span>,<span class="string">&#x27;108.162.192.0/18&#x27;</span>,<span class="string">&#x27;190.93.240.0/20&#x27;</span>,<span class="string">&#x27;188.114.96.0/20&#x27;</span>,<span class="string">&#x27;197.234.240.0/22&#x27;</span>,<span class="string">&#x27;198.41.128.0/17&#x27;</span>,<span class="string">&#x27;162.158.0.0/15&#x27;</span>,<span class="string">&#x27;104.16.0.0/12&#x27;</span>,<span class="string">&#x27;172.64.0.0/13&#x27;</span>,<span class="string">&#x27;131.0.72.0/22&#x27;</span>]</span><br><span class="line"><span class="comment"># cidr6=[&#x27;2400:cb00::/32&#x27;,&#x27;2606:4700::/32&#x27;,&#x27;2803:f800::/32&#x27;,&#x27;2405:b500::/32&#x27;,&#x27;2405:8100::/32&#x27;,&#x27;2a06:98c0::/29&#x27;,&#x27;2c0f:f248::/32&#x27;]</span></span><br><span class="line"><span class="keyword">for</span> xip <span class="keyword">in</span> cidr:</span><br><span class="line">    ips = IP(xip)</span><br><span class="line">    <span class="keyword">for</span> ip <span class="keyword">in</span> ips:</span><br><span class="line">        iplist.append(<span class="built_in">str</span>(ip))</span><br><span class="line"></span><br><span class="line">pool = threadpool.ThreadPool(<span class="number">10000</span>)  <span class="comment"># 线程池设置,最多同时跑N个线程</span></span><br><span class="line">tasks = threadpool.makeRequests(IP_Test, iplist)</span><br><span class="line">[pool.putRequest(task) <span class="keyword">for</span> task <span class="keyword">in</span> tasks]</span><br><span class="line">pool.wait()</span><br></pre></td></tr></table></figure><p>以上是根据 CF 提供的 CIDR 地址解析出单个 IP 并放到文件中。</p><p>由于我用的 Windows 10 所以就没写 shell 脚本，写了个 PowerShell  脚本【注：需要要7.0 以上版本才能运行这个脚本，因为开启了多线程】。</p><p>以下就是 PowerShell  脚本，作用是得出上面的 IP 中的 PING 值。</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Start-Transcript</span> <span class="literal">-Path</span> .\cf_full.txt</span><br><span class="line">(<span class="built_in">Get-Content</span> .\cf_ips_full.txt) | <span class="built_in">ForEach-Object</span> <span class="literal">-ThrottleLimit</span> <span class="number">24000</span> <span class="literal">-Parallel</span> &#123;</span><br><span class="line">    <span class="built_in">Write-Host</span> <span class="variable">$_</span><span class="string">&#x27;,&#x27;</span>,([<span class="type">System.Net.NetworkInformation.Ping</span>]::new().Send(<span class="variable">$_</span>)).RoundtripTime</span><br><span class="line">    &#125;</span><br><span class="line"><span class="built_in">Stop-Transcript</span></span><br></pre></td></tr></table></figure><p>这一步的结果出来就要手动选了。</p><p>这里我给出联通网络下 PING 值较好的 IP <a href="/images/github/file/below200.csv">文件</a>。</p>]]></content>
+    
+    
+    <summary type="html">优选Cloudflare</summary>
+    
+    
+    
+    
+    <category term="Cloudflare" scheme="https://www.luopandeng.com/tags/Cloudflare/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>I played three thousands</title>
+    <link href="https://www.luopandeng.com/2020/10/04/living/i-played-three-thousands/"/>
+    <id>https://www.luopandeng.com/2020/10/04/living/i-played-three-thousands/</id>
+    <published>2020-10-04T02:17:13.000Z</published>
+    <updated>2021-03-05T03:45:44.795Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>3844</strong>——这个数据是近几年我的账号上玩王者荣耀游戏的大概的总局数。</p><p>按每局25分钟计算，每天打8个小时，则要打200天才能完成。</p><span id="more"></span><table><thead><tr><th align="center">英雄</th><th align="center">安卓</th><th align="center">IOS</th></tr></thead><tbody><tr><td align="center">老夫子</td><td align="center">472</td><td align="center">213</td></tr><tr><td align="center">鲁班七号</td><td align="center">336</td><td align="center">385</td></tr><tr><td align="center">亚瑟</td><td align="center">152</td><td align="center">77</td></tr><tr><td align="center">孙膑</td><td align="center">94</td><td align="center">0</td></tr><tr><td align="center">安琪拉</td><td align="center">58</td><td align="center">3</td></tr><tr><td align="center">后羿</td><td align="center">29</td><td align="center">401</td></tr><tr><td align="center">妲己</td><td align="center">10</td><td align="center">689</td></tr><tr><td align="center">项羽</td><td align="center">9</td><td align="center">1</td></tr><tr><td align="center">兰陵王</td><td align="center">8</td><td align="center">1</td></tr><tr><td align="center">孙尚香</td><td align="center">3</td><td align="center">0</td></tr><tr><td align="center">典韦</td><td align="center">2</td><td align="center">247</td></tr><tr><td align="center">庄周</td><td align="center">1</td><td align="center">455</td></tr><tr><td align="center">东皇太一</td><td align="center">1</td><td align="center">1</td></tr><tr><td align="center">阿轲</td><td align="center">1</td><td align="center">1</td></tr><tr><td align="center">杨戬</td><td align="center">1</td><td align="center">0</td></tr><tr><td align="center">芈月</td><td align="center">1</td><td align="center">0</td></tr><tr><td align="center">刘备</td><td align="center">1</td><td align="center">0</td></tr><tr><td align="center">鬼谷子</td><td align="center">1</td><td align="center">0</td></tr><tr><td align="center">百里守约</td><td align="center">1</td><td align="center">0</td></tr><tr><td align="center">程咬金</td><td align="center">0</td><td align="center">74</td></tr><tr><td align="center">刘禅</td><td align="center">0</td><td align="center">31</td></tr><tr><td align="center">小乔</td><td align="center">0</td><td align="center">20</td></tr><tr><td align="center">王昭君</td><td align="center">0</td><td align="center">18</td></tr><tr><td align="center">虞姬</td><td align="center">0</td><td align="center">9</td></tr><tr><td align="center">狂铁</td><td align="center">0</td><td align="center">8</td></tr><tr><td align="center">甄姬</td><td align="center">0</td><td align="center">5</td></tr><tr><td align="center">橘右京</td><td align="center">0</td><td align="center">2</td></tr><tr><td align="center">周瑜</td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">钟无艳</td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">张良</td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">瑶</td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">西施</td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">孙悟空</td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">孙策</td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">上官婉儿</td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">盘古</td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">娜可露露</td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">梦奇</td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">鲁班大师</td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">李信</td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">黄忠</td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">公孙离</td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">盾山</td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">貂蝉</td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">狄仁杰</td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">曹操</td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">蔡文姬</td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">扁鹊</td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">百里玄策</td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">总计</td><td align="center">1181</td><td align="center">2663</td></tr></tbody></table><p>整个人傻掉了。</p><p>希望以后引以为戒。这种生活要不得。</p><p><strong>安卓手机数据</strong></p><p><img src="/images/github/android.png" alt="android"></p><p><strong>IOS手机数据</strong></p><p><img src="/images/github/IOS.png" alt="ios"></p>]]></content>
+    
+    
+    <summary type="html">看看这几年打王者荣耀一共浪费了多少时间。</summary>
+    
+    
     
     
   </entry>
@@ -37,40 +167,38 @@
   <entry>
     <title>纪律</title>
     <link href="https://www.luopandeng.com/2020/07/15/invest/%E7%BA%AA%E5%BE%8B/"/>
-    <id>https://www.luopandeng.com/2020/07/15/invest/纪律/</id>
+    <id>https://www.luopandeng.com/2020/07/15/invest/%E7%BA%AA%E5%BE%8B/</id>
     <published>2020-07-15T01:12:18.000Z</published>
-    <updated>2020-08-10T07:05:19.956Z</updated>
+    <updated>2021-03-05T03:50:47.333Z</updated>
     
-    <content type="html"><![CDATA[<p>平日里操作中出现的失误以及在学习中遇到的问题</p><a id="more"></a><p>1、 刚才美的30分钟涨破2倍标准差上轨了，回调正常，那是买盘冲高导致的，会激发获利盘兑现</p><p>2、分笔中发现股价上窜下跳可以确定是庄家在出货。吃亏两次。。。一次是丽岛新材，一次是中装建设</p><p>3、一般大盘调整时，“暴涨有科创负责，抗暴跌有大金融地产”–By. <a href="https://weibo.com/sexbond">@八大山债人</a></p><p>4、错过一只金达威，注意平台调整。</p><p>5、该防守的时候一定要防守，不能抱侥幸心理</p><p>6、今天又把省广集团卖飞了，很惨，已经第二次卖飞了。总结一下教训，选出来的股除了看技术面还要看它的业务方向，以及与之相关的动态。纯技术是赚不来超额收益的。</p><p>7、判断失误少赚1K多。在判断日内高点时，由于没有这方面经验，导致少赚。VR线向下时，股价升高正常情况下，应该是VR随股价上涨而向上。</p><p>8、今日亏损：000519 中兵红箭。个股涨3%不是一件特别难的事情，一般涨超3%就要物别注意，注意量价关系。今天这个涨到4%多，但是后面量价没跟上就萎下来了。并且没有卖到好价格上。</p><p>9、妈的，有纪律一定要严格执行。3%是死限，十分钟内没有突破，当即卖掉。</p><img src="https://sh-oss-a.oss-cn-shanghai.aliyuncs.com/github/000519.png" alt="中兵红箭" style="zoom:50%;" /><p><strong>爱旭股份</strong></p><img src="https://sh-oss-a.oss-cn-shanghai.aliyuncs.com/github/%E7%88%B1%E6%97%AD%E8%82%A1%E4%BB%BD.png" alt="爱旭股份" style="zoom:50%;" /><p><strong>省广集团卖飞点位：</strong></p><img src="https://sh-oss-a.oss-cn-shanghai.aliyuncs.com/github/002400.png" alt="操作标记" style="zoom:50%;" /><p><strong>金达威卖飞点位</strong></p><img src="https://sh-oss-a.oss-cn-shanghai.aliyuncs.com/github/002626.png" alt="金达威操作标识" style="zoom:50%;" /><p><strong>大基金持股</strong></p><img src="https://sh-oss-a.oss-cn-shanghai.aliyuncs.com/github/WeChat%20Image_20200715092628.jpg" alt="基金持股" style="zoom:50%;" />]]></content>
-    
-    <summary type="html">
-    
-      总结失败教训
-    
-    </summary>
+    <content type="html"><![CDATA[<p>平日里操作中出现的失误以及在学习中遇到的问题</p><span id="more"></span><p>1、 刚才美的30分钟涨破2倍标准差上轨了，回调正常，那是买盘冲高导致的，会激发获利盘兑现</p><p>2、分笔中发现股价上窜下跳可以确定是庄家在出货。吃亏两次。。。一次是丽岛新材，一次是中装建设</p><p>3、一般大盘调整时，“暴涨有科创负责，抗暴跌有大金融地产”–By. <a href="https://weibo.com/sexbond">@八大山债人</a></p><p>4、错过一只金达威，注意平台调整。</p><p>5、该防守的时候一定要防守，不能抱侥幸心理</p><p>6、今天又把省广集团卖飞了，很惨，已经第二次卖飞了。总结一下教训，选出来的股除了看技术面还要看它的业务方向，以及与之相关的动态。纯技术是赚不来超额收益的。</p><p>7、判断失误少赚1K多。在判断日内高点时，由于没有这方面经验，导致少赚。VR线向下时，股价升高正常情况下，应该是VR随股价上涨而向上。</p><p>8、今日亏损：000519 中兵红箭。个股涨3%不是一件特别难的事情，一般涨超3%就要物别注意，注意量价关系。今天这个涨到4%多，但是后面量价没跟上就萎下来了。并且没有卖到好价格上。</p><p>9、妈的，有纪律一定要严格执行。3%是死限，十分钟内没有突破，当即卖掉。</p><img src=" /images/github/000519.png" alt="中兵红箭" style="zoom:50%;" /><p><strong>爱旭股份</strong></p><img src=" /images/github/%E7%88%B1%E6%97%AD%E8%82%A1%E4%BB%BD.png" alt="爱旭股份" style="zoom:50%;" /><p><strong>省广集团卖飞点位：</strong></p><img src=" /images/github/002400.png" alt="操作标记" style="zoom:50%;" /><p><strong>金达威卖飞点位</strong></p><img src=" /images/github/002626.png" alt="金达威操作标识" style="zoom:50%;" /><p><strong>大基金持股</strong></p><img src=" /images/github/WeChat%20Image_20200715092628.jpg" alt="基金持股" style="zoom:50%;" />]]></content>
     
     
-      <category term="invest" scheme="https://www.luopandeng.com/tags/invest/"/>
+    <summary type="html">总结失败教训</summary>
+    
+    
+    
+    
+    <category term="invest" scheme="https://www.luopandeng.com/tags/invest/"/>
     
   </entry>
   
   <entry>
     <title>他们在说什么---新闻联播</title>
     <link href="https://www.luopandeng.com/2020/06/03/invest/%E4%BB%96%E4%BB%AC%E5%9C%A8%E8%AF%B4%E4%BB%80%E4%B9%88-%E6%96%B0%E9%97%BB%E8%81%94%E6%92%AD/"/>
-    <id>https://www.luopandeng.com/2020/06/03/invest/他们在说什么-新闻联播/</id>
+    <id>https://www.luopandeng.com/2020/06/03/invest/%E4%BB%96%E4%BB%AC%E5%9C%A8%E8%AF%B4%E4%BB%80%E4%B9%88-%E6%96%B0%E9%97%BB%E8%81%94%E6%92%AD/</id>
     <published>2020-06-03T11:13:46.000Z</published>
     <updated>2020-06-03T12:01:11.551Z</updated>
     
-    <content type="html"><![CDATA[<p>总结点新闻联播上一点有用的东西。</p><a id="more"></a><p>今天是2020063。</p><p>昨天新闻联播报道了医疗卫生，今天也进行了报道。跟昨天相同，都提到了中医药。</p><p>韩正有可能成为下一任国家主席。今天会见了林郑月娥。</p><p>报道了长三江一体化，重点在行政改革。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;总结点新闻联播上一点有用的东西。&lt;/p&gt;
-    
-    </summary>
+    <content type="html"><![CDATA[<p>总结点新闻联播上一点有用的东西。</p><span id="more"></span><p>今天是2020063。</p><p>昨天新闻联播报道了医疗卫生，今天也进行了报道。跟昨天相同，都提到了中医药。</p><p>韩正有可能成为下一任国家主席。今天会见了林郑月娥。</p><p>报道了长三江一体化，重点在行政改革。</p>]]></content>
     
     
-      <category term="invest" scheme="https://www.luopandeng.com/tags/invest/"/>
+    <summary type="html">&lt;p&gt;总结点新闻联播上一点有用的东西。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="invest" scheme="https://www.luopandeng.com/tags/invest/"/>
     
   </entry>
   
@@ -81,13 +209,12 @@
     <published>2020-04-28T13:58:08.000Z</published>
     <updated>2020-04-28T15:08:07.935Z</updated>
     
-    <content type="html"><![CDATA[<p>spring boot redis MQ jpa/mybatis poi security </p><a id="more"></a><p><strong>用户权限管理</strong></p><p><strong>商城</strong></p><p><strong>小程序</strong></p><p><strong>热更新</strong></p>]]></content>
+    <content type="html"><![CDATA[<p>spring boot redis MQ jpa/mybatis poi security </p><span id="more"></span><p><strong>用户权限管理</strong></p><p><strong>商城</strong></p><p><strong>小程序</strong></p><p><strong>热更新</strong></p>]]></content>
     
-    <summary type="html">
     
-      &lt;p&gt;spring boot redis MQ jpa/mybatis poi security &lt;/p&gt;
+    <summary type="html">&lt;p&gt;spring boot redis MQ jpa/mybatis poi security &lt;/p&gt;</summary>
     
-    </summary>
+    
     
     
   </entry>
@@ -95,40 +222,38 @@
   <entry>
     <title>碎碎念</title>
     <link href="https://www.luopandeng.com/2020/03/26/chaos/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
-    <id>https://www.luopandeng.com/2020/03/26/chaos/碎碎念/</id>
+    <id>https://www.luopandeng.com/2020/03/26/chaos/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</id>
     <published>2020-03-26T12:48:44.000Z</published>
     <updated>2020-03-27T00:31:58.877Z</updated>
     
-    <content type="html"><![CDATA[<p>灾难面前都是弱弱者，这个时候逞英雄是不是就有点弱智呢？武汉这次疫情之严重完全是人为造成的。也许体制内最大的问题就在于不敢担责任吧。</p><a id="more"></a><p>果然，人年纪越大越容易被各种感人的场面感动。丧失理性，这还不是可怕的地方，可怕的是有人会利用这种情绪。所以说，遇到问题应该先让脑子转起来。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;灾难面前都是弱弱者，这个时候逞英雄是不是就有点弱智呢？武汉这次疫情之严重完全是人为造成的。也许体制内最大的问题就在于不敢担责任吧。&lt;/p&gt;
-    
-    </summary>
+    <content type="html"><![CDATA[<p>灾难面前都是弱弱者，这个时候逞英雄是不是就有点弱智呢？武汉这次疫情之严重完全是人为造成的。也许体制内最大的问题就在于不敢担责任吧。</p><span id="more"></span><p>果然，人年纪越大越容易被各种感人的场面感动。丧失理性，这还不是可怕的地方，可怕的是有人会利用这种情绪。所以说，遇到问题应该先让脑子转起来。</p>]]></content>
     
     
-      <category term="chaos" scheme="https://www.luopandeng.com/tags/chaos/"/>
+    <summary type="html">&lt;p&gt;灾难面前都是弱弱者，这个时候逞英雄是不是就有点弱智呢？武汉这次疫情之严重完全是人为造成的。也许体制内最大的问题就在于不敢担责任吧。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="chaos" scheme="https://www.luopandeng.com/tags/chaos/"/>
     
   </entry>
   
   <entry>
     <title>什么是隐私</title>
     <link href="https://www.luopandeng.com/2020/03/26/chaos/%E4%BB%80%E4%B9%88%E6%98%AF%E9%9A%90%E7%A7%81/"/>
-    <id>https://www.luopandeng.com/2020/03/26/chaos/什么是隐私/</id>
+    <id>https://www.luopandeng.com/2020/03/26/chaos/%E4%BB%80%E4%B9%88%E6%98%AF%E9%9A%90%E7%A7%81/</id>
     <published>2020-03-26T12:29:52.000Z</published>
     <updated>2020-03-27T00:19:59.817Z</updated>
     
-    <content type="html"><![CDATA[<p>今天上海下雨了，挺不好意思今天下单的。让快递员冒雨送快递，心里蛮过意不去的。说起来挺尴尬的，在房间里坐着没有听到他敲门的声音，还让人家打了个电话。其实下单的时候眼看天就放晴了。。。好了，进入正题。</p><a id="more"></a><p>接到快递员的电话时，他说我的快递是牙膏，嗯，不错，的确是牙膏。可我的问题是，他怎么就知道我的东西是牙膏呢？首先快递包装上以及快递单上都没有注明（写下此文前还专门找到包装箱看了一下，确认是没有的）。那么这个快递箱里面的东西快递员是怎么知道的呢？应该是他从手持扫描设备中知道的，那么问题来了，这样一来的话，你不管买了什么东西，包装再好也没用，终端快递员是知道的，那其所谓的宣传隐私包装其实就只是包装而已，送货的人还是知道的。</p><p>所以，京东自营平台能提供给你的隐私也只是除京东以外的人不了解而已。</p><p>所以隐私是有边界的。要保护自己的隐私就需要知道隐私的边界在哪里。</p>]]></content>
-    
-    <summary type="html">
-    
-      洗澡的时候突然想到了下午送来的快递
-    
-    </summary>
+    <content type="html"><![CDATA[<p>今天上海下雨了，挺不好意思今天下单的。让快递员冒雨送快递，心里蛮过意不去的。说起来挺尴尬的，在房间里坐着没有听到他敲门的声音，还让人家打了个电话。其实下单的时候眼看天就放晴了。。。好了，进入正题。</p><span id="more"></span><p>接到快递员的电话时，他说我的快递是牙膏，嗯，不错，的确是牙膏。可我的问题是，他怎么就知道我的东西是牙膏呢？首先快递包装上以及快递单上都没有注明（写下此文前还专门找到包装箱看了一下，确认是没有的）。那么这个快递箱里面的东西快递员是怎么知道的呢？应该是他从手持扫描设备中知道的，那么问题来了，这样一来的话，你不管买了什么东西，包装再好也没用，终端快递员是知道的，那其所谓的宣传隐私包装其实就只是包装而已，送货的人还是知道的。</p><p>所以，京东自营平台能提供给你的隐私也只是除京东以外的人不了解而已。</p><p>所以隐私是有边界的。要保护自己的隐私就需要知道隐私的边界在哪里。</p>]]></content>
     
     
-      <category term="chaos" scheme="https://www.luopandeng.com/tags/chaos/"/>
+    <summary type="html">洗澡的时候突然想到了下午送来的快递</summary>
+    
+    
+    
+    
+    <category term="chaos" scheme="https://www.luopandeng.com/tags/chaos/"/>
     
   </entry>
   
@@ -139,16 +264,15 @@
     <published>2020-03-26T11:45:31.000Z</published>
     <updated>2020-03-27T00:36:12.494Z</updated>
     
-    <content type="html"><![CDATA[<p>本文主要记录使用BCH时踩到的坑。</p><a id="more"></a><blockquote><p>证书坑</p><blockquote><p>配置证书时的坑，由于使用了 Let’s encrypt 的自签名证书在配置的时候着实费了少时间。<strong>解决方法是服务器证书填生成的证书包里的fullchain.cer,私钥部分填key结尾的那个</strong></p></blockquote></blockquote><blockquote><p>重定向的坑</p><blockquote><p>wordpress中配置了https后发现在登录时浏览器会返回重定向过多问题。还有就是页面会出现加载不完整的问题，浏览器控制台出现403错误，这是由于wordpress中有部分资源不没有用https方式请求导致。<strong>解决方法是将如下代码加进wp-config.php中即可。</strong></p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$_SERVER[<span class="string">&#x27;HTTPS&#x27;</span>] = <span class="string">&#x27;on&#x27;</span>;</span><br><span class="line">define(<span class="string">&#x27;FORCE_SSL_LOGIN&#x27;</span>, <span class="literal">true</span>);</span><br><span class="line">define(<span class="string">&#x27;FORCE_SSL_ADMIN&#x27;</span>, <span class="literal">true</span>);</span><br></pre></td></tr></table></figure></blockquote></blockquote><p>以上就是使用BCH过程中遇到的坑，希望有缘人能搜到这个解决你的问题。还可以用邮箱联系我</p><p><a href="mailto:admin@stupromo.com">admin@stupromo.com</a></p>]]></content>
-    
-    <summary type="html">
-    
-      使用BCH 踩的坑
-    
-    </summary>
+    <content type="html"><![CDATA[<p>本文主要记录使用BCH时踩到的坑。</p><span id="more"></span><blockquote><p>证书坑</p><blockquote><p>配置证书时的坑，由于使用了 Let’s encrypt 的自签名证书在配置的时候着实费了少时间。<strong>解决方法是服务器证书填生成的证书包里的fullchain.cer,私钥部分填key结尾的那个</strong></p></blockquote></blockquote><blockquote><p>重定向的坑</p><blockquote><p>wordpress中配置了https后发现在登录时浏览器会返回重定向过多问题。还有就是页面会出现加载不完整的问题，浏览器控制台出现403错误，这是由于wordpress中有部分资源不没有用https方式请求导致。<strong>解决方法是将如下代码加进wp-config.php中即可。</strong></p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$_SERVER</span>[<span class="string">&#x27;HTTPS&#x27;</span>] = <span class="string">&#x27;on&#x27;</span>;</span><br><span class="line">define(<span class="string">&#x27;FORCE_SSL_LOGIN&#x27;</span>, <span class="literal">true</span>);</span><br><span class="line">define(<span class="string">&#x27;FORCE_SSL_ADMIN&#x27;</span>, <span class="literal">true</span>);</span><br></pre></td></tr></table></figure></blockquote></blockquote><p>以上就是使用BCH过程中遇到的坑，希望有缘人能搜到这个解决你的问题。还可以用邮箱联系我</p><p><a href="mailto:&#x61;&#x64;&#x6d;&#105;&#x6e;&#64;&#x73;&#x74;&#117;&#112;&#114;&#111;&#x6d;&#111;&#46;&#99;&#111;&#x6d;">&#x61;&#x64;&#x6d;&#105;&#x6e;&#64;&#x73;&#x74;&#117;&#112;&#114;&#111;&#x6d;&#111;&#46;&#99;&#111;&#x6d;</a></p>]]></content>
     
     
-      <category term="Cloud" scheme="https://www.luopandeng.com/tags/Cloud/"/>
+    <summary type="html">使用BCH 踩的坑</summary>
+    
+    
+    
+    
+    <category term="Cloud" scheme="https://www.luopandeng.com/tags/Cloud/"/>
     
   </entry>
   
@@ -159,16 +283,15 @@
     <published>2020-03-13T06:09:23.000Z</published>
     <updated>2020-03-20T07:42:35.260Z</updated>
     
-    <content type="html"><![CDATA[<p>Today deliver man has my keyboard delivered. It cost ￥469. A little bit expensive compared to normal keyboard. And i love it.</p><a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      record of my new equipment
-    
-    </summary>
+    <content type="html"><![CDATA[<p>Today deliver man has my keyboard delivered. It cost ￥469. A little bit expensive compared to normal keyboard. And i love it.</p><span id="more"></span>]]></content>
     
     
-      <category term="life" scheme="https://www.luopandeng.com/tags/life/"/>
+    <summary type="html">record of my new equipment</summary>
+    
+    
+    
+    
+    <category term="life" scheme="https://www.luopandeng.com/tags/life/"/>
     
   </entry>
   
@@ -179,16 +302,15 @@
     <published>2020-03-13T06:09:23.000Z</published>
     <updated>2020-03-30T10:01:57.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Today deliver man has my keyboard delivered. It cost ￥469. A little bit expensive compared to normal keyboard. And i love it.</p><a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      record of my new equipment
-    
-    </summary>
+    <content type="html"><![CDATA[<p>Today deliver man has my keyboard delivered. It cost ￥469. A little bit expensive compared to normal keyboard. And i love it.</p><span id="more"></span>]]></content>
     
     
-      <category term="life" scheme="https://www.luopandeng.com/tags/life/"/>
+    <summary type="html">record of my new equipment</summary>
+    
+    
+    
+    
+    <category term="life" scheme="https://www.luopandeng.com/tags/life/"/>
     
   </entry>
   
@@ -199,16 +321,15 @@
     <published>2020-03-09T08:12:07.000Z</published>
     <updated>2020-04-23T07:06:38.524Z</updated>
     
-    <content type="html"><![CDATA[<p>这篇文章写操作心得。</p><a id="more"></a><p>2020/3/5 - 今日沪深两市主力资金净流入47.26亿元。其中沪市主力净流入104.17亿元，深市主力净流出56.91元，中小板主力净流出38.57亿元，创业板主力净流出40.94亿元。</p><p>2020/3/9 - 今日三大股指重挫。写一下心得体会。早上看了一下APP 说是本月以来收益有 14% ，但是到收盘恐怕连4%都不到了。做这个没有十足的把握最好的，有收益就收手，让资金动起来。毕竟到了口袋里的才是自己的，否则只是个数字而已。上面5 号的新闻没有引起足够的重视，如果有人意识到了的话恐怕是会赚一大笔，聪明的资金有足够的信息源，我们普通人，尤其是没有足够信息源的就只能做个有心人了，所有看到的事情都只是结果，要把看似不连续的事件联系起来，或许可以还原事情的本来。</p><p>作弊这个事，没有好与坏，重要的是不被发现。</p><p>2020/3/10 - <strong>SZ37.83 SH18.42</strong> 通信、电子、计算机、国防军工、休闲服务、电气设备、汽车、建筑材料、传媒、家用电器、非银金融</p><p>2020/3/11 - <strong>SZ.-61.27 SH.7.55</strong> 休闲服务、交通运输、国防军工、农林牧渔</p><p>2020/3/12 - <strong>SZ.-5.25 SH.-55.33</strong> </p><p>2020/3/13 - <strong>SZ.-34.37 SH.-97.05</strong> 休闲服务、电气设备、计算机、农林牧渔</p><p>2020/2/16 - <strong>SZ. -39.39</strong> <strong>SH.-48.71</strong> </p><p>2020/3/17 - <strong>SZ.-21.00</strong> <strong>SH.-50.42</strong></p><p>2020/3/18 - <strong>SZ.-27.01</strong> <strong>SH.-36.92</strong></p><p>2020/3/19 - <strong>SZ.-42.18</strong> <strong>SH.-52.38</strong> 通信、商业贸易、电子、计算机、传媒、国防军工、电气设备、农林牧渔、机械设备、</p><p>2020/3/20 - <strong>SZ.-12.72 SH.46.73</strong> 休闲服务、建筑材料、食品饮料、医药生物、房地产、轻工制造、银行、传媒、机械设备、建筑装饰、有色金属、交通运输、公用事业、化工、纺织服装、家用电器、汽车、采掘、国防军工、通信、钢铁、商业贸易、农林牧渔、计算机</p><p>2020/3/23 - <strong>SZ.-12.78 SH.-58.78</strong>  尾盘有拉升8左右</p><p>今天上了特别的一课。领教了。<strong>三全食品</strong></p><p>2020/3/24  - <strong>SZ.14.96 SH.36.05</strong> 汽车、有色金属、食品饮料、家用电器、建筑材料、非银金融、农林牧渔、通信、轻工制造、银行、综合、房地产、计算机、医药生物、采掘、机械设备、公用事业、钢铁、交通运输、纺织服装、休闲服饰、国防军工、化工、商业贸易、电子、建筑装饰、传媒、电气设备</p><p>2020/3/25  - <strong>SZ.17.89 SH.18.79</strong> 汽车、房地产、综合、电子、医药生物、家用电器、纺织服装、电气设备、传媒、交通运输、农林牧渔、轻工制造、非银金融、食品饮料、有色金属、机械设备、计算机、休闲服务、化工、商业贸易、建筑装饰、通信、国防军工、建筑材料、银行、钢铁、公用事业、采掘</p><p>2020/3/26  - <strong>SZ.-1.81 SH. 0.12</strong>  医药生物、农林牧渔、银行、食品饮料、商业贸易 尾盘有资金进入</p><p>2020/3/27  - <strong>SZ.18.33 SH. 28.95</strong></p><p>2020/3/30  - <strong>SZ. 6.61 SH. 6.19</strong></p><p>2020/3/31  -  <strong>SZ. 19.54 SH. 11.12</strong></p><p>2020/4/1    - <strong>SZ.44.69 SH.9.84</strong> 电子、有色金属、房地产、休闲服务、电气设备、家用电器、银行。港资连续三天净注入，其中流入深市最多。</p><p>2020/4/2     - <strong>SZ.29.88 SH.29.69</strong> 沪市尾出现大幅注入。10亿左右。电子、计算机、通信、采掘、电气设备、休闲服务、化工；国防军工、传媒、纺织服装、食品饮料、机械设备、综合、轻工制造、钢铁、非银金融、建筑装饰、医药生物、公用事业、家用电器、有色金属、房地产、交通运输、汽车、银行、建筑材料、商业贸易、农林牧渔。</p><p>2020/4/3/     - <strong>SZ.-18.08 SH.11.44</strong>     盘尾出现大幅流入，合计16亿左右。农林牧渔、医药生物、综合、休闲服务、食品饮料、商业贸易      </p><p>2020/4/7       - <strong>SZ.73.52 SH.71.69</strong>     建筑材料、农林牧渔、计算机、国防军工、有色金属、休闲服务、机械设备、传媒、电气设备、电子、综合、食品饮料、通信、商业贸易、医药生物、轻工制造、化工、建筑装饰、汽车、非银金融、钢铁、交通运输、纺织服装、家用电器、房地产、公用事业、采掘、银行   </p><p>2020/4/8        - <strong>SZ.-6.84 SH.-10.03</strong>    盘尾出现大幅流入，合计14亿左右。国防军工、休闲服务、通信、纺织服装、钢铁、传媒、电子、交通运输、化工、有色金属、公用事业、建筑材料、计算机、医药生物  </p><p>2020/4/9                                               医药生物、传媒、休闲服务、计算机、综合、通信、轻工制造、商业贸易、汽车、钢铁、食品饮料、建筑材料、非银金融、农林牧渔、电气设备、化工、机械设备、家用电器、公用事业、交通运输、国防军工、建筑装饰</p><p>2020/4/10                                             家用电器、食品饮料</p><p>2020/4/15      - <strong>SZ.106.67 SH.58.45</strong>  医药生物、电气设备、电子 </p><p>2020/4/16      - <strong>SZ.28.72 SH.28.40</strong>    电气设备、计算机、传媒、国防军工、公用事业、医药生物、轻工制造、电子、通信、商业贸易、非银金融、房地产、有色金属、汽车、机械设备、钢铁                                                                                                                                                                                                                                                                                                                                                                                                                                                                   </p><p>国轩高科、江南高纤 每次都是差个几天。。。</p><p>2020/4/17       - <strong>SZ.45.87 SH.57.50</strong>    休闲服务、建筑装饰、电子、非银金融、食品饮料、交通运输、电气设备、机械设备、化工、银行、采掘、计算机、房地产、家用电器、农林牧渔、通信、汽车、综合、钢铁、轻工制造</p><p>2020/4/20        - <strong>SZ.17.37 SH.0.62</strong>      尾盘流入20左右且今日沪市不活跃；建筑材料、计算机、通信、国防军工、医药生物、化工、综合、休闲服务、电子、建筑装饰、农林牧渔、商业贸易、家用电器、轻工制造、机械设备、传媒、非银金融、纺织服装、食品饮料、电气设备、汽车、交通运输、钢铁</p><p>2020/4/21         - <strong>SZ.5.98 SH.-4.28</strong>      北向资金净流出27.53 。计算机、建筑材料、国防军工、建筑装饰</p><p>2020/4/22          - <strong>SZ.14.72 SH.16.46</strong>  最后半小时，流入突然加大。农林牧渔、食品饮料、休闲服务、商业服务、家用电器、电气设备、医药生物、化工、传媒、纺织服装、交通运输、综合、公用事业、电子、机械设备、轻工制造、通信、房地产、有色金属、国防军工、建筑材料、非银金融、计算机、汽车、建筑装饰</p><p>2020/4/23           - <strong>SZ.-0.22 SH.23.94</strong>  最后20分钟，流入突然加大。采掘、交通运输、国防军工家用电器、食品饮料、医药生物、商业贸易、休闲服务、化工、有色金属</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这篇文章写操作心得。&lt;/p&gt;
-    
-    </summary>
+    <content type="html"><![CDATA[<p>这篇文章写操作心得。</p><span id="more"></span><p>2020/3/5 - 今日沪深两市主力资金净流入47.26亿元。其中沪市主力净流入104.17亿元，深市主力净流出56.91元，中小板主力净流出38.57亿元，创业板主力净流出40.94亿元。</p><p>2020/3/9 - 今日三大股指重挫。写一下心得体会。早上看了一下APP 说是本月以来收益有 14% ，但是到收盘恐怕连4%都不到了。做这个没有十足的把握最好的，有收益就收手，让资金动起来。毕竟到了口袋里的才是自己的，否则只是个数字而已。上面5 号的新闻没有引起足够的重视，如果有人意识到了的话恐怕是会赚一大笔，聪明的资金有足够的信息源，我们普通人，尤其是没有足够信息源的就只能做个有心人了，所有看到的事情都只是结果，要把看似不连续的事件联系起来，或许可以还原事情的本来。</p><p>作弊这个事，没有好与坏，重要的是不被发现。</p><p>2020/3/10 - <strong>SZ37.83 SH18.42</strong> 通信、电子、计算机、国防军工、休闲服务、电气设备、汽车、建筑材料、传媒、家用电器、非银金融</p><p>2020/3/11 - <strong>SZ.-61.27 SH.7.55</strong> 休闲服务、交通运输、国防军工、农林牧渔</p><p>2020/3/12 - <strong>SZ.-5.25 SH.-55.33</strong> </p><p>2020/3/13 - <strong>SZ.-34.37 SH.-97.05</strong> 休闲服务、电气设备、计算机、农林牧渔</p><p>2020/2/16 - <strong>SZ. -39.39</strong> <strong>SH.-48.71</strong> </p><p>2020/3/17 - <strong>SZ.-21.00</strong> <strong>SH.-50.42</strong></p><p>2020/3/18 - <strong>SZ.-27.01</strong> <strong>SH.-36.92</strong></p><p>2020/3/19 - <strong>SZ.-42.18</strong> <strong>SH.-52.38</strong> 通信、商业贸易、电子、计算机、传媒、国防军工、电气设备、农林牧渔、机械设备、</p><p>2020/3/20 - <strong>SZ.-12.72 SH.46.73</strong> 休闲服务、建筑材料、食品饮料、医药生物、房地产、轻工制造、银行、传媒、机械设备、建筑装饰、有色金属、交通运输、公用事业、化工、纺织服装、家用电器、汽车、采掘、国防军工、通信、钢铁、商业贸易、农林牧渔、计算机</p><p>2020/3/23 - <strong>SZ.-12.78 SH.-58.78</strong>  尾盘有拉升8左右</p><p>今天上了特别的一课。领教了。<strong>三全食品</strong></p><p>2020/3/24  - <strong>SZ.14.96 SH.36.05</strong> 汽车、有色金属、食品饮料、家用电器、建筑材料、非银金融、农林牧渔、通信、轻工制造、银行、综合、房地产、计算机、医药生物、采掘、机械设备、公用事业、钢铁、交通运输、纺织服装、休闲服饰、国防军工、化工、商业贸易、电子、建筑装饰、传媒、电气设备</p><p>2020/3/25  - <strong>SZ.17.89 SH.18.79</strong> 汽车、房地产、综合、电子、医药生物、家用电器、纺织服装、电气设备、传媒、交通运输、农林牧渔、轻工制造、非银金融、食品饮料、有色金属、机械设备、计算机、休闲服务、化工、商业贸易、建筑装饰、通信、国防军工、建筑材料、银行、钢铁、公用事业、采掘</p><p>2020/3/26  - <strong>SZ.-1.81 SH. 0.12</strong>  医药生物、农林牧渔、银行、食品饮料、商业贸易 尾盘有资金进入</p><p>2020/3/27  - <strong>SZ.18.33 SH. 28.95</strong></p><p>2020/3/30  - <strong>SZ. 6.61 SH. 6.19</strong></p><p>2020/3/31  -  <strong>SZ. 19.54 SH. 11.12</strong></p><p>2020/4/1    - <strong>SZ.44.69 SH.9.84</strong> 电子、有色金属、房地产、休闲服务、电气设备、家用电器、银行。港资连续三天净注入，其中流入深市最多。</p><p>2020/4/2     - <strong>SZ.29.88 SH.29.69</strong> 沪市尾出现大幅注入。10亿左右。电子、计算机、通信、采掘、电气设备、休闲服务、化工；国防军工、传媒、纺织服装、食品饮料、机械设备、综合、轻工制造、钢铁、非银金融、建筑装饰、医药生物、公用事业、家用电器、有色金属、房地产、交通运输、汽车、银行、建筑材料、商业贸易、农林牧渔。</p><p>2020/4/3/     - <strong>SZ.-18.08 SH.11.44</strong>     盘尾出现大幅流入，合计16亿左右。农林牧渔、医药生物、综合、休闲服务、食品饮料、商业贸易      </p><p>2020/4/7       - <strong>SZ.73.52 SH.71.69</strong>     建筑材料、农林牧渔、计算机、国防军工、有色金属、休闲服务、机械设备、传媒、电气设备、电子、综合、食品饮料、通信、商业贸易、医药生物、轻工制造、化工、建筑装饰、汽车、非银金融、钢铁、交通运输、纺织服装、家用电器、房地产、公用事业、采掘、银行   </p><p>2020/4/8        - <strong>SZ.-6.84 SH.-10.03</strong>    盘尾出现大幅流入，合计14亿左右。国防军工、休闲服务、通信、纺织服装、钢铁、传媒、电子、交通运输、化工、有色金属、公用事业、建筑材料、计算机、医药生物  </p><p>2020/4/9                                               医药生物、传媒、休闲服务、计算机、综合、通信、轻工制造、商业贸易、汽车、钢铁、食品饮料、建筑材料、非银金融、农林牧渔、电气设备、化工、机械设备、家用电器、公用事业、交通运输、国防军工、建筑装饰</p><p>2020/4/10                                             家用电器、食品饮料</p><p>2020/4/15      - <strong>SZ.106.67 SH.58.45</strong>  医药生物、电气设备、电子 </p><p>2020/4/16      - <strong>SZ.28.72 SH.28.40</strong>    电气设备、计算机、传媒、国防军工、公用事业、医药生物、轻工制造、电子、通信、商业贸易、非银金融、房地产、有色金属、汽车、机械设备、钢铁                                                                                                                                                                                                                                                                                                                                                                                                                                                                   </p><p>国轩高科、江南高纤 每次都是差个几天。。。</p><p>2020/4/17       - <strong>SZ.45.87 SH.57.50</strong>    休闲服务、建筑装饰、电子、非银金融、食品饮料、交通运输、电气设备、机械设备、化工、银行、采掘、计算机、房地产、家用电器、农林牧渔、通信、汽车、综合、钢铁、轻工制造</p><p>2020/4/20        - <strong>SZ.17.37 SH.0.62</strong>      尾盘流入20左右且今日沪市不活跃；建筑材料、计算机、通信、国防军工、医药生物、化工、综合、休闲服务、电子、建筑装饰、农林牧渔、商业贸易、家用电器、轻工制造、机械设备、传媒、非银金融、纺织服装、食品饮料、电气设备、汽车、交通运输、钢铁</p><p>2020/4/21         - <strong>SZ.5.98 SH.-4.28</strong>      北向资金净流出27.53 。计算机、建筑材料、国防军工、建筑装饰</p><p>2020/4/22          - <strong>SZ.14.72 SH.16.46</strong>  最后半小时，流入突然加大。农林牧渔、食品饮料、休闲服务、商业服务、家用电器、电气设备、医药生物、化工、传媒、纺织服装、交通运输、综合、公用事业、电子、机械设备、轻工制造、通信、房地产、有色金属、国防军工、建筑材料、非银金融、计算机、汽车、建筑装饰</p><p>2020/4/23           - <strong>SZ.-0.22 SH.23.94</strong>  最后20分钟，流入突然加大。采掘、交通运输、国防军工家用电器、食品饮料、医药生物、商业贸易、休闲服务、化工、有色金属</p>]]></content>
     
     
-      <category term="invest" scheme="https://www.luopandeng.com/tags/invest/"/>
+    <summary type="html">&lt;p&gt;这篇文章写操作心得。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="invest" scheme="https://www.luopandeng.com/tags/invest/"/>
     
   </entry>
   
@@ -219,13 +340,12 @@
     <published>2020-03-08T05:02:29.000Z</published>
     <updated>2020-03-20T07:42:35.249Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a><p><img src="https://sh-oss-a.oss-cn-shanghai.aliyuncs.com/politicsdivide.png" alt="Area Divide"></p>]]></content>
+    <content type="html"><![CDATA[<span id="more"></span><p><img src="https://sh-oss-a.oss-cn-shanghai.aliyuncs.com/politicsdivide.png" alt="Area Divide"></p>]]></content>
     
-    <summary type="html">
     
       
       
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
 
 
 
@@ -234,10 +354,10 @@
 
 
 &lt;p&gt;&lt;img src=&quot;https://sh-oss-a.oss-cn-shanghai.aliyuncs.com/politicsdivide.png&quot; alt=&quot;Area Divide&quot;&gt;&lt;/p&gt;
-
+</summary>
       
     
-    </summary>
+    
     
     
   </entry>
@@ -249,20 +369,19 @@
     <published>2020-03-08T05:01:50.000Z</published>
     <updated>2020-03-20T07:42:35.247Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a>]]></content>
+    <content type="html"><![CDATA[<span id="more"></span>]]></content>
     
-    <summary type="html">
     
       
       
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
 
 
 
-
+</summary>
       
     
-    </summary>
+    
     
     
   </entry>
@@ -274,191 +393,19 @@
     <published>2020-03-07T03:07:33.000Z</published>
     <updated>2020-03-20T07:42:35.237Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a>]]></content>
+    <content type="html"><![CDATA[<span id="more"></span>]]></content>
     
-    <summary type="html">
     
       
       
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
 
 
 
-
+</summary>
       
     
-    </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>About Latin America</title>
-    <link href="https://www.luopandeng.com/2020/03/07/invest/About-Latin-America/"/>
-    <id>https://www.luopandeng.com/2020/03/07/invest/About-Latin-America/</id>
-    <published>2020-03-07T03:07:27.000Z</published>
-    <updated>2020-03-20T07:42:35.232Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
-
-
-
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>About South East Asia</title>
-    <link href="https://www.luopandeng.com/2020/03/07/invest/About-South-East-Asia/"/>
-    <id>https://www.luopandeng.com/2020/03/07/invest/About-South-East-Asia/</id>
-    <published>2020-03-07T03:07:21.000Z</published>
-    <updated>2020-03-20T07:42:35.242Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
-
-
-
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>About Middle East</title>
-    <link href="https://www.luopandeng.com/2020/03/07/invest/About-Middle-East/"/>
-    <id>https://www.luopandeng.com/2020/03/07/invest/About-Middle-East/</id>
-    <published>2020-03-07T03:07:16.000Z</published>
-    <updated>2020-03-20T07:42:35.235Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://en.wikipedia.org/wiki/OPEC">OPEC</a> include five countries Iran/Iraq/Kuwait/Saudi Arabia/Venezuela </p><p>And this article will give attention to those countries.</p><a id="more"></a><p>2020/3/6 - Saudis Plan Big Oil Output Hike, Beginning All-Out Price War</p><p>Saudi Arabia plans to increase oil output next month, going well above 10 million barrels a day, as the kingdom responds aggressively to the collapse of its OPEC+ alliance with Russia.</p><p>The world’s largest oil exporter started a price war on Saturday by slashing the prices it sells crude into foreign markets by the most in at least 20 years, offering unprecedented discounts in Europe, the Far East and the U.S. to entice refiners to purchase Saudi crude at the expense of other suppliers.</p><p>At the same time, Saudi Arabia has privately told some market participants it could raise production much higher if needed, even going to a record of 12 million barrels a day, according to people familiar with the conversations, who asked not to be named to protect commercial relations. With demand being ravaged by the coronavirus outbreak, opening the taps like that would throw oil market into chaos.</p><p>2020/3/8 - KEY POINTS</p><ul><li>Prince Ahmed bin Abdulaziz, the younger brother of King Salman, and Prince Mohammed bin Nayef, the king’s nephew, have reportedly been held.</li><li>Sources say the move is aimed at heading off threats to the Crown Prince.</li><li>Crown Prince Mohammed bin Salman has moved to consolidate power since ousting Mohammed bin Nayef as heir to the throne in a 2017 palace coup.</li></ul><p>Saudi Arabia has detained three senior Saudi princes including Prince Ahmed bin Abdulaziz, the younger brother of King Salman, and Prince Mohammed bin Nayef, the king’s nephew, for allegedly planning a coup, sources with knowledge of the matter said.</p><p>Crown Prince Mohammed bin Salman, King Salman’s son and de facto ruler of the country, which is the world’s top oil exporter and a key U.S. ally, has moved to consolidate power since ousting Mohammed bin Nayef as heir to the throne in a 2017 palace coup.</p><p><img src="https://image.cnbcfm.com/api/v1/image/106182057-1571142619494rts2r42w.jpg?v=1571142700&w=678&h=381" alt="RT: Mohammed bin Salman, 191014"></p><p>Saudi Arabia’s Crown Prince Mohammed bin Salman attends a meeting with Russian President Vladimir Putin in Riyadh, Saudi Arabia, October 14, 2019.</p><p>Alexei Nikolsky | Sputnik | Kremlin via Reuters</p><p>Later that year, he arrested several royals and other prominent Saudis, holding them for months at Riyadh’s Ritz Carlton hotel, in an anti-corruption campaign that caused shockwaves at home and abroad.</p><p>Four sources told Reuters that Prince Ahmed and Mohammed bin Nayef were detained in the latest operation. Two sources, including a regional source, said Mohammed bin Nayef and his half-brother, Nawaf, were detained while at a private desert camp on Friday.</p><p>Crown Prince Mohammed, who is also referred to as MbS, “accused them (the princes) of conducting contacts with foreign powers, including the Americans and others, to carry out a coup d’etat,” the regional source said.</p><p>“With these arrests, MbS consolidated his full grip on power. It’s over with this purge,” the source added, indicating that no rivals remain to challenge his succession to the throne.</p><p>Another source said the princes were accused of “treason”.</p><p>The Saudi government media office did not respond to a Reuters request for comment on the detentions, which were first reported by The Wall Street Journal.</p><p>The regional source said King Salman had approved the latest detentions.</p><p>“The king signed off on the arrests,” the source said, adding that the king is in a mental and physically sound state.</p><p>The king met British Foreign Secretary Dominic Raab on Thursday in the Saudi capital Riyadh. Both King Salman and the crown prince attended a cabinet meeting on Tuesday.</p><p>WATCH NOW</p><p>VIDEO02:08</p><p>Expect a ‘youth transformation’ in Saudi Arabia by 2030: SABIC CEO</p><p>Crown Prince Mohammed, 34, has fuelled resentment among some prominent branches of the ruling family by tightening his grip on power. Some critics have questioned his ability to lead after the 2018 murder of a prominent journalist by Saudi agents and the largest-ever attack on Saudi oil infrastructure last year, sources have said.</p><p>They said royals seeking to change the line of succession view Prince Ahmed, King Salman’s only surviving full brother, as a possible choice who would have support of family members, the security apparatus, and some Western powers.</p><p>Saudi authorities have not commented on issues of succession or criticism of the crown prince’s leadership. Prince Mohammed is popular among Saudi youth and also has staunch supporters within the royal Al Saud family, which numbers around 10,000 members.</p><h2 id="King-supports-son"><a href="#King-supports-son" class="headerlink" title="King supports son"></a>King supports son</h2><p>Saudi insiders and Western diplomats say the family is unlikely to oppose the crown prince while the 84-year-old king remains alive, saying the monarch is unlikely to turn against his favourite son, to whom he has delegated most responsibilities of rule.</p><p>Prince Ahmed has largely kept a low profile since returning to Riyadh in October 2018 after 2-1/2 months abroad and Saudi watchers have said there is no evidence he is willing to take the throne. During that trip abroad, he appeared to criticize the Saudi leadership while responding to protesters outside a London residence chanting for the downfall of the Al Saud dynasty.</p><p>Ahmed was one of only three people on the Allegiance Council, made up of the ruling Al Saud family’s senior members, who opposed Mohammed bin Salman becoming crown prince in 2017, sources have earlier said.</p><p>Mohammed bin Nayef’s movements have been restricted and monitored since then, sources have previously said.</p><p>The latest detentions come at a time of heightened tension with rival Iran and as the crown prince implements social and economic reforms, including an initial public offering by oil giant Saudi Aramco on the domestic bourse last December. Saudi Arabia is also the current chair for the Group of 20 major economies.</p><p>The crown prince has been lauded at home for easing social restrictions in the conservative Muslim kingdom and trying to <a href="https://www.cnbc.com/2020/03/06/opec-meeting-coronavirus-weighs-on-oil-demand-as-oil-prices-fall.html">diversify the economy away from oil</a>.</p><p>But he has come under international criticism over a devastating war in Yemen, the murder of journalist Jamal Khashoggi in the kingdom’s Istanbul consulate, and the detention of women’s rights activists seen as part of a crackdown on dissent.</p><p><a href="https://www.cnbc.com/2020/03/06/opec-meeting-coronavirus-weighs-on-oil-demand-as-oil-prices-fall.html">CNBC NEWS ON FAILED TO AGREE TO CUT ON OIL PRODUCE</a></p><p>Here is a <strong>description</strong> in Chinese:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">世界原油主要分布地区</span><br><span class="line"></span><br><span class="line">原油的分布从总体上来看极端不平衡：从东西半球来看，约3／4的石油资源集中于东半球，西半球占1／4；从南北半球看，石油资源主要集中于北半球；从纬度分布看，主要集中在北纬20°-40°和50°-70°两个纬度带内。波斯湾及墨西哥湾两大油区和北非油田均处于北纬20°-40°内，该带集中了51.3%的世界石油储量；50°-70°纬度带内有著名的北海油田、俄罗斯伏尔加及西伯利亚油田和阿拉斯加湾油区。</span><br><span class="line"></span><br><span class="line">一、中东波斯湾沿岸</span><br><span class="line"></span><br><span class="line">中东海湾地区地处欧、亚、非三洲的枢纽位置，原油资源非常丰富，被誉为“世界油库”。据美国《油气杂志》2006年最新的数据显示，世界原油探明储量为1804.9亿吨。其中，中东地区的原油探明储量为1012.7亿吨，约占世界总储量的2&#x2F;3。在世界原油储量排名的前十位中，中东国家占了五位，依次是沙特阿拉伯、伊朗、伊拉克、科威特和阿联酋。其中，沙特阿拉伯已探明的储量为355.9亿吨，居世界首位。伊朗已探明的原油储量为186.7亿吨，居世界第三位。</span><br><span class="line"></span><br><span class="line">二、北美洲</span><br><span class="line"></span><br><span class="line">北美洲原油储量最丰富的国家是加拿大、美国和墨西哥。加拿大原油探明储量为245.5亿吨，居世界第二位。美国原油探明储量为29.8亿吨，主要分布在墨西哥湾沿岸和加利福尼亚湾沿岸，以得克萨斯州和俄克拉荷马州最为著名，阿拉斯加州也是重要的石油产区。美国是世界第二大产油国，但因消耗量过大，每年仍需进口大量石油。墨西哥原油探明储量为16.9亿吨，是西半球第三大传统原油战略储备国，也是世界第六大产油国。</span><br><span class="line"></span><br><span class="line">三、欧洲及欧亚大陆</span><br><span class="line"></span><br><span class="line">欧洲及欧亚大陆原油探明储量为157.1亿吨，约占世界总储量的8%。其中，俄罗斯原油探明储量为82.2亿吨，居世界第八位，但俄罗斯是世界第一大产油国，2006年的石油产量为4.7亿吨。中亚的哈萨克斯坦也是该地区原油储量较为丰富的国家，已探明的储量为41.1亿吨。挪威、英国、丹麦是西欧已探明原油储量最丰富的三个国家，分别为10.7亿吨、5.3亿吨和1.7亿吨，其中挪威是世界第十大产油国。</span><br><span class="line"></span><br><span class="line">四、非洲</span><br><span class="line"></span><br><span class="line">非洲是近几年原油储量和石油产量增长最快的地区，被誉为“第二个海湾地区”。2006年，非洲探明的原油总储量为156.2亿吨，主要分布于西非几内亚湾地区和北非地区。专家预测，到2010年，非洲国家石油产量在世界石油总产量中的比例有望上升到20%。</span><br><span class="line"></span><br><span class="line">利比亚、尼日利亚、阿尔及利亚、安哥拉和苏丹排名非洲原油储量前五位。尼日利亚是非洲地区第一大产油国。目前，尼日利亚、利比亚、阿尔及利亚、安哥拉和埃及等5个国家的石油产量占非洲总产量的85%。</span><br><span class="line"></span><br><span class="line">五、中南美洲</span><br><span class="line"></span><br><span class="line">中南美洲是世界重要的石油生产和出口地区之一，也是世界原油储量和石油产量增长较快的地区之一，委内瑞拉、巴西和厄瓜多尔是该地区原油储量最丰富的国家。2006年，委内瑞拉原油探明储量为109.6亿吨，居世界第七位。2006年，巴西原油探明储量为16.1亿吨，仅次于委内瑞拉。巴西东南部海域坎坡斯和桑托斯盆地的原油资源，是巴西原油储量最主要的构成部分。厄瓜多尔位于南美洲大陆西北部，是中南美洲第三大产油国，境内石油资源丰富，主要集中在东部亚马孙盆地，另外，在瓜亚斯省西部半岛地区和瓜亚基尔湾也有少量油田分布。</span><br><span class="line"></span><br><span class="line">六、亚太地区</span><br><span class="line"></span><br><span class="line">亚太地区原油探明储量约为45.7亿吨，也是目前世界石油产量增长较快的地区之一。中国、印度、印度尼西亚和马来西亚是该地区原油探明储量最丰富的国家，分别为21.9亿吨、7.7亿吨、5.8亿吨和4.1亿吨。中国和印度虽原油储量丰富，但是每年仍需大量进口。</span><br><span class="line"></span><br><span class="line">由于地理位置优越和经济的飞速发展，东南亚国家已经成为世界新兴的石油生产国。印尼和马来西亚是该地区最重要的产油国，越南也于2006年取代文莱成为东南亚第三大石油生产国和出口国。印尼的苏门答腊岛、加里曼丹岛，马来西亚近海的马来盆地、沙捞越盆地和沙巴盆地是主要的原油分布区。</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/OPEC&quot;&gt;OPEC&lt;/a&gt; include five countries Iran/Iraq/Kuwait/Saudi Arabia/Venezuela &lt;/p&gt;
-&lt;p&gt;And this article will give attention to those countries.&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="OPEC" scheme="https://www.luopandeng.com/tags/OPEC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>About Africa</title>
-    <link href="https://www.luopandeng.com/2020/03/07/invest/About-Africa/"/>
-    <id>https://www.luopandeng.com/2020/03/07/invest/About-Africa/</id>
-    <published>2020-03-07T03:07:11.000Z</published>
-    <updated>2020-03-20T07:42:35.217Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
-
-
-
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>About EU</title>
-    <link href="https://www.luopandeng.com/2020/03/07/invest/About-EU/"/>
-    <id>https://www.luopandeng.com/2020/03/07/invest/About-EU/</id>
-    <published>2020-03-07T03:07:05.000Z</published>
-    <updated>2020-03-20T07:42:35.221Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
-
-
-
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>About UK</title>
-    <link href="https://www.luopandeng.com/2020/03/07/invest/About-UK/"/>
-    <id>https://www.luopandeng.com/2020/03/07/invest/About-UK/</id>
-    <published>2020-03-07T03:04:56.000Z</published>
-    <updated>2020-03-20T07:42:35.245Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
-
-
-
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>About German</title>
-    <link href="https://www.luopandeng.com/2020/03/07/invest/About-German/"/>
-    <id>https://www.luopandeng.com/2020/03/07/invest/About-German/</id>
-    <published>2020-03-07T03:04:30.000Z</published>
-    <updated>2020-03-20T07:42:35.223Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
-
-
-
-      
-    
-    </summary>
     
     
   </entry>
