@@ -110,7 +110,7 @@
 <p>　　　　扩容增量：原容量的 1.5倍</p>
 <p>　　　　　　如 ArrayList的容量为10，一次扩容后是容量为15</p>
 <p>见ArrayList源码:</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">grow</span><span class="params">(<span class="keyword">int</span> minCapacity)</span> </span>&#123;</span><br><span class="line">    <span class="comment">// overflow-conscious code</span></span><br><span class="line">    <span class="keyword">int</span> oldCapacity = elementData.length;   <span class="comment">// 原来的容量</span></span><br><span class="line">    <span class="keyword">int</span> newCapacity = oldCapacity + (oldCapacity &gt;&gt; <span class="number">1</span>);  <span class="comment">// 新的容量，原来容量的1.5倍。</span></span><br><span class="line">    <span class="keyword">if</span> (newCapacity - minCapacity &lt; <span class="number">0</span>)</span><br><span class="line">        newCapacity = minCapacity;</span><br><span class="line">    <span class="keyword">if</span> (newCapacity - MAX_ARRAY_SIZE &gt; <span class="number">0</span>)  <span class="comment">// 如果大于ArrayList 可以容许的最大容量，则设置为最大容量。</span></span><br><span class="line">        newCapacity = hugeCapacity(minCapacity);</span><br><span class="line">    <span class="comment">// minCapacity is usually close to size, so this is a win:</span></span><br><span class="line">    elementData = Arrays.copyOf(elementData, newCapacity);  <span class="comment">// 最终利用Arrays.coppy 进行扩容，生成一个1.5倍元素的数组。（即例子中的15个元素的数组。）</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title function_">grow</span><span class="params">(<span class="type">int</span> minCapacity)</span> &#123;</span><br><span class="line">    <span class="comment">// overflow-conscious code</span></span><br><span class="line">    <span class="type">int</span> <span class="variable">oldCapacity</span> <span class="operator">=</span> elementData.length;   <span class="comment">// 原来的容量</span></span><br><span class="line">    <span class="type">int</span> <span class="variable">newCapacity</span> <span class="operator">=</span> oldCapacity + (oldCapacity &gt;&gt; <span class="number">1</span>);  <span class="comment">// 新的容量，原来容量的1.5倍。</span></span><br><span class="line">    <span class="keyword">if</span> (newCapacity - minCapacity &lt; <span class="number">0</span>)</span><br><span class="line">        newCapacity = minCapacity;</span><br><span class="line">    <span class="keyword">if</span> (newCapacity - MAX_ARRAY_SIZE &gt; <span class="number">0</span>)  <span class="comment">// 如果大于ArrayList 可以容许的最大容量，则设置为最大容量。</span></span><br><span class="line">        newCapacity = hugeCapacity(minCapacity);</span><br><span class="line">    <span class="comment">// minCapacity is usually close to size, so this is a win:</span></span><br><span class="line">    elementData = Arrays.copyOf(elementData, newCapacity);  <span class="comment">// 最终利用Arrays.coppy 进行扩容，生成一个1.5倍元素的数组。（即例子中的15个元素的数组。）</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>Set(集) 元素无序的、不可重复。</p>
 <p>HashSet：线程不安全，存取速度快</p>
@@ -121,7 +121,7 @@
 <p>　　　　　　如 HashSet的容量为16，一次扩容后是容量为32</p>
 <p>Map是一个双列集合</p>
 <p>HashMap：默认初始容量为16</p>
-<p>　　　　　（为何是16：16是2^4，可以提高查询效率，另外，32=16&lt;&lt;1       –&gt;至于详细的原因可另行分析，或分析源代码）</p>
+<p>　　　　　（为何是16：16是2^4，可以提高查询效率，另外，32&#x3D;16&lt;&lt;1       –&gt;至于详细的原因可另行分析，或分析源代码）</p>
 <p>　　　　　加载因子为0.75：即当 元素个数 超过 容量长度的0.75倍 时，进行扩容</p>
 <p>　　　　　扩容增量：原容量的 1 倍</p>
 <p>　　　　　　如 HashSet的容量为16，一次扩容后是容量为32</p>
@@ -129,7 +129,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://www.luopandeng.com/2019/10/14/technique/%E9%9B%86%E5%90%88%E9%BB%98%E8%AE%A4%E5%A4%A7%E5%B0%8F/" data-id="clbly2nzq005c3wma1vb102ke" class="article-share-link">Share</a>
+      <a data-url="https://www.luopandeng.com/2019/10/14/technique/%E9%9B%86%E5%90%88%E9%BB%98%E8%AE%A4%E5%A4%A7%E5%B0%8F/" data-id="clbnjgppo0059p8ma0y5vhbhu" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a></li></ul>

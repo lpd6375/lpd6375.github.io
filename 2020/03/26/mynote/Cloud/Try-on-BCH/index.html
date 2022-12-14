@@ -108,17 +108,17 @@
 <p>重定向的坑</p>
 <blockquote>
 <p>wordpress中配置了https后发现在登录时浏览器会返回重定向过多问题。还有就是页面会出现加载不完整的问题，浏览器控制台出现403错误，这是由于wordpress中有部分资源不没有用https方式请求导致。<strong>解决方法是将如下代码加进wp-config.php中即可。</strong></p>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$_SERVER</span>[<span class="string">&#x27;HTTPS&#x27;</span>] = <span class="string">&#x27;on&#x27;</span>;</span><br><span class="line">define(<span class="string">&#x27;FORCE_SSL_LOGIN&#x27;</span>, <span class="literal">true</span>);</span><br><span class="line">define(<span class="string">&#x27;FORCE_SSL_ADMIN&#x27;</span>, <span class="literal">true</span>);</span><br></pre></td></tr></table></figure>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$_SERVER</span>[<span class="string">&#x27;HTTPS&#x27;</span>] = <span class="string">&#x27;on&#x27;</span>;</span><br><span class="line"><span class="title function_ invoke__">define</span>(<span class="string">&#x27;FORCE_SSL_LOGIN&#x27;</span>, <span class="literal">true</span>);</span><br><span class="line"><span class="title function_ invoke__">define</span>(<span class="string">&#x27;FORCE_SSL_ADMIN&#x27;</span>, <span class="literal">true</span>);</span><br></pre></td></tr></table></figure>
 
 </blockquote>
 </blockquote>
 <p>以上就是使用BCH过程中遇到的坑，希望有缘人能搜到这个解决你的问题。还可以用邮箱联系我</p>
-<p><a href="mailto:&#97;&#100;&#109;&#105;&#110;&#x40;&#115;&#116;&#117;&#112;&#x72;&#x6f;&#109;&#x6f;&#x2e;&#99;&#x6f;&#109;">&#97;&#100;&#109;&#105;&#110;&#x40;&#115;&#116;&#117;&#112;&#x72;&#x6f;&#109;&#x6f;&#x2e;&#99;&#x6f;&#109;</a></p>
+<p><a href="mailto:&#x61;&#100;&#109;&#x69;&#110;&#64;&#115;&#116;&#117;&#112;&#114;&#111;&#109;&#111;&#x2e;&#x63;&#x6f;&#109;">&#x61;&#100;&#109;&#x69;&#110;&#64;&#115;&#116;&#117;&#112;&#114;&#111;&#109;&#111;&#x2e;&#x63;&#x6f;&#109;</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://www.luopandeng.com/2020/03/26/mynote/Cloud/Try-on-BCH/" data-id="clbly2nzr005g3wma7n1fhthn" class="article-share-link">Share</a>
+      <a data-url="https://www.luopandeng.com/2020/03/26/mynote/Cloud/Try-on-BCH/" data-id="clbnjgppv005vp8ma2ytjg4db" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Cloud/" rel="tag">Cloud</a></li></ul>
