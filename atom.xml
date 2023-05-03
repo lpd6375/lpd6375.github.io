@@ -6,7 +6,7 @@
   <link href="https://www.luopandeng.com/atom.xml" rel="self"/>
   
   <link href="https://www.luopandeng.com/"/>
-  <updated>2023-03-21T02:47:57.848Z</updated>
+  <updated>2023-05-03T09:45:03.589Z</updated>
   <id>https://www.luopandeng.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>施工技术学习</title>
+    <link href="https://www.luopandeng.com/2023/05/03/%E4%B8%80%E5%BB%BA/%E6%96%BD%E5%B7%A5%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://www.luopandeng.com/2023/05/03/%E4%B8%80%E5%BB%BA/%E6%96%BD%E5%B7%A5%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0/</id>
+    <published>2023-05-03T08:57:44.000Z</published>
+    <updated>2023-05-03T09:45:03.589Z</updated>
+    
+    <content type="html"><![CDATA[<p>《庄子·内篇·养生主第三》，原文“吾生也有涯，而知也无涯。以有涯随无涯，殆已！已而为知者，殆而已矣！为善无近名，为恶无近刑，缘督以为经，可以保身，可以全生，可以养亲，可以尽年。”试试看，自己两年内能不能做到技术总工。虽然说有点理想主义，但是人嘛总得有点理想。</p><span id="more"></span><h4 id="模板工程"><a href="#模板工程" class="headerlink" title="模板工程"></a>模板工程</h4><p>模拆除时间：板———2~8米——达到设计的砼立方体抗压强度标准值的50%，75%，100%</p><p>梁、柱、壳————8米———75%，100%</p><p>悬臂构件————100%</p><p>先支后拆，后支先拆，先非承重，后承重，自上而下</p><p>墙模：从上而下逐步水平拆除</p><p>注意事项：</p><ol><li>拆模时，操作人员应该站在安全处</li><li>避免用力过猛、过急，严禁用大锤和撬棍硬砸硬撬，以免损坏表面或者模板</li><li>拆除的模板及配件应有专人接应传递并分散堆放，不得对楼层形成冲击，严禁高空抛掷</li><li>模板及支架清运至指定地点，应及时加以清理、修理，按尺寸和各类分别堆放，以便下次使用 </li><li>禁止上下同时作业</li><li>主动避让吊物</li></ol><p>目的,保证施工安全及施工质量</p><h4 id="混凝土"><a href="#混凝土" class="headerlink" title="混凝土"></a>混凝土</h4><p>水泥——进场检测，品种、级别、包装、出厂日期，并对强度、安定性进行复检。必须符合国家标准。</p><p>​检查数量：按同一厂家、同一等级、同一品种、同一批号且连续进场的水泥，袋装不超过200t 为一批，散装不超过500t 为一批，每批抽样不少于一次。</p><p>​检查方法：检查产品合格证、出厂检验报告和进场复验报告。</p><p>重新检验：当使用中对水泥质量有怀疑或者水泥出厂超过三个月（ 快硬硅酸盐水泥超过一个月）应视为过期水泥，使用时须重新检验、确定标号。 </p><p>安定性不合格的水泥不得使用，预应力砼结构中，严禁使用含氯化特的水泥。</p><p>砼用砂以细度模数为2.5~3.5 的中粗砂最为合适；当砼强度等级大于等于C30时（或有抗冻、抗渗要求），含泥量不大于3% ；当砼强度等级低于C30 时，含泥量不大于5%</p>]]></content>
+    
+    
+    <summary type="html">记录一下学习过程中需要记忆的点</summary>
+    
+    
+    
+    
+    <category term="一建" scheme="https://www.luopandeng.com/tags/%E4%B8%80%E5%BB%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>一建实务补考</title>
@@ -122,23 +141,6 @@
   
   <entry>
     <title>一级建造师之经济</title>
-    <link href="https://www.luopandeng.com/2021/08/11/%E4%B8%80%E5%BB%BA/%E4%B8%80%E7%BA%A7%E5%BB%BA%E9%80%A0%E5%B8%88%E4%B9%8B%E7%BB%8F%E6%B5%8E/"/>
-    <id>https://www.luopandeng.com/2021/08/11/%E4%B8%80%E5%BB%BA/%E4%B8%80%E7%BA%A7%E5%BB%BA%E9%80%A0%E5%B8%88%E4%B9%8B%E7%BB%8F%E6%B5%8E/</id>
-    <published>2021-08-11T12:09:01.000Z</published>
-    <updated>2021-08-14T07:14:59.246Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="考试大纲"><a href="#考试大纲" class="headerlink" title="考试大纲"></a>考试大纲</h1><p><strong>1Z100000 建设工程经济</strong></p><span id="more"></span><h3 id="1Z101000-工程经济"><a href="#1Z101000-工程经济" class="headerlink" title="1Z101000  工程经济"></a>1Z101000  工程经济</h3><h4 id="1Z101010-资金时间价值的计算及应用"><a href="#1Z101010-资金时间价值的计算及应用" class="headerlink" title="1Z101010 资金时间价值的计算及应用"></a><strong>1Z101010 资金时间价值的计算及应用</strong></h4><p>1Z101011 利息的计算</p><p>1Z101012 资金等值计算及应用</p><p>1Z101013 名义利率与有效利率的计算</p><p><strong>1Z101020  技术方案经济效果评价</strong></p><p>1Z101021 经济效果评价的内容</p><p>1Z101022 经济效果评价指标体系</p><p>1Z101023 投资收益率分析</p><p>1Z101024 投资回收期分析</p><p>1Z101025 财务净现值分析</p><p>1Z101026 财务内部收益率分析</p><p>1Z101027 基准收益率的确定</p><p>1Z101028 偿债能力分析</p><p><strong>1Z101030  技术方案不确定性分析</strong></p><p>1Z101031 不确定性分析</p><p>1Z101032 盈亏平衡分析</p><p>1Z101033 敏感性分析</p><p><strong>1Z101040  技术方案现金流量表的编制</strong></p><p>1Z101041 技术方案现金流量表</p><p>1Z101042 技术方案现金流量表的构成要素</p><p><strong>1Z101050  设备更新分析</strong></p><p>1Z101051 设备磨损与补偿</p><p>1Z101052 设备更新方案的比选原则</p><p>1Z101053 设备更新时机的确定方法</p><p>1Z101054 设备租赁与购买方案的比选分析</p><p><strong>1Z101060 价值工程在工程建设中的应用</strong></p><p>1Z101061 提高价值的途径</p><p>1Z101062 价值工程在工程建设应用中的实施步骤</p><p><strong>1Z101070  新技术、新工艺和新材料应用方案的技术经济分析</strong></p><p>1Z101071 新技术、新工艺和新材料应用方案的选择原则</p><p>1Z101072 新技术、新工艺和新材料应用方案的技术分析</p><p>1Z101073 新技术、新工艺和新材料应用方案的经济分析</p><p>1Z102000 工程财务</p><p><strong>1Z102010 财务会计基础</strong></p><p>1Z102011 财务会计的内涵</p><p>1Z102012 财务会计工作基本内容</p><p>1Z102013 会计核算的原则</p><p>1Z102014 会计核算的基本前提</p><p>1Z102015 会计等式及其应用</p><p>1Z102016 会计监督的内容</p><p><strong>1Z102020 成本与费用</strong></p><p>1Z102021 费用与成本的关系</p><p>1Z102022 工程成本的确认和结算方法</p><p>1Z102023 工程成本的核算</p><p>1Z102024 施工企业期间费用的核算</p><p><strong>1Z102030 收入</strong></p><p>1Z102031 收入的分类及确认</p><p>1Z102032 建造（施工）合同收入的核算</p><p><strong>1Z102040  利润和所得税费用</strong></p><p>1Z102041 利润的计算</p><p>1Z102042 所得税费用的确认</p><p><strong>1Z102050 企业财务报表</strong></p><p>1Z102051 财务报表的构成和列报的基本要求</p><p>1Z102052 资产负债表的内容和作用</p><p>1Z102053 利润表的内容和作用</p><p>1Z102054 现金流量表的内容和作用</p><p>1Z102055 财务报表附注的内容和作用</p><p><strong>1Z102060财务分析</strong></p><p>1Z102061 财务分析的常用方法</p><p>1Z102062 基本财务比率的计算和分析</p><p><strong>1Z102070筹资管理</strong></p><p>1Z102071 筹资主体</p><p>1Z102072 筹资方式</p><p>1Z102073 资金成本的计算与应用</p><p>1Z102074 资本结构分析与优化</p><p><strong>1Z102080 流动资产财务管理</strong></p><p>1Z102081 现金和有价证券的财务管理</p><p>1Z102082 应收账款的财务管理</p><p>1Z102083 存货的财务管理</p><p>1Z103000  建设工程估价</p><p><strong>1Z103010 建设项目总投资</strong></p><p>1Z103011 建设项目总投资费用项目组成</p><p>1Z103012 建筑安装工程费用项目组成</p><p>1Z103013 建筑安装工程费用计算</p><p>1Z103014 增值税计算</p><p>1Z103015 设备购置费计算</p><p>1Z103016 工程建设其他费用项目组成</p><p>1Z103017 预备费计算</p><p>1Z103018 资金筹措费计算</p><p>1Z103019  流动资金计算</p><p><strong>1Z103020 建设工程定额</strong></p><p>1Z103021 建设工程定额的分类</p><p>1Z103022 人工定额的编制</p><p>1Z103023 材料消耗定额的编制</p><p>1Z103024 施工机械台班使用定额的编制</p><p>1Z103025 施工定额和企业定额的编制</p><p>1Z103026 预算定额及其基价的编制</p><p>1Z103027 概算定额与概算指标的编制</p><p><strong>1Z103030 建设工程项目设计概算</strong></p><p>1Z103031 设计概算的内容和作用</p><p>1Z103032 设计概算的编制依据、程序和步骤</p><p>1Z103033 设计概算的编制方法</p><p>1Z103034 设计概算的审查内容</p><p><strong>1Z103040 建设工程项目施工图预算</strong></p><p>1Z103041 施工图预算的作用</p><p>1Z103042 施工图预算的编制依据</p><p>1Z103043 施工图预算的编制方法</p><p>1Z103044 施工图预算的审查内容</p><p><strong>1Z103050 工程量清单编制</strong></p><p>1Z103051 工程量清单的作用</p><p>1Z103052 工程量清单编制的方法</p><p><strong>1Z103060 工程量清单计价</strong></p><p>1Z103061 工程量清单计价的方法</p><p>1Z103062 招标控制价的编制方法</p><p>1Z103063 投标报价的编制方法</p><p>1Z103064 合同价款的约定</p><p><strong>1Z103070 计量与支付</strong></p><p>1Z103071工程计量</p><p>1Z103072 合同价款调整</p><p>1Z103073 工程变更价款的确定</p><p>1Z103074 施工索赔与现场签证</p><p>1Z103075 预付款及期中支付</p><p>1Z103076 竣工结算与支付</p><p>1Z103077 质量保证金的处理</p><p>1Z103078 合同价款纠纷的处理</p><p><strong>1Z103080 国际工程投标报价</strong></p><p>1Z103081 国际工程投标报价的程序</p><p>1Z103082 国际工程投标报价的组成</p><p>1Z103083 单价分析和标价汇总的方法</p><p>1Z103084 国际工程投标报价的分析方法</p><p>1Z103085 国际工程投标报价的技巧</p><p>1Z103086 国际工程投标报价决策的影响因素</p>]]></content>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;考试大纲&quot;&gt;&lt;a href=&quot;#考试大纲&quot; class=&quot;headerlink&quot; title=&quot;考试大纲&quot;&gt;&lt;/a&gt;考试大纲&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;1Z100000 建设工程经济&lt;/strong&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>一级建造师之经济</title>
     <link href="https://www.luopandeng.com/2021/08/11/%E4%B8%80%E5%BB%BA/%E4%B8%80%E7%BA%A7%E5%BB%BA%E9%80%A0%E5%B8%88%E4%B9%8B%E7%BB%8F%E6%B5%8E-%E6%98%93%E9%94%99/"/>
     <id>https://www.luopandeng.com/2021/08/11/%E4%B8%80%E5%BB%BA/%E4%B8%80%E7%BA%A7%E5%BB%BA%E9%80%A0%E5%B8%88%E4%B9%8B%E7%BB%8F%E6%B5%8E-%E6%98%93%E9%94%99/</id>
     <published>2021-08-11T12:09:01.000Z</published>
@@ -148,6 +150,23 @@
     
     
     <summary type="html">&lt;h1 id=&quot;记忆点&quot;&gt;&lt;a href=&quot;#记忆点&quot; class=&quot;headerlink&quot; title=&quot;记忆点&quot;&gt;&lt;/a&gt;记忆点&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;1Z100000 建设工程经济&lt;/strong&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>一级建造师之经济</title>
+    <link href="https://www.luopandeng.com/2021/08/11/%E4%B8%80%E5%BB%BA/%E4%B8%80%E7%BA%A7%E5%BB%BA%E9%80%A0%E5%B8%88%E4%B9%8B%E7%BB%8F%E6%B5%8E/"/>
+    <id>https://www.luopandeng.com/2021/08/11/%E4%B8%80%E5%BB%BA/%E4%B8%80%E7%BA%A7%E5%BB%BA%E9%80%A0%E5%B8%88%E4%B9%8B%E7%BB%8F%E6%B5%8E/</id>
+    <published>2021-08-11T12:09:01.000Z</published>
+    <updated>2021-08-14T07:14:59.246Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="考试大纲"><a href="#考试大纲" class="headerlink" title="考试大纲"></a>考试大纲</h1><p><strong>1Z100000 建设工程经济</strong></p><span id="more"></span><h3 id="1Z101000-工程经济"><a href="#1Z101000-工程经济" class="headerlink" title="1Z101000  工程经济"></a>1Z101000  工程经济</h3><h4 id="1Z101010-资金时间价值的计算及应用"><a href="#1Z101010-资金时间价值的计算及应用" class="headerlink" title="1Z101010 资金时间价值的计算及应用"></a><strong>1Z101010 资金时间价值的计算及应用</strong></h4><p>1Z101011 利息的计算</p><p>1Z101012 资金等值计算及应用</p><p>1Z101013 名义利率与有效利率的计算</p><p><strong>1Z101020  技术方案经济效果评价</strong></p><p>1Z101021 经济效果评价的内容</p><p>1Z101022 经济效果评价指标体系</p><p>1Z101023 投资收益率分析</p><p>1Z101024 投资回收期分析</p><p>1Z101025 财务净现值分析</p><p>1Z101026 财务内部收益率分析</p><p>1Z101027 基准收益率的确定</p><p>1Z101028 偿债能力分析</p><p><strong>1Z101030  技术方案不确定性分析</strong></p><p>1Z101031 不确定性分析</p><p>1Z101032 盈亏平衡分析</p><p>1Z101033 敏感性分析</p><p><strong>1Z101040  技术方案现金流量表的编制</strong></p><p>1Z101041 技术方案现金流量表</p><p>1Z101042 技术方案现金流量表的构成要素</p><p><strong>1Z101050  设备更新分析</strong></p><p>1Z101051 设备磨损与补偿</p><p>1Z101052 设备更新方案的比选原则</p><p>1Z101053 设备更新时机的确定方法</p><p>1Z101054 设备租赁与购买方案的比选分析</p><p><strong>1Z101060 价值工程在工程建设中的应用</strong></p><p>1Z101061 提高价值的途径</p><p>1Z101062 价值工程在工程建设应用中的实施步骤</p><p><strong>1Z101070  新技术、新工艺和新材料应用方案的技术经济分析</strong></p><p>1Z101071 新技术、新工艺和新材料应用方案的选择原则</p><p>1Z101072 新技术、新工艺和新材料应用方案的技术分析</p><p>1Z101073 新技术、新工艺和新材料应用方案的经济分析</p><p>1Z102000 工程财务</p><p><strong>1Z102010 财务会计基础</strong></p><p>1Z102011 财务会计的内涵</p><p>1Z102012 财务会计工作基本内容</p><p>1Z102013 会计核算的原则</p><p>1Z102014 会计核算的基本前提</p><p>1Z102015 会计等式及其应用</p><p>1Z102016 会计监督的内容</p><p><strong>1Z102020 成本与费用</strong></p><p>1Z102021 费用与成本的关系</p><p>1Z102022 工程成本的确认和结算方法</p><p>1Z102023 工程成本的核算</p><p>1Z102024 施工企业期间费用的核算</p><p><strong>1Z102030 收入</strong></p><p>1Z102031 收入的分类及确认</p><p>1Z102032 建造（施工）合同收入的核算</p><p><strong>1Z102040  利润和所得税费用</strong></p><p>1Z102041 利润的计算</p><p>1Z102042 所得税费用的确认</p><p><strong>1Z102050 企业财务报表</strong></p><p>1Z102051 财务报表的构成和列报的基本要求</p><p>1Z102052 资产负债表的内容和作用</p><p>1Z102053 利润表的内容和作用</p><p>1Z102054 现金流量表的内容和作用</p><p>1Z102055 财务报表附注的内容和作用</p><p><strong>1Z102060财务分析</strong></p><p>1Z102061 财务分析的常用方法</p><p>1Z102062 基本财务比率的计算和分析</p><p><strong>1Z102070筹资管理</strong></p><p>1Z102071 筹资主体</p><p>1Z102072 筹资方式</p><p>1Z102073 资金成本的计算与应用</p><p>1Z102074 资本结构分析与优化</p><p><strong>1Z102080 流动资产财务管理</strong></p><p>1Z102081 现金和有价证券的财务管理</p><p>1Z102082 应收账款的财务管理</p><p>1Z102083 存货的财务管理</p><p>1Z103000  建设工程估价</p><p><strong>1Z103010 建设项目总投资</strong></p><p>1Z103011 建设项目总投资费用项目组成</p><p>1Z103012 建筑安装工程费用项目组成</p><p>1Z103013 建筑安装工程费用计算</p><p>1Z103014 增值税计算</p><p>1Z103015 设备购置费计算</p><p>1Z103016 工程建设其他费用项目组成</p><p>1Z103017 预备费计算</p><p>1Z103018 资金筹措费计算</p><p>1Z103019  流动资金计算</p><p><strong>1Z103020 建设工程定额</strong></p><p>1Z103021 建设工程定额的分类</p><p>1Z103022 人工定额的编制</p><p>1Z103023 材料消耗定额的编制</p><p>1Z103024 施工机械台班使用定额的编制</p><p>1Z103025 施工定额和企业定额的编制</p><p>1Z103026 预算定额及其基价的编制</p><p>1Z103027 概算定额与概算指标的编制</p><p><strong>1Z103030 建设工程项目设计概算</strong></p><p>1Z103031 设计概算的内容和作用</p><p>1Z103032 设计概算的编制依据、程序和步骤</p><p>1Z103033 设计概算的编制方法</p><p>1Z103034 设计概算的审查内容</p><p><strong>1Z103040 建设工程项目施工图预算</strong></p><p>1Z103041 施工图预算的作用</p><p>1Z103042 施工图预算的编制依据</p><p>1Z103043 施工图预算的编制方法</p><p>1Z103044 施工图预算的审查内容</p><p><strong>1Z103050 工程量清单编制</strong></p><p>1Z103051 工程量清单的作用</p><p>1Z103052 工程量清单编制的方法</p><p><strong>1Z103060 工程量清单计价</strong></p><p>1Z103061 工程量清单计价的方法</p><p>1Z103062 招标控制价的编制方法</p><p>1Z103063 投标报价的编制方法</p><p>1Z103064 合同价款的约定</p><p><strong>1Z103070 计量与支付</strong></p><p>1Z103071工程计量</p><p>1Z103072 合同价款调整</p><p>1Z103073 工程变更价款的确定</p><p>1Z103074 施工索赔与现场签证</p><p>1Z103075 预付款及期中支付</p><p>1Z103076 竣工结算与支付</p><p>1Z103077 质量保证金的处理</p><p>1Z103078 合同价款纠纷的处理</p><p><strong>1Z103080 国际工程投标报价</strong></p><p>1Z103081 国际工程投标报价的程序</p><p>1Z103082 国际工程投标报价的组成</p><p>1Z103083 单价分析和标价汇总的方法</p><p>1Z103084 国际工程投标报价的分析方法</p><p>1Z103085 国际工程投标报价的技巧</p><p>1Z103086 国际工程投标报价决策的影响因素</p>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;考试大纲&quot;&gt;&lt;a href=&quot;#考试大纲&quot; class=&quot;headerlink&quot; title=&quot;考试大纲&quot;&gt;&lt;/a&gt;考试大纲&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;1Z100000 建设工程经济&lt;/strong&gt;&lt;/p&gt;</summary>
     
     
     
@@ -364,7 +383,7 @@
     <published>2020-03-26T11:45:31.000Z</published>
     <updated>2020-03-27T00:36:12.494Z</updated>
     
-    <content type="html"><![CDATA[<p>本文主要记录使用BCH时踩到的坑。</p><span id="more"></span><blockquote><p>证书坑</p><blockquote><p>配置证书时的坑，由于使用了 Let’s encrypt 的自签名证书在配置的时候着实费了少时间。<strong>解决方法是服务器证书填生成的证书包里的fullchain.cer,私钥部分填key结尾的那个</strong></p></blockquote></blockquote><blockquote><p>重定向的坑</p><blockquote><p>wordpress中配置了https后发现在登录时浏览器会返回重定向过多问题。还有就是页面会出现加载不完整的问题，浏览器控制台出现403错误，这是由于wordpress中有部分资源不没有用https方式请求导致。<strong>解决方法是将如下代码加进wp-config.php中即可。</strong></p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$_SERVER</span>[<span class="string">&#x27;HTTPS&#x27;</span>] = <span class="string">&#x27;on&#x27;</span>;</span><br><span class="line"><span class="title function_ invoke__">define</span>(<span class="string">&#x27;FORCE_SSL_LOGIN&#x27;</span>, <span class="literal">true</span>);</span><br><span class="line"><span class="title function_ invoke__">define</span>(<span class="string">&#x27;FORCE_SSL_ADMIN&#x27;</span>, <span class="literal">true</span>);</span><br></pre></td></tr></table></figure></blockquote></blockquote><p>以上就是使用BCH过程中遇到的坑，希望有缘人能搜到这个解决你的问题。还可以用邮箱联系我</p><p><a href="mailto:&#97;&#x64;&#x6d;&#x69;&#110;&#64;&#x73;&#116;&#117;&#112;&#x72;&#x6f;&#109;&#x6f;&#46;&#x63;&#x6f;&#x6d;">&#97;&#x64;&#x6d;&#x69;&#110;&#64;&#x73;&#116;&#117;&#112;&#x72;&#x6f;&#109;&#x6f;&#46;&#x63;&#x6f;&#x6d;</a></p>]]></content>
+    <content type="html"><![CDATA[<p>本文主要记录使用BCH时踩到的坑。</p><span id="more"></span><blockquote><p>证书坑</p><blockquote><p>配置证书时的坑，由于使用了 Let’s encrypt 的自签名证书在配置的时候着实费了少时间。<strong>解决方法是服务器证书填生成的证书包里的fullchain.cer,私钥部分填key结尾的那个</strong></p></blockquote></blockquote><blockquote><p>重定向的坑</p><blockquote><p>wordpress中配置了https后发现在登录时浏览器会返回重定向过多问题。还有就是页面会出现加载不完整的问题，浏览器控制台出现403错误，这是由于wordpress中有部分资源不没有用https方式请求导致。<strong>解决方法是将如下代码加进wp-config.php中即可。</strong></p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$_SERVER</span>[<span class="string">&#x27;HTTPS&#x27;</span>] = <span class="string">&#x27;on&#x27;</span>;</span><br><span class="line"><span class="title function_ invoke__">define</span>(<span class="string">&#x27;FORCE_SSL_LOGIN&#x27;</span>, <span class="literal">true</span>);</span><br><span class="line"><span class="title function_ invoke__">define</span>(<span class="string">&#x27;FORCE_SSL_ADMIN&#x27;</span>, <span class="literal">true</span>);</span><br></pre></td></tr></table></figure></blockquote></blockquote><p>以上就是使用BCH过程中遇到的坑，希望有缘人能搜到这个解决你的问题。还可以用邮箱联系我</p><p><a href="mailto:&#x61;&#100;&#109;&#105;&#110;&#x40;&#x73;&#116;&#x75;&#x70;&#x72;&#x6f;&#109;&#x6f;&#x2e;&#99;&#111;&#109;">&#x61;&#100;&#109;&#105;&#110;&#x40;&#x73;&#116;&#x75;&#x70;&#x72;&#x6f;&#109;&#x6f;&#x2e;&#99;&#111;&#109;</a></p>]]></content>
     
     
     <summary type="html">使用BCH 踩的坑</summary>
@@ -373,25 +392,6 @@
     
     
     <category term="Cloud" scheme="https://www.luopandeng.com/tags/Cloud/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>My Equipment</title>
-    <link href="https://www.luopandeng.com/2020/03/13/life/My-Equipment/"/>
-    <id>https://www.luopandeng.com/2020/03/13/life/My-Equipment/</id>
-    <published>2020-03-13T06:09:23.000Z</published>
-    <updated>2020-03-20T07:42:35.260Z</updated>
-    
-    <content type="html"><![CDATA[<p>Today deliver man has my keyboard delivered. It cost ￥469. A little bit expensive compared to normal keyboard. And i love it.</p><span id="more"></span>]]></content>
-    
-    
-    <summary type="html">record of my new equipment</summary>
-    
-    
-    
-    
-    <category term="life" scheme="https://www.luopandeng.com/tags/life/"/>
     
   </entry>
   
