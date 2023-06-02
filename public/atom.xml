@@ -6,7 +6,7 @@
   <link href="https://www.luopandeng.com/atom.xml" rel="self"/>
   
   <link href="https://www.luopandeng.com/"/>
-  <updated>2023-05-03T09:47:54.453Z</updated>
+  <updated>2023-06-02T00:59:04.927Z</updated>
   <id>https://www.luopandeng.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>记一场让我耿耿于怀的面试</title>
+    <link href="https://www.luopandeng.com/2023/06/02/chaos/%E8%AE%B0%E4%B8%80%E5%9C%BA%E8%AE%A9%E6%88%91%E8%80%BF%E8%80%BF%E4%BA%8E%E6%80%80%E7%9A%84%E9%9D%A2%E8%AF%95/"/>
+    <id>https://www.luopandeng.com/2023/06/02/chaos/%E8%AE%B0%E4%B8%80%E5%9C%BA%E8%AE%A9%E6%88%91%E8%80%BF%E8%80%BF%E4%BA%8E%E6%80%80%E7%9A%84%E9%9D%A2%E8%AF%95/</id>
+    <published>2023-06-01T23:43:53.000Z</published>
+    <updated>2023-06-02T00:59:04.927Z</updated>
+    
+    <content type="html"><![CDATA[<p>本次面试没能进到第二轮，很是失败，这里总结一下失败的原因。</p><span id="more"></span><p>&amp;ensp;&amp;emsp;本次面试共分为两个环节，第一部分是半结构化面试，给出一个问题然后每个人五分钟的材料分析时间，随后是个人陈述时间每人一分钟，陈述完后下面进行的是小组讨论，时间为 30 分钟。<br/><br>&amp;emsp;&amp;emsp;问题一共有两个，一个大意是让你找出成功企业的特点；另一个问题是找出一个企业失败有哪些原因。<br/><br>&amp;emsp;&amp;emsp;对于第一个问题我在个人陈述部分的回答分了三个层次，是一个金字塔形的结构，分别从最高层领导人，中层领导人，以及具体执行人员三个方面。对于失败原因的回答主要是从内部和外部因素上讲的。在失败方面谈到了内部管理问题和外部宏观因素的影响。<br><br>&amp;emsp;&amp;emsp;五号的回答最让我惊讶，TMD 问题都没有搞清楚就在那里说党建的事情。妈的他要是能进到公司，那么在那坐着的各位领导就是傻逼。<br><br>&amp;emsp;&amp;emsp;回来两天了，还在想这个问题。已经影响到我日常的工作学习了，所以这里写出来做一个总结，之后便不在提了。首先第一个问题是“一个成功的企业有哪些特点”；第二个问题是“一企业失败的原因有哪些”。<br><br>&amp;emsp;&amp;emsp;首先，你需要知道，解决一个问题最重要的一个环节就是要搞清楚这个问题到底是什么。这需要你去分析这个问题。我们看到这个问题之后就知道这一道找共性的问题。具体的话我们可以从，问题的表述看出来，“一个”表明了这一个泛指的概念，它不表示具体某一个企业也不表示具体某一类型的企业；回答第一个问题需要先解决三个小问题：</p><ul><li>企业是什么？</li><li>成功的标准是什么？</li><li>特点是什么？ <br></li></ul><p>&amp;emsp;&amp;emsp;企业是以盈利为目的的经济组织；成功的标准我们可以用上面说的企业能否实现其目的作为标准；最后说特点，特点是一个事物区别于其它事物所具有的属性。<br>&amp;emsp;&amp;emsp;所以解决了上述三个问题后才能找出一个好的结果。那么相对应的，谈到失败的特点时，同上成功的问题，你也需要有一个判断它失败的一个标准。每个人对于失败的定义不同，所以需要找出一个普遍能接受的标准至关重要，那么在会计上有一个很重要的假设，叫“持续经营”，它是开展会计工作重要基础，所以可以把它作为我们判断一个企业是否失败的标准，也就是说，把一个不能持续经营的企业作为失败的企业。</p><p>&amp;emsp;&amp;emsp;以上就是我对于这道面试题的看法。我在此次面试中最失败的地方在于没有很好的把自己表达出来。下次一定要把自己的想法尽可能地表达清楚。</p>]]></content>
+    
+    
+    <summary type="html">本周二参加了融通农发的面试，失败后耿耿于怀，这里记录一下</summary>
+    
+    
+    
+    
+    <category term="面试" scheme="https://www.luopandeng.com/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title>施工技术学习</title>
@@ -354,7 +373,7 @@
     <published>2020-03-26T11:45:31.000Z</published>
     <updated>2020-03-27T00:36:12.494Z</updated>
     
-    <content type="html"><![CDATA[<p>本文主要记录使用BCH时踩到的坑。</p><span id="more"></span><blockquote><p>证书坑</p><blockquote><p>配置证书时的坑，由于使用了 Let’s encrypt 的自签名证书在配置的时候着实费了少时间。<strong>解决方法是服务器证书填生成的证书包里的fullchain.cer,私钥部分填key结尾的那个</strong></p></blockquote></blockquote><blockquote><p>重定向的坑</p><blockquote><p>wordpress中配置了https后发现在登录时浏览器会返回重定向过多问题。还有就是页面会出现加载不完整的问题，浏览器控制台出现403错误，这是由于wordpress中有部分资源不没有用https方式请求导致。<strong>解决方法是将如下代码加进wp-config.php中即可。</strong></p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$_SERVER</span>[<span class="string">&#x27;HTTPS&#x27;</span>] = <span class="string">&#x27;on&#x27;</span>;</span><br><span class="line"><span class="title function_ invoke__">define</span>(<span class="string">&#x27;FORCE_SSL_LOGIN&#x27;</span>, <span class="literal">true</span>);</span><br><span class="line"><span class="title function_ invoke__">define</span>(<span class="string">&#x27;FORCE_SSL_ADMIN&#x27;</span>, <span class="literal">true</span>);</span><br></pre></td></tr></table></figure></blockquote></blockquote><p>以上就是使用BCH过程中遇到的坑，希望有缘人能搜到这个解决你的问题。还可以用邮箱联系我</p><p><a href="mailto:&#97;&#100;&#x6d;&#105;&#110;&#64;&#x73;&#x74;&#117;&#112;&#x72;&#111;&#x6d;&#111;&#x2e;&#99;&#111;&#x6d;">&#97;&#100;&#x6d;&#105;&#110;&#64;&#x73;&#x74;&#117;&#112;&#x72;&#111;&#x6d;&#111;&#x2e;&#99;&#111;&#x6d;</a></p>]]></content>
+    <content type="html"><![CDATA[<p>本文主要记录使用BCH时踩到的坑。</p><span id="more"></span><blockquote><p>证书坑</p><blockquote><p>配置证书时的坑，由于使用了 Let’s encrypt 的自签名证书在配置的时候着实费了少时间。<strong>解决方法是服务器证书填生成的证书包里的fullchain.cer,私钥部分填key结尾的那个</strong></p></blockquote></blockquote><blockquote><p>重定向的坑</p><blockquote><p>wordpress中配置了https后发现在登录时浏览器会返回重定向过多问题。还有就是页面会出现加载不完整的问题，浏览器控制台出现403错误，这是由于wordpress中有部分资源不没有用https方式请求导致。<strong>解决方法是将如下代码加进wp-config.php中即可。</strong></p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$_SERVER</span>[<span class="string">&#x27;HTTPS&#x27;</span>] = <span class="string">&#x27;on&#x27;</span>;</span><br><span class="line"><span class="title function_ invoke__">define</span>(<span class="string">&#x27;FORCE_SSL_LOGIN&#x27;</span>, <span class="literal">true</span>);</span><br><span class="line"><span class="title function_ invoke__">define</span>(<span class="string">&#x27;FORCE_SSL_ADMIN&#x27;</span>, <span class="literal">true</span>);</span><br></pre></td></tr></table></figure></blockquote></blockquote><p>以上就是使用BCH过程中遇到的坑，希望有缘人能搜到这个解决你的问题。还可以用邮箱联系我</p><p><a href="mailto:&#97;&#x64;&#109;&#105;&#x6e;&#x40;&#115;&#116;&#117;&#x70;&#x72;&#x6f;&#x6d;&#x6f;&#46;&#x63;&#111;&#x6d;">&#97;&#x64;&#109;&#105;&#x6e;&#x40;&#115;&#116;&#117;&#x70;&#x72;&#x6f;&#x6d;&#x6f;&#46;&#x63;&#111;&#x6d;</a></p>]]></content>
     
     
     <summary type="html">使用BCH 踩的坑</summary>
@@ -363,25 +382,6 @@
     
     
     <category term="Cloud" scheme="https://www.luopandeng.com/tags/Cloud/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>My Equipment</title>
-    <link href="https://www.luopandeng.com/2020/03/13/life/My-Equipment/"/>
-    <id>https://www.luopandeng.com/2020/03/13/life/My-Equipment/</id>
-    <published>2020-03-13T06:09:23.000Z</published>
-    <updated>2020-03-20T07:42:35.260Z</updated>
-    
-    <content type="html"><![CDATA[<p>Today deliver man has my keyboard delivered. It cost ￥469. A little bit expensive compared to normal keyboard. And i love it.</p><span id="more"></span>]]></content>
-    
-    
-    <summary type="html">record of my new equipment</summary>
-    
-    
-    
-    
-    <category term="life" scheme="https://www.luopandeng.com/tags/life/"/>
     
   </entry>
   
