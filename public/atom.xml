@@ -6,7 +6,7 @@
   <link href="https://www.luopandeng.com/atom.xml" rel="self"/>
   
   <link href="https://www.luopandeng.com/"/>
-  <updated>2023-06-02T00:59:04.927Z</updated>
+  <updated>2024-07-06T11:44:55.955Z</updated>
   <id>https://www.luopandeng.com/</id>
   
   <author>
@@ -17,13 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>一建机电笔记-英文缩写大全</title>
+    <link href="https://www.luopandeng.com/2024/07/06/%E4%B8%80%E5%BB%BA/%E4%B8%80%E5%BB%BA%E6%9C%BA%E7%94%B5%E7%AC%94%E8%AE%B0-%E8%8B%B1%E6%96%87%E7%BC%A9%E5%86%99%E5%A4%A7%E5%85%A8/"/>
+    <id>https://www.luopandeng.com/2024/07/06/%E4%B8%80%E5%BB%BA/%E4%B8%80%E5%BB%BA%E6%9C%BA%E7%94%B5%E7%AC%94%E8%AE%B0-%E8%8B%B1%E6%96%87%E7%BC%A9%E5%86%99%E5%A4%A7%E5%85%A8/</id>
+    <published>2024-07-06T09:11:55.000Z</published>
+    <updated>2024-07-06T11:44:55.955Z</updated>
+    
+    <content type="html"><![CDATA[<span id="more"></span><p><strong>VD炉</strong></p><pre><code>Vacuum Decarburization 真空精炼炉，其能有效的减少钢中氢、氮含量，并通过碳氧反应去除钢中的氧，通过碱性炉渣与钢水的充分反应脱除钢中的硫。VD 炉原理是利用五级蒸汽喷射泵工作，使真空室工作真空度达到67 Pa 以下，通过负压的作用达到精炼的目的， VD 炉正常工作时间为 30 分钟。其设备包括：    -- 真空罐    -- 真空罐盖及其罐盖升降移动小车    -- 真空加料装置    -- 真空泵系统    -- 连接罐与真空泵的真空管道系统    -- 控制和监控设备VD 炉设备简单，投资少，操作比较简单，生产成本相对较低，对要求不是很苛刻的钢种上应用非常广泛，如碳素钢、合金钢、普通轴承钢、普通石油管线用钢等等</code></pre><p><strong>VOD 炉</strong></p><pre><code>Vacuum Oxygen Decarburization ,其应用二真空条件下吹氧脱碳并吹氩搅拌，主要生产超低碳、氮不锈钢等产品。其设备包括：-- 真空罐-- 真空泵-- 钢包-- 氧枪-- 加料系统-- 测温装置和终点控制仪表等组成和 VD 炉相比，VOD 炉对耐火材料质量要求很高。 VOD 炉常和电炉或者转炉结合联动，工艺流程通常采用双联法， VOD 炉正常工作时间1小时左右。</code></pre><p><strong>RH炉</strong></p><pre><code>1958年德国 Rheinstahl (莱茵钢公司）和 Heratus (赫拉乌斯）真空泵厂合作成功进行了工业性生产试验，业届定名为RH。RH 炉设备包括：--钢包提升系统--真空泵系统--真空槽--真空室输送系统--顶枪系统--上料、投料系统--喂丝/覆盖剂自动加入系统--煤气预热系统--自动测温取样系统RH炉精炼功能强大，处理后钢水的洁净度水平高，现已成为生产低碳冷轧钢板所必须的炉外精炼设施，如要求超低碳、超低硫的钢种（电工硅钢），超低碳、超低氮的钢种（如IF钢），以及要求低碳、低硅的钢种（如涂镀钢板），RH炉是目前最佳唯一的选择。目前一般大、中型转炉钢厂都配有RH炉，日本新日铁-住友公司已利用RH炉生产出C≤15ppm的超低碳钢。RH炉正常工作时间30-45分钟左右。</code></pre>]]></content>
+    
+    
+    <summary type="html">VD炉、VOD炉、RH炉都是炼钢精炼炉，主要功能是在钢水浇注成型前，在真空条件下进一步完成脱硫、脱氧、除气、去除非金属夹杂物、调整钢水的成分和温度以及脱碳等任务，从而使钢水质量符合或超出后续钢材使用用途要求。VD炉英文全称：VacuumDecarburization,简称VD，是一种广泛应用的真空精炼炉，其能有效的减少钢中氢、氮含量</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>记一场让我耿耿于怀的面试</title>
     <link href="https://www.luopandeng.com/2023/06/02/chaos/%E8%AE%B0%E4%B8%80%E5%9C%BA%E8%AE%A9%E6%88%91%E8%80%BF%E8%80%BF%E4%BA%8E%E6%80%80%E7%9A%84%E9%9D%A2%E8%AF%95/"/>
     <id>https://www.luopandeng.com/2023/06/02/chaos/%E8%AE%B0%E4%B8%80%E5%9C%BA%E8%AE%A9%E6%88%91%E8%80%BF%E8%80%BF%E4%BA%8E%E6%80%80%E7%9A%84%E9%9D%A2%E8%AF%95/</id>
     <published>2023-06-01T23:43:53.000Z</published>
-    <updated>2023-06-02T00:59:04.927Z</updated>
+    <updated>2023-06-08T01:08:53.033Z</updated>
     
-    <content type="html"><![CDATA[<p>本次面试没能进到第二轮，很是失败，这里总结一下失败的原因。</p><span id="more"></span><p>&amp;ensp;&amp;emsp;本次面试共分为两个环节，第一部分是半结构化面试，给出一个问题然后每个人五分钟的材料分析时间，随后是个人陈述时间每人一分钟，陈述完后下面进行的是小组讨论，时间为 30 分钟。<br/><br>&amp;emsp;&amp;emsp;问题一共有两个，一个大意是让你找出成功企业的特点；另一个问题是找出一个企业失败有哪些原因。<br/><br>&amp;emsp;&amp;emsp;对于第一个问题我在个人陈述部分的回答分了三个层次，是一个金字塔形的结构，分别从最高层领导人，中层领导人，以及具体执行人员三个方面。对于失败原因的回答主要是从内部和外部因素上讲的。在失败方面谈到了内部管理问题和外部宏观因素的影响。<br><br>&amp;emsp;&amp;emsp;五号的回答最让我惊讶，TMD 问题都没有搞清楚就在那里说党建的事情。妈的他要是能进到公司，那么在那坐着的各位领导就是傻逼。<br><br>&amp;emsp;&amp;emsp;回来两天了，还在想这个问题。已经影响到我日常的工作学习了，所以这里写出来做一个总结，之后便不在提了。首先第一个问题是“一个成功的企业有哪些特点”；第二个问题是“一企业失败的原因有哪些”。<br><br>&amp;emsp;&amp;emsp;首先，你需要知道，解决一个问题最重要的一个环节就是要搞清楚这个问题到底是什么。这需要你去分析这个问题。我们看到这个问题之后就知道这一道找共性的问题。具体的话我们可以从，问题的表述看出来，“一个”表明了这一个泛指的概念，它不表示具体某一个企业也不表示具体某一类型的企业；回答第一个问题需要先解决三个小问题：</p><ul><li>企业是什么？</li><li>成功的标准是什么？</li><li>特点是什么？ <br></li></ul><p>&amp;emsp;&amp;emsp;企业是以盈利为目的的经济组织；成功的标准我们可以用上面说的企业能否实现其目的作为标准；最后说特点，特点是一个事物区别于其它事物所具有的属性。<br>&amp;emsp;&amp;emsp;所以解决了上述三个问题后才能找出一个好的结果。那么相对应的，谈到失败的特点时，同上成功的问题，你也需要有一个判断它失败的一个标准。每个人对于失败的定义不同，所以需要找出一个普遍能接受的标准至关重要，那么在会计上有一个很重要的假设，叫“持续经营”，它是开展会计工作重要基础，所以可以把它作为我们判断一个企业是否失败的标准，也就是说，把一个不能持续经营的企业作为失败的企业。</p><p>&amp;emsp;&amp;emsp;以上就是我对于这道面试题的看法。我在此次面试中最失败的地方在于没有很好的把自己表达出来。下次一定要把自己的想法尽可能地表达清楚。</p>]]></content>
+    <content type="html"><![CDATA[<p>本次面试没能进到第二轮，很是失败，这里总结一下失败的原因。</p><span id="more"></span><p>&amp;ensp;&amp;emsp;本次面试共分为两个环节，第一部分是半结构化面试，给出一个问题然后每个人五分钟的材料分析时间，随后是个人陈述时间每人一分钟，陈述完后下面进行的是小组讨论，时间为 30 分钟。<br/><br>&amp;emsp;&amp;emsp;问题一共有两个，一个大意是让你找出成功企业的特点；另一个问题是找出一个企业失败有哪些原因。<br/><br>&amp;emsp;&amp;emsp;对于第一个问题我在个人陈述部分的回答分了三个层次，是一个金字塔形的结构，分别从最高层领导人，中层领导人，以及具体执行人员三个方面。对于失败原因的回答主要是从内部和外部因素上讲的。在失败方面谈到了内部管理问题和外部宏观因素的影响。<br><br>&amp;emsp;&amp;emsp;五号的回答最让我惊讶，TMD 问题都没有搞清楚就在那里说党建的事情。妈的他要是能进到公司，那么在那坐着的各位领导就是傻逼。<br><br>&amp;emsp;&amp;emsp;回来两天了，还在想这个问题。已经影响到我日常的工作学习了，所以这里写出来做一个总结，之后便不在提了。首先第一个问题是“一个成功的企业有哪些特点”；第二个问题是“一企业失败的原因有哪些”。<br><br>&amp;emsp;&amp;emsp;首先，你需要知道，解决一个问题最重要的一个环节就是要搞清楚这个问题到底是什么。这需要你去分析这个问题。我们看到这个问题之后就知道这一道找共性的问题。具体的话我们可以从，问题的表述看出来，“一个”表明了这一个泛指的概念，它不表示具体某一个企业也不表示具体某一类型的企业；回答第一个问题需要先解决三个小问题：</p><ul><li>企业是什么？</li><li>成功的标准是什么？</li><li>特点是什么？ <br></li></ul><p>&amp;emsp;&amp;emsp;企业是以盈利为目的的经济组织；成功的标准我们可以用上面说的企业能否实现其目的作为标准；最后说特点，特点是一个事物区别于其它事物所具有的属性。<br>&amp;emsp;&amp;emsp;所以解决了上述三个问题后才能找出一个好的结果。那么相对应的，谈到失败的特点时，同上成功的问题，你也需要有一个判断它失败的一个标准。每个人对于失败的定义不同，所以需要找出一个普遍能接受的标准至关重要，那么在会计上有一个很重要的假设，叫“持续经营”，它是开展会计工作重要基础，所以可以把它作为我们判断一个企业是否失败的标准，也就是说，把一个不能持续经营的企业作为失败的企业。</p><p>&amp;emsp;&amp;emsp;以上就是我对于这道面试题的看法。我在此次面试中最失败的地方在于没有很好的把自己表达出来。下次一定要把自己的想法尽可能地表达清楚。</p><p>&amp;emsp;&amp;emsp;结构化面试中最重要的是占据主动权。</p>]]></content>
     
     
     <summary type="html">本周二参加了融通农发的面试，失败后耿耿于怀，这里记录一下</summary>
@@ -238,6 +255,23 @@
   </entry>
   
   <entry>
+    <title></title>
+    <link href="https://www.luopandeng.com/2020/12/14/chaos/%E4%BB%80%E4%B9%88%E6%98%AF%E9%9A%90%E7%A7%81/"/>
+    <id>https://www.luopandeng.com/2020/12/14/chaos/%E4%BB%80%E4%B9%88%E6%98%AF%E9%9A%90%E7%A7%81/</id>
+    <published>2020-12-13T16:22:28.242Z</published>
+    <updated>2023-06-05T01:39:52.333Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="—-1-2-title-什么是隐私date-2020-03-26-20-29-52tags-chaoskeywords-隐私description-洗澡的时候突然想到了下午送来的快递"><a href="#—-1-2-title-什么是隐私date-2020-03-26-20-29-52tags-chaoskeywords-隐私description-洗澡的时候突然想到了下午送来的快递" class="headerlink" title="—[^1][^2]title: 什么是隐私date: 2020-03-26 20:29:52tags: chaoskeywords: 隐私description: 洗澡的时候突然想到了下午送来的快递"></a>—[^1][^2]<br>title: 什么是隐私<br>date: 2020-03-26 20:29:52<br>tags: chaos<br>keywords: 隐私<br>description: 洗澡的时候突然想到了下午送来的快递</h2><p>今天上海下雨了，挺不好意思今天下单的。让快递员冒雨送快递，心里蛮过意不去的。说起来挺尴尬的，在房间里坐着没有听到他敲门的声音，还让人家打了个电话。其实下单的时候眼看天就放晴了。。。好了，进入正题。</p><span id="more"></span><p>接到快递员的电话时，他说我的快递是牙膏，嗯，不错，的确是牙膏。可我的问题是，他怎么就知道我的东西是牙膏呢？首先快递包装上以及快递单上都没有注明（写下此文前还专门找到包装箱看了一下，确认是没有的）。那么这个快递箱里面的东西快递员是怎么知道的呢？应该是他从手持扫描设备中知道的，那么问题来了，这样一来的话，你不管买了什么东西，包装再好也没用，终端快递员是知道的，那其所谓的宣传隐私包装其实就只是包装而已，送货的人还是知道的。</p><p>所以，京东自营平台能提供给你的隐私也只是除京东以外的人不了解而已。</p><p>所以隐私是有边界的。要保护自己的隐私就需要知道隐私的边界在哪里。</p><p>[^1]: </p><p>[^2]: </p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;—-1-2-title-什么是隐私date-2020-03-26-20-29-52tags-chaoskeywords-隐私description-洗澡的时候突然想到了下午送来的快递&quot;&gt;&lt;a href=&quot;#—-1-2-title-什么是隐私date-2020-03-26-20-29-52tags-chaoskeywords-隐私description-洗澡的时候突然想到了下午送来的快递&quot; class=&quot;headerlink&quot; title=&quot;—[^1][^2]title: 什么是隐私date: 2020-03-26 20:29:52tags: chaoskeywords: 隐私description: 洗澡的时候突然想到了下午送来的快递&quot;&gt;&lt;/a&gt;—[^1][^2]&lt;br&gt;title: 什么是隐私&lt;br&gt;date: 2020-03-26 20:29:52&lt;br&gt;tags: chaos&lt;br&gt;keywords: 隐私&lt;br&gt;description: 洗澡的时候突然想到了下午送来的快递&lt;/h2&gt;&lt;p&gt;今天上海下雨了，挺不好意思今天下单的。让快递员冒雨送快递，心里蛮过意不去的。说起来挺尴尬的，在房间里坐着没有听到他敲门的声音，还让人家打了个电话。其实下单的时候眼看天就放晴了。。。好了，进入正题。&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>优选Cloudflare最快IP</title>
     <link href="https://www.luopandeng.com/2020/11/02/technique/%E4%BC%98%E9%80%89Cloudflare%E6%9C%80%E5%BF%ABIP/"/>
     <id>https://www.luopandeng.com/2020/11/02/technique/%E4%BC%98%E9%80%89Cloudflare%E6%9C%80%E5%BF%ABIP/</id>
@@ -344,44 +378,6 @@
     
     
     <category term="chaos" scheme="https://www.luopandeng.com/tags/chaos/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>什么是隐私</title>
-    <link href="https://www.luopandeng.com/2020/03/26/chaos/%E4%BB%80%E4%B9%88%E6%98%AF%E9%9A%90%E7%A7%81/"/>
-    <id>https://www.luopandeng.com/2020/03/26/chaos/%E4%BB%80%E4%B9%88%E6%98%AF%E9%9A%90%E7%A7%81/</id>
-    <published>2020-03-26T12:29:52.000Z</published>
-    <updated>2020-03-27T00:19:59.817Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天上海下雨了，挺不好意思今天下单的。让快递员冒雨送快递，心里蛮过意不去的。说起来挺尴尬的，在房间里坐着没有听到他敲门的声音，还让人家打了个电话。其实下单的时候眼看天就放晴了。。。好了，进入正题。</p><span id="more"></span><p>接到快递员的电话时，他说我的快递是牙膏，嗯，不错，的确是牙膏。可我的问题是，他怎么就知道我的东西是牙膏呢？首先快递包装上以及快递单上都没有注明（写下此文前还专门找到包装箱看了一下，确认是没有的）。那么这个快递箱里面的东西快递员是怎么知道的呢？应该是他从手持扫描设备中知道的，那么问题来了，这样一来的话，你不管买了什么东西，包装再好也没用，终端快递员是知道的，那其所谓的宣传隐私包装其实就只是包装而已，送货的人还是知道的。</p><p>所以，京东自营平台能提供给你的隐私也只是除京东以外的人不了解而已。</p><p>所以隐私是有边界的。要保护自己的隐私就需要知道隐私的边界在哪里。</p>]]></content>
-    
-    
-    <summary type="html">洗澡的时候突然想到了下午送来的快递</summary>
-    
-    
-    
-    
-    <category term="chaos" scheme="https://www.luopandeng.com/tags/chaos/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Try on BCH</title>
-    <link href="https://www.luopandeng.com/2020/03/26/mynote/Cloud/Try-on-BCH/"/>
-    <id>https://www.luopandeng.com/2020/03/26/mynote/Cloud/Try-on-BCH/</id>
-    <published>2020-03-26T11:45:31.000Z</published>
-    <updated>2020-03-27T00:36:12.494Z</updated>
-    
-    <content type="html"><![CDATA[<p>本文主要记录使用BCH时踩到的坑。</p><span id="more"></span><blockquote><p>证书坑</p><blockquote><p>配置证书时的坑，由于使用了 Let’s encrypt 的自签名证书在配置的时候着实费了少时间。<strong>解决方法是服务器证书填生成的证书包里的fullchain.cer,私钥部分填key结尾的那个</strong></p></blockquote></blockquote><blockquote><p>重定向的坑</p><blockquote><p>wordpress中配置了https后发现在登录时浏览器会返回重定向过多问题。还有就是页面会出现加载不完整的问题，浏览器控制台出现403错误，这是由于wordpress中有部分资源不没有用https方式请求导致。<strong>解决方法是将如下代码加进wp-config.php中即可。</strong></p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$_SERVER</span>[<span class="string">&#x27;HTTPS&#x27;</span>] = <span class="string">&#x27;on&#x27;</span>;</span><br><span class="line"><span class="title function_ invoke__">define</span>(<span class="string">&#x27;FORCE_SSL_LOGIN&#x27;</span>, <span class="literal">true</span>);</span><br><span class="line"><span class="title function_ invoke__">define</span>(<span class="string">&#x27;FORCE_SSL_ADMIN&#x27;</span>, <span class="literal">true</span>);</span><br></pre></td></tr></table></figure></blockquote></blockquote><p>以上就是使用BCH过程中遇到的坑，希望有缘人能搜到这个解决你的问题。还可以用邮箱联系我</p><p><a href="mailto:&#97;&#x64;&#109;&#105;&#x6e;&#x40;&#115;&#116;&#117;&#x70;&#x72;&#x6f;&#x6d;&#x6f;&#46;&#x63;&#111;&#x6d;">&#97;&#x64;&#109;&#105;&#x6e;&#x40;&#115;&#116;&#117;&#x70;&#x72;&#x6f;&#x6d;&#x6f;&#46;&#x63;&#111;&#x6d;</a></p>]]></content>
-    
-    
-    <summary type="html">使用BCH 踩的坑</summary>
-    
-    
-    
-    
-    <category term="Cloud" scheme="https://www.luopandeng.com/tags/Cloud/"/>
     
   </entry>
   
