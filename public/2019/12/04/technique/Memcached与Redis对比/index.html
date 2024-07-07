@@ -34,7 +34,7 @@
   
 <link rel="stylesheet" href="/css/style.css">
 
-<meta name="generator" content="Hexo 7.0.0-rc1"></head>
+<meta name="generator" content="Hexo 7.3.0"></head>
 
 <body >
   <div id="container">
@@ -159,7 +159,7 @@
 <h2 id="Pipelining"><a href="#Pipelining" class="headerlink" title="Pipelining"></a>Pipelining</h2><p>Redis provides a feature called ‘<a target="_blank" rel="noopener" href="https://redis.io/topics/pipelining">pipelining</a>‘. If you have many redis commands you want to execute you can use pipelining to send them to redis all-at-once instead of one-at-a-time.</p>
 <p>Normally when you execute a command to either redis or memcached, each command is a separate request&#x2F;response cycle. With pipelining, redis can buffer several commands and execute them all at once, responding with all of the responses to all of your commands in a single reply.</p>
 <p>This can allow you to achieve even greater throughput on bulk importing or other actions that involve lots of commands.</p>
-<h2 id="Pub-x2F-Sub"><a href="#Pub-x2F-Sub" class="headerlink" title="Pub&#x2F;Sub"></a>Pub&#x2F;Sub</h2><p>Redis has <a target="_blank" rel="noopener" href="https://redis.io/commands#pubsub">commands</a> dedicated to <a target="_blank" rel="noopener" href="https://redis.io/topics/pubsub">pub&#x2F;sub functionality</a>, allowing redis to act as a high speed message broadcaster. This allows a single client to publish messages to many other clients connected to a channel.</p>
+<h2 id="Pub-Sub"><a href="#Pub-Sub" class="headerlink" title="Pub&#x2F;Sub"></a>Pub&#x2F;Sub</h2><p>Redis has <a target="_blank" rel="noopener" href="https://redis.io/commands#pubsub">commands</a> dedicated to <a target="_blank" rel="noopener" href="https://redis.io/topics/pubsub">pub&#x2F;sub functionality</a>, allowing redis to act as a high speed message broadcaster. This allows a single client to publish messages to many other clients connected to a channel.</p>
 <p>Redis does pub&#x2F;sub as well as almost any tool. Dedicated message brokers like <a target="_blank" rel="noopener" href="https://www.rabbitmq.com/">RabbitMQ</a> may have advantages in certain areas, but the fact that the same server can also give you persistent durable queues and other data structures your pub&#x2F;sub workloads likely need, Redis will often prove to be the best and most simple tool for the job.</p>
 <h2 id="Lua-Scripting"><a href="#Lua-Scripting" class="headerlink" title="Lua Scripting"></a>Lua Scripting</h2><p>You can kind of think of <a target="_blank" rel="noopener" href="https://redis.io/commands/eval">lua scripts</a> like redis’s own SQL or stored procedures. It’s both more and less than that, but the analogy mostly works.</p>
 <p>Maybe you have complex calculations you want redis to perform. Maybe you can’t afford to have your transactions roll back and need guarantees every step of a complex process will happen atomically. These problems and many more can be solved with lua scripting.</p>
@@ -173,7 +173,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://www.luopandeng.com/2019/12/04/technique/Memcached%E4%B8%8ERedis%E5%AF%B9%E6%AF%94/" data-id="clya2bivf004p8wmaenybbpq2" class="article-share-link">Share</a>
+      <a data-url="https://www.luopandeng.com/2019/12/04/technique/Memcached%E4%B8%8ERedis%E5%AF%B9%E6%AF%94/" data-id="clyb36q9h004j14ma1lea6dq2" class="article-share-link">Share</a>
       
       
     </footer>
@@ -246,7 +246,11 @@
       <ul>
         
           <li>
-            <a href="/2024/07/06/%E4%B8%80%E5%BB%BA/%E4%B8%80%E5%BB%BA%E6%9C%BA%E7%94%B5%E7%AC%94%E8%AE%B0-%E8%8B%B1%E6%96%87%E7%BC%A9%E5%86%99%E5%A4%A7%E5%85%A8/">一建机电笔记-英文缩写大全</a>
+            <a href="/2024/07/07/%E4%B8%80%E5%BB%BA/%E6%9C%BA%E7%94%B5/%E6%9C%BA%E7%94%B5%E7%AC%94%E8%AE%B0/">机电笔记</a>
+          </li>
+        
+          <li>
+            <a href="/2024/07/06/%E4%B8%80%E5%BB%BA/%E6%9C%BA%E7%94%B5/%E4%B8%80%E5%BB%BA%E6%9C%BA%E7%94%B5%E7%AC%94%E8%AE%B0-%E8%8B%B1%E6%96%87%E7%BC%A9%E5%86%99%E5%A4%A7%E5%85%A8/">一建机电笔记-英文缩写大全</a>
           </li>
         
           <li>
@@ -259,10 +263,6 @@
         
           <li>
             <a href="/2023/03/21/%E4%B8%80%E5%BB%BA/%E4%B8%80%E5%BB%BA%E5%AE%9E%E5%8A%A1%E8%A1%A5%E8%80%83/">一建实务补考</a>
-          </li>
-        
-          <li>
-            <a href="/2023/03/21/%E4%B8%80%E5%BB%BA/%E4%B8%80%E5%BB%BA%E6%B3%95%E8%A7%84%E8%A1%A5%E8%80%83/">一建法规补考</a>
           </li>
         
       </ul>
