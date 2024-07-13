@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script data-ad-client="ca-pub-6095926240129281" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <meta charset="utf-8">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6095926240129281"
+  crossorigin="anonymous"></script>
+
+  
+
+  
+  <title>数据结构 | LPD</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="数据结构--浙江大学">
+<meta property="og:type" content="article">
+<meta property="og:title" content="数据结构">
+<meta property="og:url" content="https://www.luopandeng.com/2019/09/29/technique/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.html">
+<meta property="og:site_name" content="LPD">
+<meta property="og:description" content="数据结构--浙江大学">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2019-09-29T11:58:48.000Z">
+<meta property="article:modified_time" content="2024-07-07T13:02:11.784Z">
+<meta property="article:author" content="LPD">
+<meta property="article:tag" content="技术">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="LPD" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body >
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">LPD</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://www.luopandeng.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-technique/数据结构" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/09/29/technique/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" class="article-date">
+  <time datetime="2019-09-29T11:58:48.000Z" itemprop="datePublished">2019-09-29</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      数据结构
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>数据结构--浙江大学</p>
+<span id="more"></span>
+<p>广义表(Generalized List)</p>
+<p>​ 广义表是线性表的推广</p>
+<p>​ 对于线性表而言，n个元素都是基本的单元素；</p>
+<p>​ 广义表中，这些元素不仅可以是单元素也可以是另一个广义表。</p>
+<p>多重链表</p>
+<p>​ 链表中的节点可能同时隶属于多个链</p>
+<p>​
+多重链表结点的指针域会有多个，但包含两个指针的链表并不一定是多重链表</p>
+<p>多重链表有广泛的用途：基本上如树、图这样相对复杂的数据结构都可以采用多重链表方式实现存储。</p>
+<p>矩阵可以用二维数组表示
+，但二维数组表示有两个缺陷：其一是数组的大小需要事先确定；其二为，对于稀疏矩阵，将造成大量的存储空间浪费</p>
+<p>堆栈</p>
+<p>是一种线性结构也是一种特殊的线性表。</p>
+<p>后缀表达式</p>
+<p>中缀表达式：运算符位于两个运算数之间。如，a+b*c-d/e</p>
+<p>求值策略：将中缀表达式转换为后缀表达式然后求值。例：2+9/3-5 -&gt;
+293/+5-</p>
+<p>​
+特点：1、运算数相对顺序不变；2、运算符号顺序发生改变，需要存储等待中的运算符号；要将当前运算符号与等待中的最后一个运算符号比较</p>
+<p>后缀表达式：运算符位于两个运算之间。如，abc*+de/-</p>
+<p>后缀表达式求值策略：从左向右扫描，逐个独步一时运算数和运算符号</p>
+<p>堆栈具有一定操作约束的线性表，只在一端做插入、删除。后入先出。</p>
+<p>栈的顺序存储结构通常由一个一维数组和一个记录栈顶元素位置的变量组成。</p>
+<p>栈的链式存储结构实际上就是一个单链表，叫做链栈。插入和删除操作只能在链栈的栈顶进行。</p>
+<p>中缀表达式如何转换为后缀表达式</p>
+<p>​</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">从头到尾读取中缀表达式的每个对象，对不同对象按不同的情况处理。</span><br><span class="line">	1、运算数：直接输出</span><br><span class="line">	2、左括号：压入堆栈；</span><br><span class="line">	3、右括号：将栈顶的运算符弹出并输出，直到遇到左括号（出栈，不输出）；</span><br><span class="line">	4、运算符：</span><br><span class="line">		若优先级大于栈顶运算符时，则把它压栈；</span><br><span class="line">		若优先级小于等于栈顶运算符时，将栈顶运算符弹出并输出；再比较新的栈顶运算符，直到该运算符大于栈顶运算符优先级为止，然后将该运算符压栈；</span><br><span class="line">	5、若各对象处理完毕，则把堆栈中存留的运算符一并输出。</span><br></pre></td></tr></table></figure>
+<p>堆栈的其他应用：</p>
+<p>​</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">函数调用及递归实现</span><br><span class="line">深度优先搜索</span><br><span class="line">回溯算法</span><br></pre></td></tr></table></figure>
+<hr />
+<p>应用示例：中缀表达式转换为后缀表达式：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> cn.edu.zzu;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> sun.plugin2.main.server.Plugin;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.security.spec.PKCS8EncodedKeySpec;</span><br><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"><span class="keyword">import</span> java.util.Stack;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span></span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">static</span> Stack&lt;Character&gt; op = <span class="keyword">new</span> <span class="title class_">Stack</span>&lt;&gt;();</span><br><span class="line">    <span class="keyword">static</span> Stack&lt;Character&gt; optemp = <span class="keyword">new</span> <span class="title class_">Stack</span>&lt;&gt;();</span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">String</span> <span class="variable">MINUS</span> <span class="operator">=</span> <span class="string">&quot;-&quot;</span>;</span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">String</span> <span class="variable">PLUS</span> <span class="operator">=</span> <span class="string">&quot;+&quot;</span>;</span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">String</span> <span class="variable">MULTIPLY</span> <span class="operator">=</span> <span class="string">&quot;*&quot;</span>;</span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">String</span> <span class="variable">DIVIDE</span> <span class="operator">=</span> <span class="string">&quot;/&quot;</span>;</span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">String</span> <span class="variable">LEFT_BRACKET</span> <span class="operator">=</span> <span class="string">&quot;(&quot;</span>;</span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">String</span> <span class="variable">RIGHT_BRACKET</span> <span class="operator">=</span> <span class="string">&quot;)&quot;</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;请输入一个式子。。。&quot;</span>);</span><br><span class="line">        <span class="type">Scanner</span> <span class="variable">scanner</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in);</span><br><span class="line">        <span class="type">String</span> <span class="variable">exp</span> <span class="operator">=</span> scanner.nextLine();</span><br><span class="line"><span class="comment">//        String exp = &quot;1+((2+3)*4)-5&quot;;</span></span><br><span class="line"><span class="comment">//        String exp = &quot;A*(B+C)-D/(E+F)&quot;;</span></span><br><span class="line"><span class="comment">//        String exp = &quot;a*(b+c)-d&quot;;</span></span><br><span class="line"><span class="comment">//        String exp = &quot;2*(9+6/3-5)+4&quot;;</span></span><br><span class="line">        System.out.println(exp);</span><br><span class="line">        System.out.print(getRp(exp));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> String <span class="title function_">getRp</span><span class="params">(String exp)</span> &#123;</span><br><span class="line">        <span class="type">StringBuilder</span> <span class="variable">out</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">StringBuilder</span>();</span><br><span class="line">        <span class="type">char</span>[] chars = exp.toCharArray();</span><br><span class="line">        <span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; exp.length(); i++) &#123;</span><br><span class="line"><span class="comment">//            System.out.println(op + &quot;this is op&quot; + j++);</span></span><br><span class="line"><span class="comment">//            System.out.println(optemp + &quot;this is optemp&quot;);</span></span><br><span class="line">            <span class="type">String</span> <span class="variable">s</span> <span class="operator">=</span> String.valueOf(chars[i]);</span><br><span class="line">            <span class="keyword">if</span> (!s.equals(MINUS) &amp;&amp; !s.equals(PLUS) &amp;&amp; !s.equals(MULTIPLY) &amp;&amp; !s.equals(DIVIDE) &amp;&amp; !s.equals(LEFT_BRACKET) &amp;&amp; !s.equals(RIGHT_BRACKET)) &#123;</span><br><span class="line">                op.push(chars[i]);</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="keyword">if</span> (s.equals(MINUS) || s.equals(PLUS)) &#123;</span><br><span class="line">                    <span class="keyword">if</span> (optemp.empty() || optemp.peek().toString().equals(LEFT_BRACKET)) &#123;</span><br><span class="line">                        optemp.push(chars[i]);</span><br><span class="line">                    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                        <span class="comment">//栈不为空且栈顶元素不是左括号，则这一级要出栈</span></span><br><span class="line">                        <span class="keyword">while</span> (!optemp.peek().toString().equals(LEFT_BRACKET)) &#123;</span><br><span class="line">                            op.push(optemp.pop());</span><br><span class="line">                            <span class="keyword">if</span> (optemp.empty()) &#123;</span><br><span class="line"><span class="comment">//                                optemp.push(chars[i]);</span></span><br><span class="line"><span class="comment">//                                System.out.println(optemp + &quot;  in loop&quot;);</span></span><br><span class="line">                                <span class="keyword">break</span>;</span><br><span class="line">                            &#125;</span><br><span class="line">                        &#125;</span><br><span class="line"><span class="comment">//                        System.out.println(optemp + &quot;before&quot;);</span></span><br><span class="line">                        optemp.push(chars[i]);</span><br><span class="line"><span class="comment">//                        System.out.println(optemp + &quot;after&quot;);</span></span><br><span class="line">                    &#125;</span><br><span class="line">                &#125; <span class="keyword">else</span> <span class="keyword">if</span> (s.equals(DIVIDE) || s.equals(MULTIPLY)) &#123;</span><br><span class="line"><span class="comment">//                    System.out.println(chars[i]);</span></span><br><span class="line">                    <span class="keyword">if</span> (optemp.empty()) &#123;</span><br><span class="line">                        optemp.push(chars[i]);</span><br><span class="line">                    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                        <span class="keyword">if</span> (optemp.peek().toString().equals(MINUS) || optemp.peek().toString().equals(PLUS)</span><br><span class="line">                                || optemp.peek().toString().equals(LEFT_BRACKET)) &#123;</span><br><span class="line">                            optemp.push(chars[i]);</span><br><span class="line">                        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                            <span class="keyword">while</span> (optemp.peek().toString().equals(DIVIDE) || optemp.peek().toString().equals(MULTIPLY)) &#123;</span><br><span class="line">                                op.push(optemp.pop());</span><br><span class="line">                                <span class="keyword">if</span> (optemp.empty()) &#123;</span><br><span class="line">                                    optemp.push(chars[i]);</span><br><span class="line">                                    <span class="keyword">break</span>;</span><br><span class="line">                                &#125;</span><br><span class="line">                            &#125;</span><br><span class="line">                        &#125;</span><br><span class="line">                    &#125;</span><br><span class="line">                    <span class="keyword">continue</span>;</span><br><span class="line">                &#125; <span class="keyword">else</span> <span class="keyword">if</span> (s.equals(LEFT_BRACKET)) &#123;</span><br><span class="line">                    optemp.push(chars[i]);</span><br><span class="line">                &#125; <span class="keyword">else</span> <span class="keyword">if</span> (s.equals(RIGHT_BRACKET)) &#123;</span><br><span class="line">                    <span class="keyword">while</span> (!optemp.peek().toString().equals(LEFT_BRACKET)) &#123;</span><br><span class="line">                        op.push(optemp.pop());</span><br><span class="line">                    &#125;</span><br><span class="line">                    <span class="type">Character</span> <span class="variable">pop</span> <span class="operator">=</span> optemp.pop();</span><br><span class="line"><span class="comment">//                    System.out.println(pop);</span></span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"><span class="comment">//        System.out.println(op);</span></span><br><span class="line"><span class="comment">//        System.out.println(optemp);</span></span><br><span class="line">        <span class="keyword">while</span> (!optemp.empty()) &#123;</span><br><span class="line">            op.push(optemp.pop());</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">while</span> (!op.empty()) &#123;</span><br><span class="line">            out.append(op.pop());</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="type">char</span>[] c1 = out.toString().toCharArray();</span><br><span class="line">        <span class="type">StringBuilder</span> <span class="variable">scout</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">StringBuilder</span>();</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; c1.length; i++) &#123;</span><br><span class="line">            scout.append(c1[c1.length - i - <span class="number">1</span>]);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> scout.toString();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://www.luopandeng.com/2019/09/29/technique/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" data-id="clyjws6vk005a30kn6wy4avjw" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2019/09/29/technique/Django-%E6%95%B0%E6%8D%AE%E5%BA%93%E6%93%8D%E4%BD%9C/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Django数据库操作
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2019/09/28/chaos/%E8%B7%8C%E8%B7%8C%E6%92%9E%E6%92%9E%E5%86%99%E5%8D%9A%E5%AE%A2/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">跌跌撞撞写博客</div>
+    </a>
+  
+</nav>
+
+  
+
+
+
+
+</article>
+
+
+9 min. read
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Cloud/" rel="tag">Cloud</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Cloudflare/" rel="tag">Cloudflare</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/OPEC/" rel="tag">OPEC</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/chaos/" rel="tag">chaos</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/cheatsheet/" rel="tag">cheatsheet</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hackerrank/" rel="tag">hackerrank</a><span class="tag-list-count">8</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/invest/" rel="tag">invest</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/investment/" rel="tag">investment</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/life/" rel="tag">life</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mynotes-Linux/" rel="tag">mynotes Linux</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/technique/" rel="tag">technique</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%80%E5%BB%BA/" rel="tag">一建</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%80%E5%BB%BA-%E6%B3%95%E8%A7%84/" rel="tag">一建 法规</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9D%91/" rel="tag">坑</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="tag">学习笔记</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/" rel="tag">小程序</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B0%8F%E9%92%B1%E9%92%B1/" rel="tag">小钱钱</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a><span class="tag-list-count">11</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E4%B8%9C%E8%A5%BF/" rel="tag">有意思的东西</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%89%E6%84%8F%E7%9A%84%E4%B8%9C%E8%A5%BF/" rel="tag">有意的东西</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9D%82%E4%BA%8B/" rel="tag">杂事</a><span class="tag-list-count">9</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%9F%E6%B4%BB/" rel="tag">生活</a><span class="tag-list-count">14</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AE%97%E6%B3%95-hackerrank/" rel="tag">算法 hackerrank</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%82%A1%E7%A5%A8/" rel="tag">股票</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/" rel="tag">读后感</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%BF%87%E5%8E%BB/" rel="tag">过去</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9D%A2%E8%AF%95/" rel="tag">面试</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%A1%B9%E7%9B%AE/" rel="tag">项目</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Cloud/" style="font-size: 10px;">Cloud</a> <a href="/tags/Cloudflare/" style="font-size: 10px;">Cloudflare</a> <a href="/tags/OPEC/" style="font-size: 10px;">OPEC</a> <a href="/tags/chaos/" style="font-size: 15.56px;">chaos</a> <a href="/tags/cheatsheet/" style="font-size: 10px;">cheatsheet</a> <a href="/tags/hackerrank/" style="font-size: 16.67px;">hackerrank</a> <a href="/tags/invest/" style="font-size: 13.33px;">invest</a> <a href="/tags/investment/" style="font-size: 10px;">investment</a> <a href="/tags/life/" style="font-size: 12.22px;">life</a> <a href="/tags/mynotes-Linux/" style="font-size: 10px;">mynotes Linux</a> <a href="/tags/technique/" style="font-size: 10px;">technique</a> <a href="/tags/%E4%B8%80%E5%BB%BA/" style="font-size: 11.11px;">一建</a> <a href="/tags/%E4%B8%80%E5%BB%BA-%E6%B3%95%E8%A7%84/" style="font-size: 10px;">一建 法规</a> <a href="/tags/%E5%9D%91/" style="font-size: 10px;">坑</a> <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" style="font-size: 10px;">学习笔记</a> <a href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/" style="font-size: 14.44px;">小程序</a> <a href="/tags/%E5%B0%8F%E9%92%B1%E9%92%B1/" style="font-size: 10px;">小钱钱</a> <a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 18.89px;">技术</a> <a href="/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E4%B8%9C%E8%A5%BF/" style="font-size: 10px;">有意思的东西</a> <a href="/tags/%E6%9C%89%E6%84%8F%E7%9A%84%E4%B8%9C%E8%A5%BF/" style="font-size: 10px;">有意的东西</a> <a href="/tags/%E6%9D%82%E4%BA%8B/" style="font-size: 17.78px;">杂事</a> <a href="/tags/%E7%94%9F%E6%B4%BB/" style="font-size: 20px;">生活</a> <a href="/tags/%E7%AE%97%E6%B3%95-hackerrank/" style="font-size: 10px;">算法 hackerrank</a> <a href="/tags/%E8%82%A1%E7%A5%A8/" style="font-size: 10px;">股票</a> <a href="/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/" style="font-size: 10px;">读后感</a> <a href="/tags/%E8%BF%87%E5%8E%BB/" style="font-size: 10px;">过去</a> <a href="/tags/%E9%9D%A2%E8%AF%95/" style="font-size: 10px;">面试</a> <a href="/tags/%E9%A1%B9%E7%9B%AE/" style="font-size: 10px;">项目</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/07/">七月 2024</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/06/">六月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/05/">五月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/03/">三月 2023</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/03/">三月 2022</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/08/">八月 2021</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/04/">四月 2021</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/11/">十一月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/10/">十月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/07/">七月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/06/">六月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">四月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">三月 2020</a><span class="archive-list-count">21</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">二月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">一月 2020</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/12/">十二月 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">十一月 2019</a><span class="archive-list-count">12</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/10/">十月 2019</a><span class="archive-list-count">21</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/09/">九月 2019</a><span class="archive-list-count">10</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/08/">八月 2019</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/07/">七月 2019</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2010/03/">三月 2010</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/1970/01/">一月 1970</a><span class="archive-list-count">2</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2024/07/12/%E4%B8%80%E5%BB%BA/%E6%9C%BA%E7%94%B5%E6%A1%88%E4%BE%8B/">机电案例</a>
+          </li>
+        
+          <li>
+            <a href="/2024/07/07/%E4%B8%80%E5%BB%BA/%E6%9C%BA%E7%94%B5/%E6%9C%BA%E7%94%B5%E7%AC%94%E8%AE%B0/">机电笔记</a>
+          </li>
+        
+          <li>
+            <a href="/2024/07/06/%E4%B8%80%E5%BB%BA/%E6%9C%BA%E7%94%B5/%E4%B8%80%E5%BB%BA%E6%9C%BA%E7%94%B5%E7%AC%94%E8%AE%B0-%E8%8B%B1%E6%96%87%E7%BC%A9%E5%86%99%E5%A4%A7%E5%85%A8/">一建机电笔记-英文缩写大全</a>
+          </li>
+        
+          <li>
+            <a href="/2023/06/02/chaos/%E8%AE%B0%E4%B8%80%E5%9C%BA%E8%AE%A9%E6%88%91%E8%80%BF%E8%80%BF%E4%BA%8E%E6%80%80%E7%9A%84%E9%9D%A2%E8%AF%95/">记一场让我耿耿于怀的面试</a>
+          </li>
+        
+          <li>
+            <a href="/2023/05/03/%E4%B8%80%E5%BB%BA/%E6%96%BD%E5%B7%A5%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0/">施工技术学习</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+    <div class="widget tag">
+	<h3 class="title">友情链接</h3>
+	<ul class="entry">
+	<li><a target="_blank" rel="noopener" href="https://fziqian.github.io/blog/" title="FZQ">FZQ的博客</a></li>
+	</ul>
+</div>
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer" style="text-align: center;">
+    <div id="footer-info" class="inner" >
+      &copy; 2024 LPD<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+      <div style="vertical-align: middle;"><a target="_blank" href="https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=9M3EwsbGzMPDw7SFhdqXm5k" ><img src="https://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_01.png" style="-webkit-user-select: none;margin: auto;"/></a></div>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>

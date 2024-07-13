@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script data-ad-client="ca-pub-6095926240129281" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <meta charset="utf-8">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6095926240129281"
+  crossorigin="anonymous"></script>
+
+  
+
+  
+  <title>Memcached与Redis对比 | LPD</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Redis is more powerful, more popular, and better supported than memcached. Memcached can only do a small fraction of the things Redis can do. Redis is better even where their features overlap.For an">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Memcached与Redis对比">
+<meta property="og:url" content="https://www.luopandeng.com/2019/12/04/technique/Memcached%E4%B8%8ERedis%E5%AF%B9%E6%AF%94/index.html">
+<meta property="og:site_name" content="LPD">
+<meta property="og:description" content="Redis is more powerful, more popular, and better supported than memcached. Memcached can only do a small fraction of the things Redis can do. Redis is better even where their features overlap.For an">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2019-12-04T07:57:58.000Z">
+<meta property="article:modified_time" content="2024-07-07T13:02:11.777Z">
+<meta property="article:author" content="LPD">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="LPD" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body >
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">LPD</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://www.luopandeng.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-technique/Memcached与Redis对比" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/12/04/technique/Memcached%E4%B8%8ERedis%E5%AF%B9%E6%AF%94/" class="article-date">
+  <time datetime="2019-12-04T07:57:58.000Z" itemprop="datePublished">2019-12-04</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Memcached与Redis对比
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Redis is more powerful, more popular, and better supported than
+memcached. Memcached can only do a small fraction of the things Redis
+can do. Redis is better even where their features overlap.For anything
+new, use Redis.</p>
+<span id="more"></span>
+<h1 id="memcached-vs-redis-direct-comparison">Memcached vs Redis: Direct
+Comparison</h1>
+<p>Both tools are powerful, fast, in-memory data stores that are useful
+as a cache. Both can help speed up your application by caching database
+results, HTML fragments, or anything else that might be expensive to
+generate.</p>
+<h2 id="points-to-consider">Points to Consider</h2>
+<p>When used for the same thing, here is how they compare using the
+original question's "Points to Consider":</p>
+<ul>
+<li><p><strong>Read/write speed</strong>: Both are extremely fast.
+Benchmarks vary by workload, versions, and many other factors but
+generally show redis to be as fast or almost as fast as memcached. I
+recommend redis, but not because memcached is slow. It's not.</p></li>
+<li><dl>
+<dt>Memory usage</dt>
+<dd>
+<p>Redis is better.</p>
+</dd>
+</dl>
+<ul>
+<li>memcached: You specify the cache size and as you insert items the
+daemon quickly grows to a little more than this size. There is never
+really a way to reclaim any of that space, short of restarting
+memcached. All your keys could be expired, you could flush the database,
+and it would still use the full chunk of RAM you configured it
+with.</li>
+<li>redis: Setting a max size is up to you. Redis will never use more
+than it has to and will give you back memory it is no longer using.</li>
+<li>I stored 100,000 ~2KB strings (~200MB) of random sentences into
+both. Memcached RAM usage grew to ~225MB. Redis RAM usage grew to
+~228MB. After flushing both, redis dropped to ~29MB and memcached stayed
+at ~225MB. They are similarly efficient in how they store data, but only
+one is capable of reclaiming it.</li>
+</ul></li>
+<li><p><strong>Disk I/O dumping</strong>: A clear win for redis since it
+does this by default and has very configurable persistence. Memcached
+has no mechanisms for dumping to disk without 3rd party tools.</p></li>
+<li><p><strong>Scaling</strong>: Both give you tons of headroom before
+you need more than a single instance as a cache. Redis includes tools to
+help you go beyond that while memcached does not.</p></li>
+</ul>
+<h2 id="memcached">memcached</h2>
+<p>Memcached is a simple volatile cache server. It allows you to store
+key/value pairs where the value is limited to being a string up to
+1MB.</p>
+<p>It's good at this, but that's all it does. You can access those
+values by their key at extremely high speed, often saturating available
+network or even memory bandwidth.</p>
+<p>When you restart memcached your data is gone. This is fine for a
+cache. You shouldn't store anything important there.</p>
+<p>If you need high performance or high availability there are 3rd party
+tools, products, and services available.</p>
+<h2 id="redis">redis</h2>
+<p>Redis can do the same jobs as memcached can, and can do them
+better.</p>
+<p>Redis can <a target="_blank" rel="noopener" href="https://redis.io/topics/lru-cache">act as a
+cache</a> as well. It can store key/value pairs too. In redis they can
+even be up to 512MB.</p>
+<p>You can turn off persistence and it will happily lose your data on
+restart too. If you want your cache to survive restarts it lets you do
+that as well. In fact, that's the default.</p>
+<p>It's super fast too, often limited by network or memory
+bandwidth.</p>
+<p>If one instance of redis/memcached isn't enough performance for your
+workload, redis is the clear choice. Redis includes <a
+target="_blank" rel="noopener" href="https://redis.io/topics/cluster-tutorial">cluster support</a> and
+comes with high availability tools (<a
+target="_blank" rel="noopener" href="https://redis.io/topics/sentinel">redis-sentinel</a>) right "in
+the box". Over the past few years redis has also emerged as the clear
+leader in 3rd party tooling. Companies like Redis Labs, Amazon, and
+others offer many useful redis tools and services. The ecosystem around
+redis is much larger. The number of large scale deployments is now
+likely greater than for memcached.</p>
+<h1 id="the-redis-superset">The Redis Superset</h1>
+<p>Redis is more than a cache. It is an in-memory data structure server.
+Below you will find a quick overview of things Redis can do beyond being
+a simple key/value cache like memcached. <em>Most</em> of redis'
+features are things memcached cannot do.</p>
+<h2 id="documentation">Documentation</h2>
+<p>Redis is better documented than memcached. While this can be
+subjective, it seems to be more and more true all the time.</p>
+<p><a target="_blank" rel="noopener" href="https://redis.io/">redis.io</a> is a fantastic easily
+navigated resource. It lets you <a target="_blank" rel="noopener" href="https://try.redis.io/">try
+redis in the browser</a> and even gives you live interactive examples
+with each command in the docs.</p>
+<p>There are now 2x as many stackoverflow results for redis as
+memcached. 2x as many Google results. More readily accessible examples
+in more languages. More active development. More active client
+development. These measurements might not mean much individually, but in
+combination they paint a clear picture that support and documentation
+for redis is greater and much more up-to-date.</p>
+<h2 id="persistence"><a
+target="_blank" rel="noopener" href="https://redis.io/topics/persistence">Persistence</a></h2>
+<p>By default redis persists your data to disk using a mechanism called
+snapshotting. If you have enough RAM available it's able to write all of
+your data to disk with almost no performance degradation. It's almost
+free!</p>
+<p>In snapshot mode there is a chance that a sudden crash could result
+in a small amount of lost data. If you absolutely need to make sure no
+data is ever lost, don't worry, redis has your back there too with AOF
+(Append Only File) mode. In this persistence mode data can be synced to
+disk as it is written. This can reduce maximum write throughput to
+however fast your disk can write, but should still be quite fast.</p>
+<p>There are many configuration options to fine tune persistence if you
+need, but the defaults are very sensible. These options make it easy to
+setup redis as a safe, redundant place to store data. It is a
+<em>real</em> database.</p>
+<h2 id="many-data-types">Many Data Types</h2>
+<p>Memcached is limited to strings, but Redis is a data structure server
+that can serve up many different data types. It also provides the
+commands you need to make the most of those data types.</p>
+<h3 id="strings-commands">Strings (<a
+target="_blank" rel="noopener" href="https://redis.io/commands#string">commands</a>)</h3>
+<p>Simple text or binary values that can be up to 512MB in size. This is
+the only data type redis and memcached share, though memcached strings
+are limited to 1MB.</p>
+<p>Redis gives you more tools for leveraging this datatype by offering
+commands for bitwise operations, bit-level manipulation, floating point
+increment/decrement support, range queries, and multi-key operations.
+Memcached doesn't support any of that.</p>
+<p>Strings are useful for all sorts of use cases, which is why memcached
+is fairly useful with this data type alone.</p>
+<h3 id="hashes-commands">Hashes (<a
+target="_blank" rel="noopener" href="https://redis.io/commands#hash">commands</a>)</h3>
+<p>Hashes are sort of like a key value store within a key value store.
+They map between string fields and string values. Field-&gt;value maps
+using a hash are slightly more space efficient than key-&gt;value maps
+using regular strings.</p>
+<p>Hashes are useful as a namespace, or when you want to logically group
+many keys. With a hash you can grab all the members efficiently, expire
+all the members together, delete all the members together, etc. Great
+for any use case where you have several key/value pairs that need to
+grouped.</p>
+<p>One example use of a hash is for storing user profiles between
+applications. A redis hash stored with the user ID as the key will allow
+you to store as many bits of data about a user as needed while keeping
+them stored under a single key. The advantage of using a hash instead of
+serializing the profile into a string is that you can have different
+applications read/write different fields within the user profile without
+having to worry about one app overriding changes made by others (which
+can happen if you serialize stale data).</p>
+<h3 id="lists-commands">Lists (<a
+target="_blank" rel="noopener" href="https://redis.io/commands#list">commands</a>)</h3>
+<p>Redis lists are ordered collections of strings. They are optimized
+for inserting, reading, or removing values from the top or bottom (aka:
+left or right) of the list.</p>
+<p>Redis provides many <a
+target="_blank" rel="noopener" href="https://redis.io/commands#list">commands</a> for leveraging lists,
+including commands to push/pop items, push/pop between lists, truncate
+lists, perform range queries, etc.</p>
+<p>Lists make great durable, atomic, queues. These work great for job
+queues, logs, buffers, and many other use cases.</p>
+<h3 id="sets-commands">Sets (<a
+target="_blank" rel="noopener" href="https://redis.io/commands#set">commands</a>)</h3>
+<p>Sets are unordered collections of unique values. They are optimized
+to let you quickly check if a value is in the set, quickly add/remove
+values, and to measure overlap with other sets.</p>
+<p>These are great for things like access control lists, unique visitor
+trackers, and many other things. Most programming languages have
+something similar (usually called a Set). This is like that, only
+distributed.</p>
+<p>Redis provides several <a
+target="_blank" rel="noopener" href="https://redis.io/commands#set">commands</a> to manage sets.
+Obvious ones like adding, removing, and checking the set are present. So
+are less obvious commands like popping/reading a random item and
+commands for performing unions and intersections with other sets.</p>
+<h3 id="sorted-sets-commands">Sorted Sets (<a
+target="_blank" rel="noopener" href="https://redis.io/commands#sorted_set">commands</a>)</h3>
+<p>Sorted Sets are also collections of unique values. These ones, as the
+name implies, are ordered. They are ordered by a score, then
+lexicographically.</p>
+<p>This data type is optimized for quick lookups by score. Getting the
+highest, lowest, or any range of values in between is extremely
+fast.</p>
+<p>If you add users to a sorted set along with their high score, you
+have yourself a perfect leader-board. As new high scores come in, just
+add them to the set again with their high score and it will re-order
+your leader-board. Also great for keeping track of the last time users
+visited and who is active in your application.</p>
+<p>Storing values with the same score causes them to be ordered
+lexicographically (think alphabetically). This can be useful for things
+like auto-complete features.</p>
+<p>Many of the sorted set <a
+target="_blank" rel="noopener" href="https://redis.io/commands#sorted_set">commands</a> are similar to
+commands for sets, sometimes with an additional score parameter. Also
+included are commands for managing scores and querying by score.</p>
+<h3 id="geo">Geo</h3>
+<p>Redis has several <a
+target="_blank" rel="noopener" href="https://redis.io/commands#geo">commands</a> for storing,
+retrieving, and measuring geographic data. This includes radius queries
+and measuring distances between points.</p>
+<p>Technically geographic data in redis is stored within sorted sets, so
+this isn't a truly separate data type. It is more of an extension on top
+of sorted sets.</p>
+<h3 id="bitmap-and-hyperloglog">Bitmap and HyperLogLog</h3>
+<p>Like geo, these aren't completely separate data types. These are
+commands that allow you to treat string data as if it's either a bitmap
+or a hyperloglog.</p>
+<p>Bitmaps are what the bit-level operators I referenced under
+<code>Strings</code> are for. This data type was the basic building
+block for reddit's recent collaborative art project: <a
+target="_blank" rel="noopener" href="https://redditblog.com/2017/04/13/how-we-built-rplace/">r/Place</a>.</p>
+<p>HyperLogLog allows you to use a constant extremely small amount of
+space to count almost unlimited unique values with shocking accuracy.
+Using only ~16KB you could efficiently count the number of unique
+visitors to your site, even if that number is in the millions.</p>
+<h2 id="transactions-and-atomicity">Transactions and Atomicity</h2>
+<p>Commands in redis are atomic, meaning you can be sure that as soon as
+you write a value to redis that value is visible to all clients
+connected to redis. There is no wait for that value to propagate.
+Technically memcached is atomic as well, but with redis adding all this
+functionality beyond memcached it is worth noting and somewhat
+impressive that all these additional data types and features are also
+atomic.</p>
+<p>While not quite the same as transactions in relational databases,
+redis also has <a
+target="_blank" rel="noopener" href="https://redis.io/topics/transactions">transactions</a> that use
+"optimistic locking" (<a
+target="_blank" rel="noopener" href="https://redis.io/commands/watch">WATCH</a>/<a
+target="_blank" rel="noopener" href="https://redis.io/commands/multi">MULTI</a>/<a
+target="_blank" rel="noopener" href="https://redis.io/commands/exec">EXEC</a>).</p>
+<h2 id="pipelining">Pipelining</h2>
+<p>Redis provides a feature called '<a
+target="_blank" rel="noopener" href="https://redis.io/topics/pipelining">pipelining</a>'. If you have
+many redis commands you want to execute you can use pipelining to send
+them to redis all-at-once instead of one-at-a-time.</p>
+<p>Normally when you execute a command to either redis or memcached,
+each command is a separate request/response cycle. With pipelining,
+redis can buffer several commands and execute them all at once,
+responding with all of the responses to all of your commands in a single
+reply.</p>
+<p>This can allow you to achieve even greater throughput on bulk
+importing or other actions that involve lots of commands.</p>
+<h2 id="pubsub">Pub/Sub</h2>
+<p>Redis has <a target="_blank" rel="noopener" href="https://redis.io/commands#pubsub">commands</a>
+dedicated to <a target="_blank" rel="noopener" href="https://redis.io/topics/pubsub">pub/sub
+functionality</a>, allowing redis to act as a high speed message
+broadcaster. This allows a single client to publish messages to many
+other clients connected to a channel.</p>
+<p>Redis does pub/sub as well as almost any tool. Dedicated message
+brokers like <a target="_blank" rel="noopener" href="https://www.rabbitmq.com/">RabbitMQ</a> may have
+advantages in certain areas, but the fact that the same server can also
+give you persistent durable queues and other data structures your
+pub/sub workloads likely need, Redis will often prove to be the best and
+most simple tool for the job.</p>
+<h2 id="lua-scripting">Lua Scripting</h2>
+<p>You can kind of think of <a target="_blank" rel="noopener" href="https://redis.io/commands/eval">lua
+scripts</a> like redis's own SQL or stored procedures. It's both more
+and less than that, but the analogy mostly works.</p>
+<p>Maybe you have complex calculations you want redis to perform. Maybe
+you can't afford to have your transactions roll back and need guarantees
+every step of a complex process will happen atomically. These problems
+and many more can be solved with lua scripting.</p>
+<p>The entire script is executed atomically, so if you can fit your
+logic into a lua script you can often avoid messing with optimistic
+locking transactions.</p>
+<h2 id="scaling">Scaling</h2>
+<p>As mentioned above, redis includes built in support for clustering
+and is bundled with its own high availability tool called
+<code>redis-sentinel</code>.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>Without hesitation I would recommend redis over memcached for any new
+projects, or existing projects that don't already use memcached.</p>
+<p>The above may sound like I don't like memcached. On the contrary: it
+is a powerful, simple, stable, mature, and hardened tool. There are even
+some use cases where it's a little faster than redis. I love memcached.
+I just don't think it makes much sense for future development.</p>
+<p>Redis does everything memcached does, often better. Any performance
+advantage for memcached is minor and workload specific. There are also
+workloads for which redis will be faster, and many more workloads that
+redis can do which memcached simply can't. The tiny performance
+differences seem minor in the face of the giant gulf in functionality
+and the fact that both tools are so fast and efficient they may very
+well be the last piece of your infrastructure you'll ever have to worry
+about scaling.</p>
+<p>There is only one scenario where memcached makes more sense: where
+memcached is already in use as a cache. If you are already caching with
+memcached then keep using it, if it meets your needs. It is likely not
+worth the effort to move to redis and if you are going to use redis just
+for caching it may not offer enough benefit to be worth your time. If
+memcached isn't meeting your needs, then you should probably move to
+redis. This is true whether you need to scale beyond memcached or you
+need additional functionality.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://www.luopandeng.com/2019/12/04/technique/Memcached%E4%B8%8ERedis%E5%AF%B9%E6%AF%94/" data-id="clyjws6v4004j30kn9btkchxd" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2020/01/04/living/2020-should-be-a-tough-year/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          2020 should be a tough year
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2019/11/24/miniprogram/WeERP%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%90%8E%E5%8F%B0%E6%90%AD%E5%BB%BA/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">WeERP小程序后台搭建</div>
+    </a>
+  
+</nav>
+
+  
+
+
+
+
+</article>
+
+
+16 min. read
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Cloud/" rel="tag">Cloud</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Cloudflare/" rel="tag">Cloudflare</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/OPEC/" rel="tag">OPEC</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/chaos/" rel="tag">chaos</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/cheatsheet/" rel="tag">cheatsheet</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hackerrank/" rel="tag">hackerrank</a><span class="tag-list-count">8</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/invest/" rel="tag">invest</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/investment/" rel="tag">investment</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/life/" rel="tag">life</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mynotes-Linux/" rel="tag">mynotes Linux</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/technique/" rel="tag">technique</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%80%E5%BB%BA/" rel="tag">一建</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%80%E5%BB%BA-%E6%B3%95%E8%A7%84/" rel="tag">一建 法规</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9D%91/" rel="tag">坑</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="tag">学习笔记</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/" rel="tag">小程序</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B0%8F%E9%92%B1%E9%92%B1/" rel="tag">小钱钱</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a><span class="tag-list-count">11</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E4%B8%9C%E8%A5%BF/" rel="tag">有意思的东西</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%89%E6%84%8F%E7%9A%84%E4%B8%9C%E8%A5%BF/" rel="tag">有意的东西</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9D%82%E4%BA%8B/" rel="tag">杂事</a><span class="tag-list-count">9</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%9F%E6%B4%BB/" rel="tag">生活</a><span class="tag-list-count">14</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AE%97%E6%B3%95-hackerrank/" rel="tag">算法 hackerrank</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%82%A1%E7%A5%A8/" rel="tag">股票</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/" rel="tag">读后感</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%BF%87%E5%8E%BB/" rel="tag">过去</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9D%A2%E8%AF%95/" rel="tag">面试</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%A1%B9%E7%9B%AE/" rel="tag">项目</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Cloud/" style="font-size: 10px;">Cloud</a> <a href="/tags/Cloudflare/" style="font-size: 10px;">Cloudflare</a> <a href="/tags/OPEC/" style="font-size: 10px;">OPEC</a> <a href="/tags/chaos/" style="font-size: 15.56px;">chaos</a> <a href="/tags/cheatsheet/" style="font-size: 10px;">cheatsheet</a> <a href="/tags/hackerrank/" style="font-size: 16.67px;">hackerrank</a> <a href="/tags/invest/" style="font-size: 13.33px;">invest</a> <a href="/tags/investment/" style="font-size: 10px;">investment</a> <a href="/tags/life/" style="font-size: 12.22px;">life</a> <a href="/tags/mynotes-Linux/" style="font-size: 10px;">mynotes Linux</a> <a href="/tags/technique/" style="font-size: 10px;">technique</a> <a href="/tags/%E4%B8%80%E5%BB%BA/" style="font-size: 11.11px;">一建</a> <a href="/tags/%E4%B8%80%E5%BB%BA-%E6%B3%95%E8%A7%84/" style="font-size: 10px;">一建 法规</a> <a href="/tags/%E5%9D%91/" style="font-size: 10px;">坑</a> <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" style="font-size: 10px;">学习笔记</a> <a href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/" style="font-size: 14.44px;">小程序</a> <a href="/tags/%E5%B0%8F%E9%92%B1%E9%92%B1/" style="font-size: 10px;">小钱钱</a> <a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 18.89px;">技术</a> <a href="/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E4%B8%9C%E8%A5%BF/" style="font-size: 10px;">有意思的东西</a> <a href="/tags/%E6%9C%89%E6%84%8F%E7%9A%84%E4%B8%9C%E8%A5%BF/" style="font-size: 10px;">有意的东西</a> <a href="/tags/%E6%9D%82%E4%BA%8B/" style="font-size: 17.78px;">杂事</a> <a href="/tags/%E7%94%9F%E6%B4%BB/" style="font-size: 20px;">生活</a> <a href="/tags/%E7%AE%97%E6%B3%95-hackerrank/" style="font-size: 10px;">算法 hackerrank</a> <a href="/tags/%E8%82%A1%E7%A5%A8/" style="font-size: 10px;">股票</a> <a href="/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/" style="font-size: 10px;">读后感</a> <a href="/tags/%E8%BF%87%E5%8E%BB/" style="font-size: 10px;">过去</a> <a href="/tags/%E9%9D%A2%E8%AF%95/" style="font-size: 10px;">面试</a> <a href="/tags/%E9%A1%B9%E7%9B%AE/" style="font-size: 10px;">项目</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/07/">七月 2024</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/06/">六月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/05/">五月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/03/">三月 2023</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/03/">三月 2022</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/08/">八月 2021</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/04/">四月 2021</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/11/">十一月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/10/">十月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/07/">七月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/06/">六月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">四月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">三月 2020</a><span class="archive-list-count">21</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">二月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">一月 2020</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/12/">十二月 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">十一月 2019</a><span class="archive-list-count">12</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/10/">十月 2019</a><span class="archive-list-count">21</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/09/">九月 2019</a><span class="archive-list-count">10</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/08/">八月 2019</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/07/">七月 2019</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2010/03/">三月 2010</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/1970/01/">一月 1970</a><span class="archive-list-count">2</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2024/07/12/%E4%B8%80%E5%BB%BA/%E6%9C%BA%E7%94%B5%E6%A1%88%E4%BE%8B/">机电案例</a>
+          </li>
+        
+          <li>
+            <a href="/2024/07/07/%E4%B8%80%E5%BB%BA/%E6%9C%BA%E7%94%B5/%E6%9C%BA%E7%94%B5%E7%AC%94%E8%AE%B0/">机电笔记</a>
+          </li>
+        
+          <li>
+            <a href="/2024/07/06/%E4%B8%80%E5%BB%BA/%E6%9C%BA%E7%94%B5/%E4%B8%80%E5%BB%BA%E6%9C%BA%E7%94%B5%E7%AC%94%E8%AE%B0-%E8%8B%B1%E6%96%87%E7%BC%A9%E5%86%99%E5%A4%A7%E5%85%A8/">一建机电笔记-英文缩写大全</a>
+          </li>
+        
+          <li>
+            <a href="/2023/06/02/chaos/%E8%AE%B0%E4%B8%80%E5%9C%BA%E8%AE%A9%E6%88%91%E8%80%BF%E8%80%BF%E4%BA%8E%E6%80%80%E7%9A%84%E9%9D%A2%E8%AF%95/">记一场让我耿耿于怀的面试</a>
+          </li>
+        
+          <li>
+            <a href="/2023/05/03/%E4%B8%80%E5%BB%BA/%E6%96%BD%E5%B7%A5%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0/">施工技术学习</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+    <div class="widget tag">
+	<h3 class="title">友情链接</h3>
+	<ul class="entry">
+	<li><a target="_blank" rel="noopener" href="https://fziqian.github.io/blog/" title="FZQ">FZQ的博客</a></li>
+	</ul>
+</div>
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer" style="text-align: center;">
+    <div id="footer-info" class="inner" >
+      &copy; 2024 LPD<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+      <div style="vertical-align: middle;"><a target="_blank" href="https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=9M3EwsbGzMPDw7SFhdqXm5k" ><img src="https://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_01.png" style="-webkit-user-select: none;margin: auto;"/></a></div>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
