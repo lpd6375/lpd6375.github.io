@@ -11,12 +11,12 @@
   
   <title>安卓逆向--二杀 | LPD</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="MiFi 设备送修收到到发现系统固件被更改了。变了 136 版本，之前是 83 。这样一来的话就不得不接受每天被限 17G 的蛋疼事实了。">
+  <meta name="description" content="MiFi 设备送修收到到发现系统固件被更改了。变了 136 版本，之前是 83 。这样一来的话就不得不接受每天被限  17G 的蛋疼事实了。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="安卓逆向--二杀">
 <meta property="og:url" content="https://www.luopandeng.com/2019/07/28/technique/%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B136%E7%89%88%E6%9C%AC%E7%9A%84%E4%BF%AE%E6%94%B9%E7%BB%93%E6%9E%9C/index.html">
 <meta property="og:site_name" content="LPD">
-<meta property="og:description" content="MiFi 设备送修收到到发现系统固件被更改了。变了 136 版本，之前是 83 。这样一来的话就不得不接受每天被限 17G 的蛋疼事实了。">
+<meta property="og:description" content="MiFi 设备送修收到到发现系统固件被更改了。变了 136 版本，之前是 83 。这样一来的话就不得不接受每天被限  17G 的蛋疼事实了。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://www.luopandeng.com/images/pic.png">
 <meta property="article:published_time" content="2019-07-28T12:09:38.000Z">
@@ -95,50 +95,36 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>MiFi 设备送修收到到发现系统固件被更改了。变了 136 版本，之前是 83
-。这样一来的话就不得不接受每天被限 17G 的蛋疼事实了。</p>
+        <p>MiFi 设备送修收到到发现系统固件被更改了。变了 136 版本，之前是 83 。这样一来的话就不得不接受每天被限  17G 的蛋疼事实了。</p>
 <span id="more"></span>
 <p>但是，作为一个经常混迹于吾爱论坛的我来说，这是一件不能接受的，对，完全全无法接受。</p>
 <p>从客服那里拿到系统刷机包后便。开始了一番折腾，由于懂的不多，导致我走了不少的弯路。折腾了几天都没成功，那几天心情实在是有点低落。FUCK！</p>
-<h4 id="第一步-找到修改点">第一步 找到修改点</h4>
-<p>脑子已经不好使了，只记得上次修改了某个值，但是不记得具体的数字是多少了。只好去搜索安卓手机统计流量用的方法。得到的结果是
-TrafficStats 这个类的下的</p>
-<p>getMobileRxBytes() 方法，按图索骥找到要修改的数 1048576
-然后将其修改成比它的数。一切就是像上次那样进行。重新编译并打包后，满怀期待地把它刷入设备中。</p>
+<h4 id="第一步-找到修改点"><a class="markdownIt-Anchor" href="#第一步-找到修改点"></a> 第一步 找到修改点</h4>
+<p>脑子已经不好使了，只记得上次修改了某个值，但是不记得具体的数字是多少了。只好去搜索安卓手机统计流量用的方法。得到的结果是 TrafficStats 这个类的下的</p>
+<p>getMobileRxBytes() 方法，按图索骥找到要修改的数 1048576 然后将其修改成比它的数。一切就是像上次那样进行。重新编译并打包后，满怀期待地把它刷入设备中。</p>
 <p>开机。。。BOOM!!! 机器一直在重启。</p>
-<h4 id="第二步-出问题不要慌看日志">第二步 出问题不要慌，看日志</h4>
+<h4 id="第二步-出问题不要慌看日志"><a class="markdownIt-Anchor" href="#第二步-出问题不要慌看日志"></a> 第二步 出问题不要慌，看日志</h4>
 <figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adb pull /sdcard .</span><br></pre></td></tr></table></figure>
 <p>使用上面的命令把日志文件拉下来之后打开查看，发现</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java.lang.UnsatisfiedLinkError dlopen failed: library XXX/libxxx.so not found</span><br></pre></td></tr></table></figure>
 <p>于是又开始了一翻搜索，其中过程不表，反正在这一阶段失败了很多次。</p>
-<p><del>在这个过程中，遭到了部门领导全部门最低绩效的评价。这个意思是劝退了吧。郑州工资本来就低的情况下，再降点可不就是劝退的意思
-？
-（关于这个我想多说两句，其实从进公司起就觉得我这个岗位一个人完全可以处理的了。只是领导自己觉得一个人处理不来吧。所以自己私下里一直在学习。）</del></p>
+<p><s>在这个过程中，遭到了部门领导全部门最低绩效的评价。这个意思是劝退了吧。郑州工资本来就低的情况下，再降点可不就是劝退的意思 ？ （关于这个我想多说两句，其实从进公司起就觉得我这个岗位一个人完全可以处理的了。只是领导自己觉得一个人处理不来吧。所以自己私下里一直在学习。）</s></p>
 <p>Comment: 记下来多是让自己不能释怀，还是自己能力不够。</p>
-<p>网上搜到的大多是有源码的情况下报这个错误怎么处理的。但是我这个完全是逆向出的东西，所以那个方法都不适用。最后还是找到了一个博客，博客里的那个才哥说他自己也是搜了很多地方都没有找到讨论这个问题的。他的方法就是检查以下几个文件、夹中是否有对应的
-xxx.so 。</p>
+<p>网上搜到的大多是有源码的情况下报这个错误怎么处理的。但是我这个完全是逆向出的东西，所以那个方法都不适用。最后还是找到了一个博客，博客里的那个才哥说他自己也是搜了很多地方都没有找到讨论这个问题的。他的方法就是检查以下几个文件、夹中是否有对应的 <a target="_blank" rel="noopener" href="http://xxx.so">xxx.so</a> 。</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">/system/etc/public.libraries.txt</span><br><span class="line">/system/vendor/public.libraries.txt</span><br><span class="line">/system/lib</span><br><span class="line">/system/vendor/lib</span><br></pre></td></tr></table></figure>
 <p>我查了一下果然没有。于是就分别添加了进去。</p>
-<h4 id="第三-成功啦">第三 成功啦</h4>
+<h4 id="第三-成功啦"><a class="markdownIt-Anchor" href="#第三-成功啦"></a> 第三 成功啦</h4>
 <p>把导致错误的地方改正之后就开始了刷入修改后的系统包。没有任何异常。</p>
-<h3 id="总结">总结</h3>
+<h3 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h3>
 <p>面对问题一定不能慌，可是暂时放弃。因为如果一直没有思路的话，不管你怎么做都只是在耗着，对自己没有任何帮助。该放弃时就放弃。另外，就是注意与人的交流，虽然期间也去了论坛，也是给了一些思路，但是事后证明，那些是错误的。最后，做项目一定要条理分明，不然过程真的很痛苦。另外，安卓逆向还是很有意思的嘛，除了过程比较蛋疼之外。</p>
 <p>【参考链接】</p>
-<ol type="1">
-<li><a target="_blank" rel="noopener" href="http://www.yanglajiao.com/article/ngyzqf/78991929">Android
-8.0 dlopen failed 问题</a></li>
-<li><a
-target="_blank" rel="noopener" href="https://www.jianshu.com/p/4be3d1dafbec">Framework基础：Android N
-公共so库怎么定义呢？</a></li>
-<li><a
-target="_blank" rel="noopener" href="http://huzhengyu.com/2018/05/05/Android%E4%B8%ADpublic%E7%9A%84So%E5%BA%93%E7%9A%84%E5%BC%95%E7%94%A8%E9%97%AE%E9%A2%98/">Android中public的So库的引用问题</a></li>
-<li><a
-target="_blank" rel="noopener" href="http://www.ishenping.com/ArtInfo/2114481.html">浅谈Android系统编译apk后so文件在dlopen时出现linker权限问题</a></li>
+<ol>
+<li><a target="_blank" rel="noopener" href="http://www.yanglajiao.com/article/ngyzqf/78991929">Android 8.0 dlopen failed 问题</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/4be3d1dafbec">Framework基础：Android N 公共so库怎么定义呢？</a></li>
+<li><a target="_blank" rel="noopener" href="http://huzhengyu.com/2018/05/05/Android%E4%B8%ADpublic%E7%9A%84So%E5%BA%93%E7%9A%84%E5%BC%95%E7%94%A8%E9%97%AE%E9%A2%98/">Android中public的So库的引用问题</a></li>
+<li><a target="_blank" rel="noopener" href="http://www.ishenping.com/ArtInfo/2114481.html">浅谈Android系统编译apk后so文件在dlopen时出现linker权限问题</a></li>
 </ol>
-<figure>
-<img src="/images/pic.png" alt="假图一张" />
-<figcaption aria-hidden="true">假图一张</figcaption>
-</figure>
+<p><img src="/images/pic.png" alt="假图一张" /></p>
 <hr />
 <p>更新于：2019/10/03</p>
 <hr />
@@ -151,7 +137,7 @@ target="_blank" rel="noopener" href="http://www.ishenping.com/ArtInfo/2114481.ht
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://www.luopandeng.com/2019/07/28/technique/%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B136%E7%89%88%E6%9C%AC%E7%9A%84%E4%BF%AE%E6%94%B9%E7%BB%93%E6%9E%9C/" data-id="cmiinm0e0005nwomacpzw0q29" class="article-share-link">Share</a>
+      <a data-url="https://www.luopandeng.com/2019/07/28/technique/%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8B136%E7%89%88%E6%9C%AC%E7%9A%84%E4%BF%AE%E6%94%B9%E7%BB%93%E6%9E%9C/" data-id="cmiiuscxa004tw0ma6qri1ty4" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a></li></ul>
