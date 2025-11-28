@@ -19,7 +19,7 @@
 <meta property="og:description" content="使用BCH 踩的坑">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-03-26T11:45:31.000Z">
-<meta property="article:modified_time" content="2020-03-27T00:36:12.494Z">
+<meta property="article:modified_time" content="2024-07-07T13:02:11.765Z">
 <meta property="article:author" content="LPD">
 <meta property="article:tag" content="Cloud">
 <meta name="twitter:card" content="summary">
@@ -95,13 +95,11 @@
       
         <p>本文主要记录使用BCH时踩到的坑。</p>
 <span id="more"></span>
-
-
-
 <blockquote>
 <p>证书坑</p>
 <blockquote>
-<p>配置证书时的坑，由于使用了 Let’s encrypt 的自签名证书在配置的时候着实费了少时间。<strong>解决方法是服务器证书填生成的证书包里的fullchain.cer,私钥部分填key结尾的那个</strong></p>
+<p>配置证书时的坑，由于使用了 Let's encrypt
+的自签名证书在配置的时候着实费了少时间。<strong>解决方法是服务器证书填生成的证书包里的fullchain.cer,私钥部分填key结尾的那个</strong></p>
 </blockquote>
 </blockquote>
 <blockquote>
@@ -109,16 +107,23 @@
 <blockquote>
 <p>wordpress中配置了https后发现在登录时浏览器会返回重定向过多问题。还有就是页面会出现加载不完整的问题，浏览器控制台出现403错误，这是由于wordpress中有部分资源不没有用https方式请求导致。<strong>解决方法是将如下代码加进wp-config.php中即可。</strong></p>
 <figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$_SERVER</span>[<span class="string">&#x27;HTTPS&#x27;</span>] = <span class="string">&#x27;on&#x27;</span>;</span><br><span class="line"><span class="title function_ invoke__">define</span>(<span class="string">&#x27;FORCE_SSL_LOGIN&#x27;</span>, <span class="literal">true</span>);</span><br><span class="line"><span class="title function_ invoke__">define</span>(<span class="string">&#x27;FORCE_SSL_ADMIN&#x27;</span>, <span class="literal">true</span>);</span><br></pre></td></tr></table></figure>
-
 </blockquote>
 </blockquote>
 <p>以上就是使用BCH过程中遇到的坑，希望有缘人能搜到这个解决你的问题。还可以用邮箱联系我</p>
+<<<<<<< HEAD
 <p><a href="mailto:&#x61;&#x64;&#x6d;&#x69;&#x6e;&#64;&#x73;&#x74;&#117;&#x70;&#114;&#x6f;&#109;&#111;&#x2e;&#x63;&#111;&#109;">&#x61;&#x64;&#x6d;&#x69;&#x6e;&#64;&#x73;&#x74;&#117;&#x70;&#114;&#x6f;&#109;&#111;&#x2e;&#x63;&#111;&#109;</a></p>
+=======
+<p>admin@stupromo.com</p>
+>>>>>>> 32bccc9d4478de836ae6df55891d98a7a64e5b12
 
       
     </div>
     <footer class="article-footer">
+<<<<<<< HEAD
       <a data-url="https://www.luopandeng.com/2020/03/26/mynote/Cloud/Try-on-BCH/" data-id="clybcd5ds005t40ma7mcn4zz1" class="article-share-link">Share</a>
+=======
+      <a data-url="https://www.luopandeng.com/2020/03/26/mynote/Cloud/Try-on-BCH/" data-id="clythq65v005tpokn18efbnq6" class="article-share-link">Share</a>
+>>>>>>> 32bccc9d4478de836ae6df55891d98a7a64e5b12
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Cloud/" rel="tag">Cloud</a></li></ul>
@@ -129,11 +134,11 @@
     
 <nav id="article-nav">
   
-    <a href="/2020/03/26/chaos/%E7%A2%8E%E7%A2%8E%E5%BF%B5/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2020/03/26/chaos/%E4%BB%80%E4%B9%88%E6%98%AF%E9%9A%90%E7%A7%81/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          碎碎念
+          什么是隐私
         
       </div>
     </a>
@@ -147,10 +152,15 @@
 </nav>
 
   
+
+
+
+
 </article>
 
 
-2 min. read</section>
+2 min. read
+</section>
         
           <aside id="sidebar">
   
@@ -161,7 +171,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">标签</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Cloud/" rel="tag">Cloud</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Cloudflare/" rel="tag">Cloudflare</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/OPEC/" rel="tag">OPEC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/chaos/" rel="tag">chaos</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/cheatsheet/" rel="tag">cheatsheet</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hackerrank/" rel="tag">hackerrank</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/invest/" rel="tag">invest</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/investment/" rel="tag">investment</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/life/" rel="tag">life</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mynotes-Linux/" rel="tag">mynotes Linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/technique/" rel="tag">technique</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%80%E5%BB%BA/" rel="tag">一建</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%80%E5%BB%BA-%E6%B3%95%E8%A7%84/" rel="tag">一建 法规</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9D%91/" rel="tag">坑</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="tag">学习笔记</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/" rel="tag">小程序</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B0%8F%E9%92%B1%E9%92%B1/" rel="tag">小钱钱</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E4%B8%9C%E8%A5%BF/" rel="tag">有意思的东西</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%89%E6%84%8F%E7%9A%84%E4%B8%9C%E8%A5%BF/" rel="tag">有意的东西</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9D%82%E4%BA%8B/" rel="tag">杂事</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%9F%E6%B4%BB/" rel="tag">生活</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AE%97%E6%B3%95-hackerrank/" rel="tag">算法 hackerrank</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%82%A1%E7%A5%A8/" rel="tag">股票</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/" rel="tag">读后感</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%BF%87%E5%8E%BB/" rel="tag">过去</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9D%A2%E8%AF%95/" rel="tag">面试</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%A1%B9%E7%9B%AE/" rel="tag">项目</a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Cloud/" rel="tag">Cloud</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Cloudflare/" rel="tag">Cloudflare</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/OPEC/" rel="tag">OPEC</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/chaos/" rel="tag">chaos</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/cheatsheet/" rel="tag">cheatsheet</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hackerrank/" rel="tag">hackerrank</a><span class="tag-list-count">8</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/invest/" rel="tag">invest</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/investment/" rel="tag">investment</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/life/" rel="tag">life</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mynotes-Linux/" rel="tag">mynotes Linux</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/technique/" rel="tag">technique</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%80%E5%BB%BA/" rel="tag">一建</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%80%E5%BB%BA-%E6%B3%95%E8%A7%84/" rel="tag">一建 法规</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9D%91/" rel="tag">坑</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="tag">学习笔记</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/" rel="tag">小程序</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B0%8F%E9%92%B1%E9%92%B1/" rel="tag">小钱钱</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a><span class="tag-list-count">11</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E4%B8%9C%E8%A5%BF/" rel="tag">有意思的东西</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%89%E6%84%8F%E7%9A%84%E4%B8%9C%E8%A5%BF/" rel="tag">有意的东西</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9D%82%E4%BA%8B/" rel="tag">杂事</a><span class="tag-list-count">9</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%9F%E6%B4%BB/" rel="tag">生活</a><span class="tag-list-count">14</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AE%97%E6%B3%95-hackerrank/" rel="tag">算法 hackerrank</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%82%A1%E7%A5%A8/" rel="tag">股票</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/" rel="tag">读后感</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%BF%87%E5%8E%BB/" rel="tag">过去</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9D%A2%E8%AF%95/" rel="tag">面试</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%A1%B9%E7%9B%AE/" rel="tag">项目</a><span class="tag-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -171,7 +181,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">标签云</h3>
     <div class="widget tagcloud">
-      <a href="/tags/Cloud/" style="font-size: 10px;">Cloud</a> <a href="/tags/Cloudflare/" style="font-size: 10px;">Cloudflare</a> <a href="/tags/OPEC/" style="font-size: 10px;">OPEC</a> <a href="/tags/chaos/" style="font-size: 15px;">chaos</a> <a href="/tags/cheatsheet/" style="font-size: 10px;">cheatsheet</a> <a href="/tags/hackerrank/" style="font-size: 16.25px;">hackerrank</a> <a href="/tags/invest/" style="font-size: 13.75px;">invest</a> <a href="/tags/investment/" style="font-size: 10px;">investment</a> <a href="/tags/life/" style="font-size: 12.5px;">life</a> <a href="/tags/mynotes-Linux/" style="font-size: 10px;">mynotes Linux</a> <a href="/tags/technique/" style="font-size: 10px;">technique</a> <a href="/tags/%E4%B8%80%E5%BB%BA/" style="font-size: 11.25px;">一建</a> <a href="/tags/%E4%B8%80%E5%BB%BA-%E6%B3%95%E8%A7%84/" style="font-size: 10px;">一建 法规</a> <a href="/tags/%E5%9D%91/" style="font-size: 10px;">坑</a> <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" style="font-size: 10px;">学习笔记</a> <a href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/" style="font-size: 15px;">小程序</a> <a href="/tags/%E5%B0%8F%E9%92%B1%E9%92%B1/" style="font-size: 10px;">小钱钱</a> <a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 18.75px;">技术</a> <a href="/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E4%B8%9C%E8%A5%BF/" style="font-size: 10px;">有意思的东西</a> <a href="/tags/%E6%9C%89%E6%84%8F%E7%9A%84%E4%B8%9C%E8%A5%BF/" style="font-size: 10px;">有意的东西</a> <a href="/tags/%E6%9D%82%E4%BA%8B/" style="font-size: 17.5px;">杂事</a> <a href="/tags/%E7%94%9F%E6%B4%BB/" style="font-size: 20px;">生活</a> <a href="/tags/%E7%AE%97%E6%B3%95-hackerrank/" style="font-size: 10px;">算法 hackerrank</a> <a href="/tags/%E8%82%A1%E7%A5%A8/" style="font-size: 10px;">股票</a> <a href="/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/" style="font-size: 10px;">读后感</a> <a href="/tags/%E8%BF%87%E5%8E%BB/" style="font-size: 10px;">过去</a> <a href="/tags/%E9%9D%A2%E8%AF%95/" style="font-size: 10px;">面试</a> <a href="/tags/%E9%A1%B9%E7%9B%AE/" style="font-size: 10px;">项目</a>
+      <a href="/tags/Cloud/" style="font-size: 10px;">Cloud</a> <a href="/tags/Cloudflare/" style="font-size: 10px;">Cloudflare</a> <a href="/tags/OPEC/" style="font-size: 10px;">OPEC</a> <a href="/tags/chaos/" style="font-size: 15.56px;">chaos</a> <a href="/tags/cheatsheet/" style="font-size: 10px;">cheatsheet</a> <a href="/tags/hackerrank/" style="font-size: 16.67px;">hackerrank</a> <a href="/tags/invest/" style="font-size: 13.33px;">invest</a> <a href="/tags/investment/" style="font-size: 10px;">investment</a> <a href="/tags/life/" style="font-size: 12.22px;">life</a> <a href="/tags/mynotes-Linux/" style="font-size: 10px;">mynotes Linux</a> <a href="/tags/technique/" style="font-size: 10px;">technique</a> <a href="/tags/%E4%B8%80%E5%BB%BA/" style="font-size: 11.11px;">一建</a> <a href="/tags/%E4%B8%80%E5%BB%BA-%E6%B3%95%E8%A7%84/" style="font-size: 10px;">一建 法规</a> <a href="/tags/%E5%9D%91/" style="font-size: 10px;">坑</a> <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" style="font-size: 10px;">学习笔记</a> <a href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/" style="font-size: 14.44px;">小程序</a> <a href="/tags/%E5%B0%8F%E9%92%B1%E9%92%B1/" style="font-size: 10px;">小钱钱</a> <a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 18.89px;">技术</a> <a href="/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E4%B8%9C%E8%A5%BF/" style="font-size: 10px;">有意思的东西</a> <a href="/tags/%E6%9C%89%E6%84%8F%E7%9A%84%E4%B8%9C%E8%A5%BF/" style="font-size: 10px;">有意的东西</a> <a href="/tags/%E6%9D%82%E4%BA%8B/" style="font-size: 17.78px;">杂事</a> <a href="/tags/%E7%94%9F%E6%B4%BB/" style="font-size: 20px;">生活</a> <a href="/tags/%E7%AE%97%E6%B3%95-hackerrank/" style="font-size: 10px;">算法 hackerrank</a> <a href="/tags/%E8%82%A1%E7%A5%A8/" style="font-size: 10px;">股票</a> <a href="/tags/%E8%AF%BB%E5%90%8E%E6%84%9F/" style="font-size: 10px;">读后感</a> <a href="/tags/%E8%BF%87%E5%8E%BB/" style="font-size: 10px;">过去</a> <a href="/tags/%E9%9D%A2%E8%AF%95/" style="font-size: 10px;">面试</a> <a href="/tags/%E9%A1%B9%E7%9B%AE/" style="font-size: 10px;">项目</a>
     </div>
   </div>
 
@@ -180,7 +190,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/07/">七月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/06/">六月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/05/">五月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/03/">三月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/03/">三月 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/08/">八月 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/04/">四月 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/12/">十二月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/11/">十一月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/10/">十月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/07/">七月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/06/">六月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">四月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">三月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">二月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">一月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/12/">十二月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">十一月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/10/">十月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/09/">九月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/08/">八月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/07/">七月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2010/03/">三月 2010</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/1970/01/">一月 1970</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/07/">七月 2024</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/06/">六月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/05/">五月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/03/">三月 2023</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/03/">三月 2022</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/08/">八月 2021</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/04/">四月 2021</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/11/">十一月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/10/">十月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/07/">七月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/06/">六月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">四月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">三月 2020</a><span class="archive-list-count">21</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">二月 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">一月 2020</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/12/">十二月 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">十一月 2019</a><span class="archive-list-count">12</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/10/">十月 2019</a><span class="archive-list-count">21</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/09/">九月 2019</a><span class="archive-list-count">10</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/08/">八月 2019</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/07/">七月 2019</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2010/03/">三月 2010</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/1970/01/">一月 1970</a><span class="archive-list-count">2</span></li></ul>
     </div>
   </div>
 
@@ -191,6 +201,10 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2024/07/12/%E4%B8%80%E5%BB%BA/%E6%9C%BA%E7%94%B5%E6%A1%88%E4%BE%8B/">机电案例</a>
+          </li>
         
           <li>
             <a href="/2024/07/07/%E4%B8%80%E5%BB%BA/%E6%9C%BA%E7%94%B5/%E6%9C%BA%E7%94%B5%E7%AC%94%E8%AE%B0/">机电笔记</a>
@@ -206,10 +220,6 @@
         
           <li>
             <a href="/2023/05/03/%E4%B8%80%E5%BB%BA/%E6%96%BD%E5%B7%A5%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0/">施工技术学习</a>
-          </li>
-        
-          <li>
-            <a href="/2023/03/21/%E4%B8%80%E5%BB%BA/%E4%B8%80%E5%BB%BA%E5%AE%9E%E5%8A%A1%E8%A1%A5%E8%80%83/">一建实务补考</a>
           </li>
         
       </ul>
