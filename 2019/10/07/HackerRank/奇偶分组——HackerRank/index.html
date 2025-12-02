@@ -100,15 +100,9 @@
 <span id="more"></span>
 <p>我的解：</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.luopandeng;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.io.BufferedInputStream;</span><br><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">EvenSplit</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">Scanner</span> <span class="variable">sc</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(<span class="keyword">new</span> <span class="title class_">BufferedInputStream</span>(System.in));</span><br><span class="line">        <span class="type">int</span> <span class="variable">T</span> <span class="operator">=</span> sc.nextInt();</span><br><span class="line">        List&lt;List&lt;String&gt;&gt; outter = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; T; i++) &#123;</span><br><span class="line">            <span class="comment">/*</span></span><br><span class="line"><span class="comment">            *这里是个坑，起初这个inner 是在循环外的。单个输入的时候能输出正确答案</span></span><br><span class="line"><span class="comment">            *但是输入一个以上的串时出现的情况是，outter这个列表里出现相同的值，且都为最后输入的那个</span></span><br><span class="line"><span class="comment">            *为什么会出现这种情况呢？这就不得不提到两概念了，值传递和引用传递。</span></span><br><span class="line"><span class="comment">            */</span></span><br><span class="line">            List&lt;String&gt; innner = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">            <span class="type">String</span> <span class="variable">s</span> <span class="operator">=</span> sc.next();</span><br><span class="line">            <span class="type">char</span>[] chars = s.toCharArray();</span><br><span class="line">            <span class="type">StringBuilder</span> <span class="variable">evenChar</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">StringBuilder</span>();</span><br><span class="line">            <span class="type">StringBuilder</span> <span class="variable">oddChar</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">StringBuilder</span>();</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; chars.length; j++) &#123;</span><br><span class="line">                <span class="keyword">if</span> (j % <span class="number">2</span> != <span class="number">0</span>) &#123;</span><br><span class="line">                    oddChar.append(chars[j]);</span><br><span class="line">                &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                    evenChar.append(chars[j]);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            innner.add(evenChar.toString());</span><br><span class="line">            innner.add(oddChar.toString());</span><br><span class="line">            outter.add(innner);</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(outter);</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">k</span> <span class="operator">=</span> <span class="number">0</span>; k &lt; outter.size(); k++) &#123;</span><br><span class="line">            System.out.println(outter.get(k).get(<span class="number">0</span>) + <span class="string">&quot; &quot;</span> + outter.get(k).get(<span class="number">1</span>));</span><br><span class="line">        &#125;</span><br><span class="line">        sc.close();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="值传递和引用传递"><a class="markdownIt-Anchor" href="#值传递和引用传递"></a> 值传递和引用传递</h2>
+<h2 id="值传递和引用传递">值传递和引用传递</h2>
 <p>先来看在外面和在里面不同的输出结果。</p>
 <table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-</tr>
-</thead>
 <tbody>
 <tr>
 <td><img src="/images/out.png" alt="外面" /></td>
@@ -117,17 +111,22 @@
 </tbody>
 </table>
 <p>重点看红框里的部分。从hello拆出来的应该是在列表内的第一个列表内，从world拆出来的应该是在第二个列表里。</p>
-<p><strong>（1）基本数据类型传值，对形参的修改不会影响实参；</strong><br />
-<strong>（2）引用类型传引用，形参和实参指向同一个内存地址（同一个对象），所以对参数的修改会影响到实际的对象；</strong><br />
-<strong>（3）String, Integer, Double等immutable的类型特殊处理，可以理解为传值，最后的操作不会修改实参对象。</strong></p>
-<p>参考链接：<a target="_blank" rel="noopener" href="https://www.cnblogs.com/binyue/p/3862276.html">理解Java中的引用传递和值传递</a></p>
-<p>由此我们可以知道，当<code>inner</code> 在外面时 <code>outter</code> 每次<code>add</code>的都是 <code>inner</code> 对象的地址，一旦 <code>inner</code>的值发生变化 ，则<code>outter</code>也会发生变化，就算是已经加进去的也会发生改变；当<code>inner</code>在里面时，每一次循环都会重新建立一个<code>inner</code>对象，<code>outter</code>的<code>add</code>接收的都是新的对象，因此能得到正确答案。</p>
+<p><strong>（1）基本数据类型传值，对形参的修改不会影响实参；</strong>
+<strong>（2）引用类型传引用，形参和实参指向同一个内存地址（同一个对象），所以对参数的修改会影响到实际的对象；</strong>
+<strong>（3）String, Integer,
+Double等immutable的类型特殊处理，可以理解为传值，最后的操作不会修改实参对象。</strong></p>
+<p>参考链接：<a
+target="_blank" rel="noopener" href="https://www.cnblogs.com/binyue/p/3862276.html">理解Java中的引用传递和值传递</a></p>
+<p>由此我们可以知道，当<code>inner</code> 在外面时 <code>outter</code>
+每次<code>add</code>的都是 <code>inner</code> 对象的地址，一旦
+<code>inner</code>的值发生变化
+，则<code>outter</code>也会发生变化，就算是已经加进去的也会发生改变；当<code>inner</code>在里面时，每一次循环都会重新建立一个<code>inner</code>对象，<code>outter</code>的<code>add</code>接收的都是新的对象，因此能得到正确答案。</p>
 <p>另外，这道题目遇到的另一个问题是：<code>Scanner</code>接收输入的问题。有机会再总结。。。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://www.luopandeng.com/2019/10/07/HackerRank/%E5%A5%87%E5%81%B6%E5%88%86%E7%BB%84%E2%80%94%E2%80%94HackerRank/" data-id="cmioohu62000pf4ma7xxy1naj" class="article-share-link">Share</a>
+      <a data-url="https://www.luopandeng.com/2019/10/07/HackerRank/%E5%A5%87%E5%81%B6%E5%88%86%E7%BB%84%E2%80%94%E2%80%94HackerRank/" data-id="cmiooo7zd001l64madyzzarke" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%AE%97%E6%B3%95-hackerrank/" rel="tag">算法 hackerrank</a></li></ul>

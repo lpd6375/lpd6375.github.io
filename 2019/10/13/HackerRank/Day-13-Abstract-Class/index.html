@@ -11,12 +11,12 @@
   
   <title>Day 13 Abstract Class | LPD</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Objective Today, we’re taking what we learned yesterday about Inheritance and extending it to Abstract Classes. Because this is a very specific Object-Oriented concept, submissions are limited to the">
+  <meta name="description" content="Objective Today, we&#39;re taking what we learned yesterday about Inheritance and extending it to Abstract Classes. Because this is a very specific Object-Oriented concept, submissions are limited to">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Day 13 Abstract Class">
 <meta property="og:url" content="https://www.luopandeng.com/2019/10/13/HackerRank/Day-13-Abstract-Class/index.html">
 <meta property="og:site_name" content="LPD">
-<meta property="og:description" content="Objective Today, we’re taking what we learned yesterday about Inheritance and extending it to Abstract Classes. Because this is a very specific Object-Oriented concept, submissions are limited to the">
+<meta property="og:description" content="Objective Today, we&#39;re taking what we learned yesterday about Inheritance and extending it to Abstract Classes. Because this is a very specific Object-Oriented concept, submissions are limited to">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://www.luopandeng.com/images/day13.1.png">
 <meta property="og:image" content="https://www.luopandeng.com/images/day13.2.png">
@@ -96,18 +96,32 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><strong>Objective</strong><br />
-Today, we’re taking what we learned yesterday about <a target="_blank" rel="noopener" href="https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html"><em>Inheritance</em></a> and extending it to <a target="_blank" rel="noopener" href="https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html"><em>Abstract Classes</em></a>. Because this is a very specific Object-Oriented concept, submissions are limited to the few languages that use this construct. Check out the <a target="_blank" rel="noopener" href="https://www.hackerrank.com/challenges/30-abstract-classes/tutorial">Tutorial</a> tab for learning materials and an instructional video!</p>
+        <p><strong>Objective</strong> Today, we're taking what we learned
+yesterday about <a
+target="_blank" rel="noopener" href="https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html"><em>Inheritance</em></a>
+and extending it to <a
+target="_blank" rel="noopener" href="https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html"><em>Abstract
+Classes</em></a>. Because this is a very specific Object-Oriented
+concept, submissions are limited to the few languages that use this
+construct. Check out the <a
+target="_blank" rel="noopener" href="https://www.hackerrank.com/challenges/30-abstract-classes/tutorial">Tutorial</a>
+tab for learning materials and an instructional video!</p>
 <span id="more"></span>
-<p><img src="/images/day13.1.png" alt="day13.1.png" /></p>
-<p><img src="/images/day13.2.png" alt="day13.2.png" /></p>
+<figure>
+<img src="/images/day13.1.png" alt="day13.1.png" />
+<figcaption aria-hidden="true">day13.1.png</figcaption>
+</figure>
+<figure>
+<img src="/images/day13.2.png" alt="day13.2.png" />
+<figcaption aria-hidden="true">day13.2.png</figcaption>
+</figure>
 <p>Here is my solution:</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">abstract class Book &#123;</span><br><span class="line">    String title;</span><br><span class="line">    String author;</span><br><span class="line">    </span><br><span class="line">    Book(String title, String author) &#123;</span><br><span class="line">        this.title = title;</span><br><span class="line">        this.author = author;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    abstract void display();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">// Declare your class here. Do not use the &#x27;public&#x27; access modifier.</span><br><span class="line">    // Declare the price instance variable</span><br><span class="line">    </span><br><span class="line">    /**   </span><br><span class="line">    *   Class Constructor</span><br><span class="line">    *   </span><br><span class="line">    *   @param title The book&#x27;s title.</span><br><span class="line">    *   @param author The book&#x27;s author.</span><br><span class="line">    *   @param price The book&#x27;s price.</span><br><span class="line">    **/</span><br><span class="line">    // Write your constructor here</span><br><span class="line">    </span><br><span class="line">    /**   </span><br><span class="line">    *   Method Name: display</span><br><span class="line">    *   </span><br><span class="line">    *   Print the title, author, and price in the specified format.</span><br><span class="line">    **/</span><br><span class="line">    // Write your method here</span><br><span class="line">    </span><br><span class="line">// End class</span><br><span class="line"></span><br><span class="line">public class Solution &#123;</span><br><span class="line">   </span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        Scanner scanner = new Scanner(System.in);</span><br><span class="line">        String title = scanner.nextLine();</span><br><span class="line">        String author = scanner.nextLine();</span><br><span class="line">        int price = scanner.nextInt();</span><br><span class="line">        scanner.close();</span><br><span class="line"></span><br><span class="line">        Book book = new MyBook(title, author, price);</span><br><span class="line">        book.display();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://www.luopandeng.com/2019/10/13/HackerRank/Day-13-Abstract-Class/" data-id="cmioohu5r0005f4maa5beb0aj" class="article-share-link">Share</a>
+      <a data-url="https://www.luopandeng.com/2019/10/13/HackerRank/Day-13-Abstract-Class/" data-id="cmiooo7z8001864ma04x834ig" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hackerrank/" rel="tag">hackerrank</a></li></ul>
