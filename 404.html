@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - 螺丝松动 (Screw Loose)</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #1a1a1a;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+ 
+        /* 背景层：工业质感 */
+        #bg-layer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at center, #2a2a2a 0%, #111 100%);
+            z-index: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            pointer-events: none;
+        }
+ 
+        /* 巨大的背景文字 404 */
+        .big-text {
+            font-size: 25vw;
+            font-weight: 900;
+            color: rgba(0, 0, 0, 0.3);
+            text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.05), -1px -1px 0 rgba(0,0,0,0.5);
+            user-select: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 0;
+        }
+ 
+        /* 内容层 UI */
+        #ui-layer {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 20; /* 提高层级，确保在最上层 */
+            pointer-events: none;
+        }
+ 
+        h2 {
+            color: #e0e0e0;
+            font-size: 2rem;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+        }
+ 
+        p {
+            color: #888;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+ 
+        .btn {
+            pointer-events: auto;
+            display: inline-block;
+            padding: 12px 30px;
+            background: linear-gradient(145deg, #ffcc00, #ffaa00);
+            color: #1a1a1a;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            box-shadow: 0 4px 15px rgba(255, 170, 0, 0.3);
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-transform: uppercase;
+            border: 1px solid #ffd700;
+        }
+ 
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 170, 0, 0.5);
+            background: linear-gradient(145deg, #ffd700, #ffcc00);
+        }
+ 
+        .btn:active {
+            transform: translateY(1px);
+        }
+ 
+        .hint {
+            position: absolute;
+            bottom: 30px;
+            width: 100%;
+            text-align: center;
+            color: #555;
+            font-size: 0.9rem;
+            z-index: 15;
+            pointer-events: none;
+            animation: pulse 2s infinite;
+        }
+ 
+        @keyframes pulse {
+            0% { opacity: 0.4; }
+            50% { opacity: 0.8; }
+            100% { opacity: 0.4; }
+        }
+ 
+        /* 修复：Canvas 强制绝对定位，防止被挤压 */
+        canvas {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 10; /* 在背景之上，UI之下 */
+        }
+         
+        #error-msg {
+            display: none;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: red;
+            background: rgba(0,0,0,0.8);
+            padding: 10px;
+            z-index: 100;
+        }
+    </style>
+    <!-- 更换为国内 BootCDN 源，提高加载成功率 -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+</head>
+<body>
+ 
+    <div id="error-msg">错误：物理引擎未加载，请检查网络。</div>
+ 
+    <div id="bg-layer">
+        <div class="big-text">404</div>
+    </div>
+ 
+    <div id="ui-layer">
+        <h2>系统故障：螺丝松动</h2>
+        <p>看来我们丢失了一些关键零件，页面无法组装。</p>
+        <a href="/" class="btn">返回主控台 (Home)</a>
+    </div>
+ 
+    <div class="hint">提示：用鼠标拖拽或抛掷零件</div>
+ 
+    <script>
+        window.addEventListener('load', function() {
+            // 0. 安全检测：确保库已加载
+            if (typeof Matter === 'undefined') {
+                const err = document.getElementById('error-msg');
+                err.style.display = 'block';
+                err.innerText = "Matter.js 加载失败。请检查网络或更换 CDN。";
+                return;
+            }
+ 
+            // 模块别名
+            const Engine = Matter.Engine,
+                  Runner = Matter.Runner,
+                  Bodies = Matter.Bodies,
+                  Composite = Matter.Composite,
+                  Mouse = Matter.Mouse,
+                  MouseConstraint = Matter.MouseConstraint,
+                  Body = Matter.Body,
+                  Vector = Matter.Vector;
+ 
+            // 创建引擎
+            const engine = Engine.create();
+            const world = engine.world;
+ 
+            // 设置 Canvas 尺寸
+            let width = window.innerWidth;
+            let height = window.innerHeight;
+ 
+            // 创建 Canvas
+            const canvas = document.createElement('canvas');
+            document.body.appendChild(canvas);
+            const ctx = canvas.getContext('2d');
+            canvas.width = width;
+            canvas.height = height;
+ 
+            // --- 辅助函数：绘制金属质感 ---
+            function createMetalGradient(ctx, x, y, size, colorBase) {
+                // 简单的径向或线性渐变模拟光泽
+                const grad = ctx.createLinearGradient(x - size, y - size, x + size, y + size);
+                if (colorBase === 'gold') {
+                    grad.addColorStop(0, '#bf953f');
+                    grad.addColorStop(0.25, '#fcf6ba');
+                    grad.addColorStop(0.5, '#b38728');
+                    grad.addColorStop(0.75, '#fbf5b7');
+                    grad.addColorStop(1, '#aa771c');
+                } else { // Silver/Steel
+                    grad.addColorStop(0, '#555');
+                    grad.addColorStop(0.25, '#ddd');
+                    grad.addColorStop(0.5, '#888');
+                    grad.addColorStop(0.75, '#eee');
+                    grad.addColorStop(1, '#444');
+                }
+                return grad;
+            }
+ 
+            // --- 物体生成器 ---
+            const bodies = [];
+ 
+            function createNut(x, y) {
+                const size = 15 + Math.random() * 10;
+                const body = Bodies.polygon(x, y, 6, size, {
+                    restitution: 0.6,
+                    friction: 0.5,
+                    density: 0.04,
+                    angle: Math.random() * Math.PI,
+                    label: 'nut'
+                });
+                body.renderType = 'nut';
+                body.renderSize = size;
+                body.colorType = Math.random() > 0.8 ? 'gold' : 'silver';
+                return body;
+            }
+ 
+            function createBolt(x, y) {
+                const w = 12;
+                const h = 40 + Math.random() * 20;
+                const body = Bodies.rectangle(x, y, w, h, {
+                    restitution: 0.4,
+                    friction: 0.6,
+                    density: 0.05,
+                    angle: Math.random() * Math.PI,
+                    chamfer: { radius: 2 },
+                    label: 'bolt'
+                });
+                body.renderType = 'bolt';
+                body.renderW = w;
+                body.renderH = h;
+                body.colorType = 'silver';
+                return body;
+            }
+ 
+            function createWasher(x, y) {
+                const size = 12 + Math.random() * 8;
+                const body = Bodies.circle(x, y, size, {
+                    restitution: 0.7,
+                    friction: 0.4,
+                    density: 0.02,
+                    label: 'washer'
+                });
+                body.renderType = 'washer';
+                body.renderSize = size;
+                body.colorType = 'silver';
+                return body;
+            }
+ 
+            // --- 场景初始化 ---
+             
+            // 地面和墙壁
+            const ground = Bodies.rectangle(width / 2, height + 60, width * 2, 120, { isStatic: true, label: 'ground' });
+            const leftWall = Bodies.rectangle(-60, height / 2, 120, height * 5, { isStatic: true });
+            const rightWall = Bodies.rectangle(width + 60, height / 2, 120, height * 5, { isStatic: true });
+             
+            Composite.add(world, [ground, leftWall, rightWall]);
+ 
+            // 生成零件
+            function spawnInitialDebris() {
+                const count = Math.min(60, width / 15);
+                for (let i = 0; i < count; i++) {
+                    setTimeout(() => {
+                        const type = Math.random();
+                        let body;
+                        const spawnX = Math.random() * (width - 100) + 50;
+                         
+                        // 修改：让一部分零件直接在屏幕中间生成，避免全部在屏幕外看不见
+                        const spawnY = (i < 15) ? (height * 0.2 + Math.random() * height * 0.5) : (-Math.random() * 500 - 50);
+                         
+                        if (type < 0.5) body = createNut(spawnX, spawnY);
+                        else if (type < 0.8) body = createBolt(spawnX, spawnY);
+                        else body = createWasher(spawnX, spawnY);
+ 
+                        Composite.add(world, body);
+                        bodies.push(body);
+                    }, i * 30); // 加快生成速度
+                }
+            }
+            spawnInitialDebris();
+ 
+            // 点击生成
+            canvas.addEventListener('mousedown', (e) => {
+                if(Math.random() > 0.5) { // 增加点击生成的概率
+                    const type = Math.random();
+                    let body;
+                    if (type < 0.5) body = createNut(e.clientX, -20);
+                    else if (type < 0.8) body = createBolt(e.clientX, -20);
+                    else body = createWasher(e.clientX, -20);
+                    Composite.add(world, body);
+                    bodies.push(body);
+                }
+            });
+ 
+            // --- 鼠标交互 ---
+            const mouse = Mouse.create(canvas);
+            const mouseConstraint = MouseConstraint.create(engine, {
+                mouse: mouse,
+                constraint: {
+                    stiffness: 0.2,
+                    render: { visible: false }
+                }
+            });
+            Composite.add(world, mouseConstraint);
+ 
+            // 修正 Matter.js 鼠标坐标在滚轮滚动后的偏差（虽然本页无滚动，但加上更保险）
+            // mouse.element.removeEventListener("mousewheel", mouse.mousewheel);
+            // mouse.element.removeEventListener("DOMMouseScroll", mouse.mousewheel);
+ 
+            // --- 渲染循环 ---
+            function draw() {
+                ctx.clearRect(0, 0, width, height);
+ 
+                const allBodies = Composite.allBodies(world);
+ 
+                allBodies.forEach(body => {
+                    if (body.isStatic || !body.renderType) return;
+ 
+                    const { x, y } = body.position;
+                    const angle = body.angle;
+ 
+                    ctx.save();
+                    ctx.translate(x, y);
+                    ctx.rotate(angle);
+ 
+                    // 阴影
+                    ctx.shadowColor = 'rgba(0,0,0,0.5)';
+                    ctx.shadowBlur = 8;
+                    ctx.shadowOffsetX = 4;
+                    ctx.shadowOffsetY = 4;
+ 
+                    if (body.renderType === 'nut') {
+                        const size = body.renderSize;
+                        ctx.fillStyle = createMetalGradient(ctx, 0, 0, size, body.colorType);
+                        ctx.beginPath();
+                        for (let i = 0; i < 6; i++) {
+                            ctx.lineTo(size * Math.cos(Math.PI / 3 * i), size * Math.sin(Math.PI / 3 * i));
+                        }
+                        ctx.closePath();
+                        ctx.fill();
+ 
+                        // 挖孔
+                        ctx.shadowColor = 'transparent'; // 孔内无外部阴影
+                        ctx.globalCompositeOperation = 'destination-out';
+                        ctx.beginPath();
+                        ctx.arc(0, 0, size * 0.45, 0, 2 * Math.PI);
+                        ctx.fill();
+                        ctx.globalCompositeOperation = 'source-over';
+                         
+                        // 孔边高光
+                        ctx.strokeStyle = 'rgba(255,255,255,0.4)';
+                        ctx.lineWidth = 1.5;
+                        ctx.stroke();
+ 
+                    } else if (body.renderType === 'bolt') {
+                        const w = body.renderW;
+                        const h = body.renderH;
+                         
+                        ctx.fillStyle = createMetalGradient(ctx, 0, 0, w/2, 'silver');
+                        ctx.fillRect(-w/2, -h/2, w, h);
+                         
+                        // 螺纹
+                        ctx.strokeStyle = 'rgba(0,0,0,0.3)';
+                        ctx.lineWidth = 1;
+                        for(let i = -h/2 + 5; i < h/2; i+=4) {
+                            ctx.beginPath();
+                            ctx.moveTo(-w/2, i);
+                            ctx.lineTo(w/2, i+2);
+                            ctx.stroke();
+                        }
+ 
+                        // 螺栓头
+                        ctx.fillStyle = '#333';
+                        const headSize = w * 1.6;
+                        ctx.beginPath();
+                        ctx.rect(-headSize/2, -h/2 - 8, headSize, 8);
+                        ctx.fill();
+ 
+                    } else if (body.renderType === 'washer') {
+                        const size = body.renderSize;
+                         
+                        // 外圈
+                        ctx.beginPath();
+                        ctx.arc(0, 0, size, 0, 2 * Math.PI);
+                        const grad = ctx.createLinearGradient(-size, -size, size, size);
+                        grad.addColorStop(0, '#777');
+                        grad.addColorStop(0.5, '#ccc');
+                        grad.addColorStop(1, '#777');
+                        ctx.fillStyle = grad;
+                        ctx.fill();
+ 
+                        // 挖孔
+                        ctx.shadowColor = 'transparent';
+                        ctx.globalCompositeOperation = 'destination-out';
+                        ctx.beginPath();
+                        ctx.arc(0, 0, size * 0.5, 0, 2 * Math.PI);
+                        ctx.fill();
+                        ctx.globalCompositeOperation = 'source-over';
+                    }
+ 
+                    ctx.restore();
+                });
+ 
+                requestAnimationFrame(draw);
+            }
+ 
+            // --- 启动引擎 ---
+            const runner = Runner.create();
+            Runner.run(runner, engine);
+            draw();
+ 
+            // --- 窗口调整 ---
+            window.addEventListener('resize', () => {
+                width = window.innerWidth;
+                height = window.innerHeight;
+                canvas.width = width;
+                canvas.height = height;
+                 
+                Body.setPosition(ground, Vector.create(width / 2, height + 60));
+                Body.setPosition(leftWall, Vector.create(-60, height / 2));
+                Body.setPosition(rightWall, Vector.create(width + 60, height / 2));
+            });
+        });
+    </script>
+</body>
+</html>
