@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+
+
+
+  <!DOCTYPE html>
 <html>
 <head>
   <script data-ad-client="ca-pub-6095926240129281" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -11,12 +14,12 @@
   
   <title>Day 11 2D Arrays | LPD</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Context Given a 6 * 6 2D Array, A: 1234561 1 1 0 0 00 1 0 0 0 01 1 1 0 0 00 0 0 0 0 00 0 0 0 0 00 0 0 0 0 0 We define an hourglass in A to be a subset of values with indices falling in this pattern">
+  <meta name="description" content="Context Given a 6 * 6 2D Array, A: 1234561 1 1 0 0 00 1 0 0 0 01 1 1 0 0 00 0 0 0 0 00 0 0 0 0 00 0 0 0 0 0 We define an hourglass in  A to be a subset of values with indices falling in this pattern i">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Day 11 2D Arrays">
 <meta property="og:url" content="https://www.luopandeng.com/2019/10/11/HackerRank/Day-11-2D-Arrays/index.html">
 <meta property="og:site_name" content="LPD">
-<meta property="og:description" content="Context Given a 6 * 6 2D Array, A: 1234561 1 1 0 0 00 1 0 0 0 01 1 1 0 0 00 0 0 0 0 00 0 0 0 0 00 0 0 0 0 0 We define an hourglass in A to be a subset of values with indices falling in this pattern">
+<meta property="og:description" content="Context Given a 6 * 6 2D Array, A: 1234561 1 1 0 0 00 1 0 0 0 01 1 1 0 0 00 0 0 0 0 00 0 0 0 0 00 0 0 0 0 0 We define an hourglass in  A to be a subset of values with indices falling in this pattern i">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2019-10-11T01:48:19.000Z">
 <meta property="article:modified_time" content="2019-10-11T06:01:41.873Z">
@@ -35,12 +38,12 @@
   
 <link rel="stylesheet" href="/css/style.css">
 
-<meta name="generator" content="Hexo 7.3.0"></head>
+<meta name="generator" content="Hexo 8.1.1"></head>
 
-<body >
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
+  <body >
+    <div id="container">
+      <div id="wrap">
+        <header id="header">
   <div id="banner"></div>
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
@@ -70,8 +73,8 @@
     </div>
   </div>
 </header>
-      <div class="outer">
-        <section id="main"><article id="post-HackerRank/Day-11-2D-Arrays" class="article article-type-post" itemscope itemprop="blogPost">
+        <div class="outer">
+          <section id="main"><article id="post-HackerRank/Day-11-2D-Arrays" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/10/11/HackerRank/Day-11-2D-Arrays/" class="article-date">
   <time datetime="2019-10-11T01:48:19.000Z" itemprop="datePublished">2019-10-11</time>
@@ -93,26 +96,24 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><strong>Context</strong> Given a 6 * 6 <em>2D Array</em>, A:</p>
+        <p><strong>Context</strong><br />
+Given a 6 * 6 <em>2D Array</em>, A:</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">1 1 1 0 0 0</span><br><span class="line">0 1 0 0 0 0</span><br><span class="line">1 1 1 0 0 0</span><br><span class="line">0 0 0 0 0 0</span><br><span class="line">0 0 0 0 0 0</span><br><span class="line">0 0 0 0 0 0</span><br></pre></td></tr></table></figure>
-<p>We define an hourglass in A to be a subset of values with indices
-falling in this pattern in A's graphical representation:</p>
+<p>We define an hourglass in  A to be a subset of values with indices falling in this pattern in A’s graphical representation:</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a b c</span><br><span class="line">  d</span><br><span class="line">e f g</span><br></pre></td></tr></table></figure>
-<p>There are 16 hourglasses in A, and an <em>hourglass sum</em> is the
-sum of an hourglass' values.</p>
-<p><strong>Task</strong> Calculate the hourglass sum for every hourglass
-in A, then print the <em>maximum</em> hourglass sum.</p>
+<p>There are  16 hourglasses in A, and an <em>hourglass sum</em> is the sum of an hourglass’ values.</p>
+<p><strong>Task</strong><br />
+Calculate the hourglass sum for every hourglass in A, then print the <em>maximum</em> hourglass sum.</p>
 <span id="more"></span>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.luopandeng.hackerrank;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.*;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Author</span>: LPD0155</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Date</span>: 2019/10/11:10:03</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Day10</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">Scanner</span> <span class="variable">scanner</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">int</span>[][] arr = <span class="keyword">new</span> <span class="title class_">int</span>[<span class="number">6</span>][<span class="number">6</span>];</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; <span class="number">6</span>; i++) &#123;</span><br><span class="line">            String[] arrRowItems = scanner.nextLine().split(<span class="string">&quot; &quot;</span>);</span><br><span class="line">            scanner.skip(<span class="string">&quot;(\r\n|[\n\r\u2028\u2029\u0085])?&quot;</span>);</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; <span class="number">6</span>; j++) &#123;</span><br><span class="line">                <span class="type">int</span> <span class="variable">arrItem</span> <span class="operator">=</span> Integer.parseInt(arrRowItems[j]);</span><br><span class="line">                arr[i][j] = arrItem;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        HashSet&lt;Integer&gt; result = <span class="keyword">new</span> <span class="title class_">HashSet</span>&lt;&gt;();</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; arr.length-<span class="number">2</span>; i++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; arr[i].length-<span class="number">2</span>; j++) &#123;</span><br><span class="line">                <span class="comment">//顶</span></span><br><span class="line">                <span class="type">int</span> <span class="variable">top</span> <span class="operator">=</span> arr[i][j] + arr[i][j+<span class="number">1</span>] + arr[i][j+<span class="number">2</span>];</span><br><span class="line"><span class="comment">//                System.out.println(top);</span></span><br><span class="line">                <span class="type">int</span> <span class="variable">mid</span> <span class="operator">=</span> arr[i + <span class="number">1</span>][j + <span class="number">1</span>];</span><br><span class="line"><span class="comment">//                System.out.println(mid);</span></span><br><span class="line">                <span class="type">int</span> <span class="variable">bottom</span> <span class="operator">=</span> arr[i+<span class="number">2</span>][j] + arr[i+<span class="number">2</span>][j+<span class="number">1</span>] + arr[i+<span class="number">2</span>][j+<span class="number">2</span>];</span><br><span class="line">                result.add(top+mid+bottom);</span><br><span class="line"><span class="comment">//                System.out.println(bottom+top+mid);</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(Collections.max(result));</span><br><span class="line">        scanner.close();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>My solution is not good. Perhaps there are some smart way to solve
-it.</p>
+<p>My solution is not good. Perhaps there are some smart way to solve it.</p>
 <p>Below is a another solution from others.</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.*;</span><br><span class="line"><span class="keyword">import</span> java.util.*;</span><br><span class="line"><span class="keyword">import</span> java.text.*;</span><br><span class="line"><span class="keyword">import</span> java.math.*;</span><br><span class="line"><span class="keyword">import</span> java.util.regex.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">int</span> <span class="variable">_MAX</span> <span class="operator">=</span> <span class="number">6</span>; <span class="comment">// size of matrix</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">int</span> <span class="variable">_OFFSET</span> <span class="operator">=</span> <span class="number">2</span>; <span class="comment">// hourglass width</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="type">int</span> matrix[][] = <span class="keyword">new</span> <span class="title class_">int</span>[_MAX][_MAX];</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="type">int</span> <span class="variable">maxHourglass</span> <span class="operator">=</span> -<span class="number">63</span>; <span class="comment">// initialize to lowest possible sum (-9 x 7)</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">/** Given a starting index for an hourglass, sets maxHourglass</span></span><br><span class="line"><span class="comment">    *   <span class="doctag">@param</span> i row </span></span><br><span class="line"><span class="comment">    *   <span class="doctag">@param</span> j column </span></span><br><span class="line"><span class="comment">    **/</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">hourglass</span><span class="params">(<span class="type">int</span> i, <span class="type">int</span> j)</span>&#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">tmp</span> <span class="operator">=</span> <span class="number">0</span>; <span class="comment">// current hourglass sum</span></span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> <span class="variable">k</span> <span class="operator">=</span> j; k &lt;= j + _OFFSET; k++)&#123;</span><br><span class="line">            tmp += matrix[i][k]; <span class="comment">// top 3 elements</span></span><br><span class="line">            tmp += matrix[i + _OFFSET][k]; <span class="comment">// bottom 3 elements</span></span><br><span class="line">        &#125;</span><br><span class="line">        tmp += matrix[i + <span class="number">1</span>][j + <span class="number">1</span>]; <span class="comment">// middle element</span></span><br><span class="line">        </span><br><span class="line">        <span class="keyword">if</span>(maxHourglass &lt; tmp)&#123;</span><br><span class="line">            maxHourglass = tmp;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="comment">// read inputs</span></span><br><span class="line">        <span class="type">Scanner</span> <span class="variable">scan</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in); </span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>; i &lt; _MAX; i++)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>; j &lt; _MAX; j++)&#123;</span><br><span class="line">                matrix[i][j] = scan.nextInt();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        scan.close();</span><br><span class="line">        </span><br><span class="line">        <span class="comment">// find maximum hourglass</span></span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>; i &lt; _MAX - _OFFSET; i++)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>; j &lt; _MAX - _OFFSET; j++)&#123;</span><br><span class="line">                hourglass(i, j);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        <span class="comment">// print maximum hourglass</span></span><br><span class="line">        System.out.println(maxHourglass);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://www.luopandeng.com/2019/10/11/HackerRank/Day-11-2D-Arrays/" data-id="cmipfirms000xtwma5t2e7bim" class="article-share-link">Share</a>
+      <a data-url="https://www.luopandeng.com/2019/10/11/HackerRank/Day-11-2D-Arrays/" data-id="cuid0LIyPPsRivcm0J9rixTqD" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hackerrank/" rel="tag">hackerrank</a></li></ul>
@@ -150,8 +151,8 @@ it.</p>
 
 4 min. read
 </section>
-        
-          <aside id="sidebar">
+          
+            <aside id="sidebar">
   
     
 
@@ -224,9 +225,9 @@ it.</p>
 </div>
   
 </aside>
-        
-      </div>
-      <footer id="footer">
+          
+        </div>
+        <footer id="footer">
   
   <div class="outer" style="text-align: center;">
     <div id="footer-info" class="inner" >
@@ -236,15 +237,15 @@ it.</p>
     </div>
   </div>
 </footer>
-    </div>
-    <nav id="mobile-nav">
+      </div>
+      <nav id="mobile-nav">
   
     <a href="/" class="mobile-nav-link">Home</a>
   
     <a href="/archives" class="mobile-nav-link">Archives</a>
   
 </nav>
-    
+      
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
@@ -263,6 +264,6 @@ it.</p>
 
 
 
-  </div>
-</body>
-</html>
+    </div>
+  </body>
+  </html>

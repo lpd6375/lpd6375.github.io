@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+
+
+
+  <!DOCTYPE html>
 <html>
 <head>
   <script data-ad-client="ca-pub-6095926240129281" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -35,12 +38,12 @@
   
 <link rel="stylesheet" href="/css/style.css">
 
-<meta name="generator" content="Hexo 7.3.0"></head>
+<meta name="generator" content="Hexo 8.1.1"></head>
 
-<body >
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
+  <body >
+    <div id="container">
+      <div id="wrap">
+        <header id="header">
   <div id="banner"></div>
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
@@ -70,8 +73,8 @@
     </div>
   </div>
 </header>
-      <div class="outer">
-        <section id="main"><article id="post-technique/MYSQL技巧" class="article article-type-post" itemscope itemprop="blogPost">
+        <div class="outer">
+          <section id="main"><article id="post-technique/MYSQL技巧" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/11/13/technique/MYSQL%E6%8A%80%E5%B7%A7/" class="article-date">
   <time datetime="2019-11-13T06:15:38.000Z" itemprop="datePublished">2019-11-13</time>
@@ -95,19 +98,20 @@
       
         <p>这里记录<code>MySQL</code>使用过程，经常遇到的问题的解决方案（不涉及高级较高级的操作）。</p>
 <span id="more"></span>
-<ol type="1">
-<li><p>如何将数据库从一台服务器移动到另一台服务器？</p>
+<ol>
+<li>
+<p>如何将数据库从一台服务器移动到另一台服务器？</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysqldump -uuser -ppassword myDatabase | mysql -hremoteserver -uremoteuser -premoteserverpassword </span><br></pre></td></tr></table></figure>
 <p>下面的这个更详细。</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysqldump -h &#x27;xxx.x.x.x&#x27; -uTHATUSER -pTHATPWD --opt --compress THATDB --skip-lock-tables | mysql -h localhost -uMYUSER -pMYPWD MYDB</span><br></pre></td></tr></table></figure>
-<p>这里使用了管道操作。这是一种在线方式，前面的<code>mysqldump</code>
-用来把指定的数据库导出，管道操作将导出的数据作为输入导入到后面的数据库里。</p></li>
+<p>这里使用了管道操作。这是一种在线方式，前面的<code>mysqldump</code> 用来把指定的数据库导出，管道操作将导出的数据作为输入导入到后面的数据库里。</p>
+</li>
 </ol>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://www.luopandeng.com/2019/11/13/technique/MYSQL%E6%8A%80%E5%B7%A7/" data-id="cmipfiro3004ftwmaf77v3ega" class="article-share-link">Share</a>
+      <a data-url="https://www.luopandeng.com/2019/11/13/technique/MYSQL%E6%8A%80%E5%B7%A7/" data-id="cuidcC9aNjP6qnE8aQo6ARVR2" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a></li></ul>
@@ -145,8 +149,8 @@
 
 1 min. read
 </section>
-        
-          <aside id="sidebar">
+          
+            <aside id="sidebar">
   
     
 
@@ -219,9 +223,9 @@
 </div>
   
 </aside>
-        
-      </div>
-      <footer id="footer">
+          
+        </div>
+        <footer id="footer">
   
   <div class="outer" style="text-align: center;">
     <div id="footer-info" class="inner" >
@@ -231,15 +235,15 @@
     </div>
   </div>
 </footer>
-    </div>
-    <nav id="mobile-nav">
+      </div>
+      <nav id="mobile-nav">
   
     <a href="/" class="mobile-nav-link">Home</a>
   
     <a href="/archives" class="mobile-nav-link">Archives</a>
   
 </nav>
-    
+      
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
@@ -258,6 +262,6 @@
 
 
 
-  </div>
-</body>
-</html>
+    </div>
+  </body>
+  </html>

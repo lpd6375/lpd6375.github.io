@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+
+
+
+  <!DOCTYPE html>
 <html>
 <head>
   <script data-ad-client="ca-pub-6095926240129281" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -11,12 +14,12 @@
   
   <title>利用 Cloudflare 实现端口映射 | LPD</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="新装的宽带给了公网IP刚好光猫上也有虚拟服务器功能，于是乎想到了要搞一个端口映射的东西。由于使用的是windows 所以自然选择了powershell 作为驱动脚本。上海电信 80、8080、443 端口是完全不给的，其它一率开放。">
+  <meta name="description" content="新装的宽带给了公网IP刚好光猫上也有虚拟服务器功能，于是乎想到了要搞一个端口映射的东西。由于使用的是windows 所以自然选择了powershell 作为驱动脚本。上海电信 80、8080、443 端口是完全不给的，其它一率开放。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="利用 Cloudflare 实现端口映射">
 <meta property="og:url" content="https://www.luopandeng.com/2019/10/28/technique/%E5%88%A9%E7%94%A8Cloudflare%E5%AE%9E%E7%8E%B0%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84/index.html">
 <meta property="og:site_name" content="LPD">
-<meta property="og:description" content="新装的宽带给了公网IP刚好光猫上也有虚拟服务器功能，于是乎想到了要搞一个端口映射的东西。由于使用的是windows 所以自然选择了powershell 作为驱动脚本。上海电信 80、8080、443 端口是完全不给的，其它一率开放。">
+<meta property="og:description" content="新装的宽带给了公网IP刚好光猫上也有虚拟服务器功能，于是乎想到了要搞一个端口映射的东西。由于使用的是windows 所以自然选择了powershell 作为驱动脚本。上海电信 80、8080、443 端口是完全不给的，其它一率开放。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2019-10-28T13:28:40.000Z">
 <meta property="article:modified_time" content="2020-03-20T07:42:35.333Z">
@@ -35,12 +38,12 @@
   
 <link rel="stylesheet" href="/css/style.css">
 
-<meta name="generator" content="Hexo 7.3.0"></head>
+<meta name="generator" content="Hexo 8.1.1"></head>
 
-<body >
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
+  <body >
+    <div id="container">
+      <div id="wrap">
+        <header id="header">
   <div id="banner"></div>
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
@@ -70,8 +73,8 @@
     </div>
   </div>
 </header>
-      <div class="outer">
-        <section id="main"><article id="post-technique/利用Cloudflare实现端口映射" class="article article-type-post" itemscope itemprop="blogPost">
+        <div class="outer">
+          <section id="main"><article id="post-technique/利用Cloudflare实现端口映射" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/10/28/technique/%E5%88%A9%E7%94%A8Cloudflare%E5%AE%9E%E7%8E%B0%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84/" class="article-date">
   <time datetime="2019-10-28T13:28:40.000Z" itemprop="datePublished">2019-10-28</time>
@@ -93,14 +96,9 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>新装的宽带给了公网IP刚好光猫上也有虚拟服务器功能，于是乎想到了要搞一个端口映射的东西。由于使用的是windows
-所以自然选择了powershell 作为驱动脚本。上海电信 80、8080、443
-端口是完全不给的，其它一率开放。</p>
+        <p>新装的宽带给了公网IP刚好光猫上也有虚拟服务器功能，于是乎想到了要搞一个端口映射的东西。由于使用的是windows 所以自然选择了powershell 作为驱动脚本。上海电信 80、8080、443 端口是完全不给的，其它一率开放。</p>
 <span id="more"></span>
-<p>简单解释一下思路，首先是获取本地的外网 IP 地址，然后把 CF
-上的解析记录改一下。在此之前要先在 CF
-上设置对应的解析记录。因为这里调用的是 CF 的更新记录 API。
-为保证服务的持续有效，设置了一个十分钟的检查，这个可以设置成更短的时间，但是由于DNS生效可能需要一点时间，具体的参数值，自己摸索吧。</p>
+<p>简单解释一下思路，首先是获取本地的外网 IP 地址，然后把 CF 上的解析记录改一下。在此之前要先在 CF 上设置对应的解析记录。因为这里调用的是 CF 的更新记录 API。 为保证服务的持续有效，设置了一个十分钟的检查，这个可以设置成更短的时间，但是由于DNS生效可能需要一点时间，具体的参数值，自己摸索吧。</p>
 <figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$getip</span> = <span class="built_in">Invoke-WebRequest</span> iiip.co</span><br><span class="line"><span class="variable">$iip</span> = <span class="variable">$getip</span>.Content.Trim()</span><br><span class="line"><span class="variable">$apitoken</span> = <span class="string">&#x27;xxxx&#x27;</span></span><br><span class="line"><span class="variable">$zoneId</span> = <span class="string">&#x27;xxxx&#x27;</span></span><br><span class="line"><span class="variable">$url</span> =<span class="string">&quot;https://api.cloudflare.com/client/v4/zones/&quot;</span>+<span class="variable">$zoneId</span>+<span class="string">&quot;/dns_records?type=A&amp;name=domain.domain.xxx&amp;match=all&quot;</span></span><br><span class="line"><span class="variable">$headers</span> = <span class="selector-tag">@</span>&#123;<span class="string">&quot;Authorization&quot;</span>=<span class="string">&quot;bearer &quot;</span>+<span class="variable">$apitoken</span>&#125;</span><br><span class="line"><span class="variable">$contentype</span> = <span class="string">&quot;application/json&quot;</span></span><br><span class="line"><span class="keyword">while</span>(<span class="number">1</span>)&#123;</span><br><span class="line">    <span class="variable">$out</span> = <span class="built_in">Invoke-WebRequest</span> <span class="literal">-Uri</span> <span class="variable">$url</span> <span class="literal">-Headers</span> <span class="variable">$headers</span> <span class="literal">-ContentType</span> <span class="variable">$contentype</span></span><br><span class="line">    <span class="variable">$dataa</span> = <span class="variable">$out</span>.Content | <span class="built_in">ConvertFrom-Json</span></span><br><span class="line">    <span class="variable">$result</span> = <span class="variable">$dataa</span>.result | <span class="built_in">ConvertTo-Json</span> | <span class="built_in">ConvertFrom-Json</span></span><br><span class="line">    <span class="variable">$JSON</span> = <span class="selector-tag">@</span>&#123;</span><br><span class="line">            <span class="built_in">type</span> = <span class="string">&quot;A&quot;</span></span><br><span class="line">            name = <span class="string">&quot;domain.domain.xxx&quot;</span></span><br><span class="line">            content = <span class="variable">$iip</span></span><br><span class="line">        &#125; | <span class="built_in">ConvertTo-Json</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span>(<span class="variable">$iip</span> <span class="operator">-ne</span> <span class="variable">$result</span>.content)&#123;</span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;they are not equal&quot;</span></span><br><span class="line">        <span class="variable">$posturl</span> = <span class="string">&quot;https://api.cloudflare.com/client/v4/zones/&quot;</span>+<span class="variable">$zoneId</span>+<span class="string">&quot;/dns_records/&quot;</span>+<span class="variable">$result</span>.id</span><br><span class="line">        <span class="variable">$test</span> = <span class="built_in">Invoke-WebRequest</span> <span class="literal">-Uri</span> <span class="variable">$posturl</span> <span class="literal">-Headers</span> <span class="variable">$headers</span> <span class="literal">-ContentType</span> <span class="variable">$contentype</span> <span class="literal">-Method</span> Put <span class="literal">-Body</span> <span class="variable">$JSON</span></span><br><span class="line">        <span class="built_in">Write-Host</span> <span class="string">&quot;commit success!&quot;</span></span><br><span class="line">    &#125;<span class="keyword">else</span>&#123; </span><br><span class="line">        <span class="built_in">Write-Host</span> <span class="string">&quot;step into sleep&quot;</span></span><br><span class="line">        </span><br><span class="line">         <span class="built_in">Start-Sleep</span> <span class="literal">-s</span> <span class="number">600</span> <span class="comment">#这个是暂停时间</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <hr />
 <p><strong>更新：</strong></p>
@@ -109,7 +107,7 @@
 </blockquote>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">$getip = Invoke-WebRequest iiip.co</span><br><span class="line">$iip = $getip.Content.Trim()</span><br><span class="line">$apitoken = &#x27;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&#x27;</span><br><span class="line">$zoneId = &#x27;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&#x27;</span><br><span class="line">$url =&quot;https://api.cloudflare.com/client/v4/zones/&quot;+$zoneId+&quot;/dns_records?type=A&amp;name=yourdomain&amp;match=all&quot;</span><br><span class="line">$headers = @&#123;&quot;Authorization&quot;=&quot;bearer &quot;+$apitoken&#125;</span><br><span class="line">$contentype = &quot;application/json&quot;</span><br><span class="line">$out = Invoke-WebRequest -Uri $url -Headers $headers -ContentType $contentype</span><br><span class="line">$dataa = $out.Content | ConvertFrom-Json</span><br><span class="line">$result = $dataa.result | ConvertTo-Json | ConvertFrom-Json</span><br><span class="line">$JSON = @&#123;</span><br><span class="line">        type = &quot;A&quot;</span><br><span class="line">        name = &quot;yourdomain&quot;</span><br><span class="line">        content = $iip</span><br><span class="line">      &#125; | ConvertTo-Json</span><br><span class="line"></span><br><span class="line">if($iip -ne $result.content)&#123;</span><br><span class="line">   echo &quot;they are not equal&quot;</span><br><span class="line">   $posturl = &quot;https://api.cloudflare.com/client/v4/zones/&quot;+$zoneId+&quot;/dns_records/&quot;+$result.id</span><br><span class="line">   $test = Invoke-WebRequest -Uri $posturl -Headers $headers -ContentType $contentype -Method Put -Body $JSON</span><br><span class="line">   Write-Host &quot;commit success!&quot;</span><br><span class="line"> &#125;else&#123; </span><br><span class="line">   Write-Host &quot;step into sleep&quot;</span><br><span class="line">   Start-Sleep -s 600 #这个是暂停时间</span><br><span class="line">    &#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <hr/>
-<h5 id="更新">更新：</h5>
+<h5 id="更新"><a class="markdownIt-Anchor" href="#更新"></a> 更新：</h5>
 <blockquote>
 <p>2020/01/21 API更新强制加入了ttl</p>
 </blockquote>
@@ -118,7 +116,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://www.luopandeng.com/2019/10/28/technique/%E5%88%A9%E7%94%A8Cloudflare%E5%AE%9E%E7%8E%B0%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84/" data-id="cmipfiro9004rtwma7a13g1j9" class="article-share-link">Share</a>
+      <a data-url="https://www.luopandeng.com/2019/10/28/technique/%E5%88%A9%E7%94%A8Cloudflare%E5%AE%9E%E7%8E%B0%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84/" data-id="cuid4HstZg-tiXBajRqSMW83y" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a></li></ul>
@@ -156,8 +154,8 @@
 
 5 min. read
 </section>
-        
-          <aside id="sidebar">
+          
+            <aside id="sidebar">
   
     
 
@@ -230,9 +228,9 @@
 </div>
   
 </aside>
-        
-      </div>
-      <footer id="footer">
+          
+        </div>
+        <footer id="footer">
   
   <div class="outer" style="text-align: center;">
     <div id="footer-info" class="inner" >
@@ -242,15 +240,15 @@
     </div>
   </div>
 </footer>
-    </div>
-    <nav id="mobile-nav">
+      </div>
+      <nav id="mobile-nav">
   
     <a href="/" class="mobile-nav-link">Home</a>
   
     <a href="/archives" class="mobile-nav-link">Archives</a>
   
 </nav>
-    
+      
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
@@ -269,6 +267,6 @@
 
 
 
-  </div>
-</body>
-</html>
+    </div>
+  </body>
+  </html>
