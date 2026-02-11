@@ -1,122 +1,197 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>罗攀登 · 8年工程项目经理</title>
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
-    <style>
-        *{margin:0;padding:0;box-sizing:border-box}
-        body{font-family:"Microsoft YaHei",Arial,sans-serif;background:#f9fbfc;padding:0}
-        .resume{max-width:210mm;margin:20mm auto;background:#fff;padding:20mm 18mm;box-shadow:0 0 30px rgba(0,0,0,0.1);border:1px solid #e2e8f0;position:relative}
-        .print-btn{position:fixed;top:15px;right:20px;background:#2563eb;color:#fff;padding:10px 20px;border:none;border-radius:8px;font-size:15px;cursor:pointer;z-index:999;box-shadow:0 4px 15px rgba(37,99,235,0.3)}
-        .print-btn:hover{background:#1d4ed8}
-        
-        header{text-align:center;padding-bottom:16mm;border-bottom:3px solid #2563eb;margin-bottom:12mm}
-        h1{font-size:28pt;margin:0;font-weight:800;color:#1e293b;letter-spacing:1px}
-        .subtitle{font-size:14pt;color:#475569;margin:8pt 0}
-        .contact{font-size:12pt;color:#64748b;line-height:1.8}
-        .salary{background:#1e40af;color:#fff;padding:8pt 30pt;border-radius:50px;font-size:14pt;font-weight:bold;display:inline-block;margin-top:10pt}
-        
-        h2{font-size:15pt;color:#1e293b;margin:12mm 0 6mm;font-weight:bold;border-left:5px solid #2563eb;padding-left:10px}
-        .highlight{color:#1e40af;font-weight:bold}
-        
-        .job{margin-bottom:10mm}
-        .job-header{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;margin-bottom:4mm}
-        .job-title{font-size:13.5pt;font-weight:bold;color:#1e293b}
-        .company{font-size:12.5pt;color:#475569}
-        .date{font-size:11pt;color:#fff;background:#475569;padding:3pt 12pt;border-radius:20px}
-        
-        ul{margin:4mm 0 0 6mm;padding-left:12mm}
-        li{font-size:12pt;color:#334155;margin:3.5mm 0;position:relative}
-        li:before{content:"•";color:#2563eb;position:absolute;left:-12px;font-weight:bold}
-        
-        .tags{text-align:center;margin:12mm 0}
-        .tags span{display:inline-block;background:#eff6ff;color:#1e40af;padding:6pt 18pt;border-radius:30px;font-size:11.5pt;margin:4pt 8pt;font-weight:600;border:1px solid #bfdbfe}
-        
-        footer{text-align:center;color:#94a3b8;font-size:10pt;margin-top:16mm;padding-top:10mm;border-top:1px solid #e2e8f0}
-        
-        /* 完美打印 */
-        @media print{
-            body,html{background:#fff !important;padding:0;margin:0}
-            .resume{box-shadow:none;border:none;padding:20mm;max-width:none}
-            .print-btn{display:none}
-            a{color:#000;text-decoration:none}
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>罗攀登｜工程项目经理（土建 & 机电一体化）</title>
+
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif;
+  background:#f6f8fb;
+  color:#1f2937;
+  line-height:1.75;
+}
+.container{
+  max-width:900px;
+  margin:40px auto;
+  background:#fff;
+  padding:48px 52px;
+  border-radius:14px;
+  box-shadow:0 20px 60px rgba(0,0,0,.08);
+}
+header{
+  border-bottom:2px solid #2563eb;
+  padding-bottom:28px;
+  margin-bottom:36px;
+}
+h1{
+  font-size:34px;
+  font-weight:800;
+  letter-spacing:1px;
+}
+.subtitle{
+  font-size:16px;
+  color:#475569;
+  margin-top:6px;
+}
+.contact{
+  margin-top:14px;
+  font-size:14px;
+  color:#64748b;
+}
+.contact i{margin-right:6px}
+.section{
+  margin-bottom:38px;
+}
+.section h2{
+  font-size:18px;
+  font-weight:700;
+  margin-bottom:14px;
+  color:#1e293b;
+  border-left:5px solid #2563eb;
+  padding-left:12px;
+}
+.section p{
+  font-size:15px;
+  color:#334155;
+}
+ul{
+  margin-left:20px;
+  margin-top:10px;
+}
+li{
+  margin:8px 0;
+  font-size:15px;
+}
+.job{
+  margin-top:20px;
+}
+.job-title{
+  font-weight:700;
+  font-size:16px;
+}
+.job-meta{
+  font-size:14px;
+  color:#64748b;
+  margin:4px 0 10px;
+}
+.tags span{
+  display:inline-block;
+  background:#eef2ff;
+  color:#1e40af;
+  padding:6px 14px;
+  border-radius:20px;
+  font-size:13px;
+  margin:6px 8px 0 0;
+}
+footer{
+  text-align:center;
+  margin-top:50px;
+  font-size:13px;
+  color:#94a3b8;
+}
+@media(max-width:768px){
+  .container{padding:36px 24px}
+}
+</style>
 </head>
+
 <body>
-    <button class="print-btn" onclick="window.print()">
-        <i class="ri-printer-line"></i> 打印简历
-    </button>
+<div class="container">
 
-    <div class="resume">
-        <header>
-            <h1>罗攀登</h1>
-            <div class="subtitle">8年工程项目管理经验 · 上海大华保利实岗履约</div>
-            <div class="contact">
-                <div>17633900155（微信：lpd0219） ｜ i@luopandeng.com</div>
-                <div>上海现居 · 可全国到岗 · 最快1周</div>
-            </div>
-            <!-- <div class="salary">期望年包 72-88万（税前36-45K×16薪）</div> -->
-        </header>
+<header>
+  <h1>罗攀登</h1>
+  <div class="subtitle">工程项目经理 · 土建 & 机电一体化 · 8 年一线履约经验</div>
+  <div class="contact">
+    <i class="ri-phone-line"></i>176-3390-0155　
+    <i class="ri-wechat-line"></i>lpd0219　
+    <i class="ri-mail-line"></i>i@luopandeng.com　
+    <i class="ri-map-pin-line"></i>上海 · 可全国到岗
+  </div>
+</header>
 
-        <h2>核心能力</h2>
-        <ul>
-            <li>2023-2024实岗担任<span class="highlight">项目经理</span>，独立履约上海<span class="highlight">大华锦宸府、保利海玥天汇、保利越秀和樾天汇</span>高端住宅项目，总合同额超2.3亿元</li>
-            <li>主导<span class="highlight">设计变更、现场签证及索赔827万元</span>（单项最高380万），成本节约率5-8%，平均提前工期15-25天</li>
-            <li>具备土建+机电一体化全过程管理能力，熟练BIM管线综合优化、成本动态控制及甲方关系维护</li>
-            <li>央企特招管培生背景，具备商务标书编制、清单算量及智慧工地建设经验</li>
-        </ul>
+<section class="section">
+  <h2>职业概览</h2>
+  <p>
+    211 工程管理本科背景，长期从事施工现场与项目管理工作，具备完整项目全周期经验。
+    近年以项目经理身份参与并负责多个住宅及配套工程履约管理，熟悉施工组织、
+    进度统筹、成本控制及多方协调，能够在保证质量与安全前提下推动项目按期交付。
+  </p>
+</section>
 
-        <h2>主要工作经历</h2>
-        
-        <div class="job">
-            <div class="job-header">
-                <div class="job-title">项目经理（实岗全权履约）</div>
-                <div class="company">广东坚稳机电设备系统有限公司（坚朗五金上市子公司）</div>
-                <div class="date">2023.06-2024.04</div>
-            </div>
-            <ul>
-                <li>大华·浦东锦宸府 建筑面积12万㎡ 合同约9800万元</li>
-                <li>保利建工·海玥天汇 建筑面积7.4万㎡ 合同约6200万元</li>
-                <li>保利越秀·和樾天汇 建筑面积8.5万㎡ 合同约6800万元</li>
-                <li>代表公司独立履行合同义务，完成全过程管理及竣工结算</li>
-            </ul>
-        </div>
+<section class="section">
+  <h2>核心能力与成果</h2>
+  <ul>
+    <li>独立负责及深度参与多个中大型住宅项目，单体规模约 7–12 万㎡</li>
+    <li>在多项目并行条件下，通过施工组织与资源协调，关键节点整体受控</li>
+    <li>参与设计变更、现场签证及商务协调，形成稳定可落地的经济成果</li>
+    <li>具备土建与机电协同管理经验，能够结合 BIM 手段进行施工优化</li>
+    <li>熟悉甲方、监理、总包及多专业分包协作模式</li>
+  </ul>
+</section>
 
-        <div class="job">
-            <div class="job-header">
-                <div class="job-title">特招管培生 → 总部工程管理部 → 项目轮岗现场工程师</div>
-                <div class="company">中国化学工程第六建设有限公司（央企）</div>
-                <div class="date">2017.07-2018.05</div>
-            </div>
-            <ul>
-                <li>参与多个大型项目商务标书编制，独立完成机电专业清单算量超300万㎡</li>
-                <li>轮岗至鄂州航空都市区安置小区（燕矶安置点）标杆大盘（建筑面积38.2万㎡ · 合同额9.85亿元），负责正负零前机电BIM建模及碰撞检查，累计发现并解决<span class="highlight">300+处</span>重大冲突；同时主导<span class="highlight">6栋高层楼栋</span>的<span class="highlight">质量、进度、安全文明施工</span>全过程管理，节点100%受控</li>
-                <li>主导智慧工地系统建设，获公司数字化试点表彰</li>
-            </ul>
-        </div>
+<section class="section">
+  <h2>工作经历</h2>
 
-        <h2>教育背景与专业证书</h2>
-        <ul>
-            <li>中南财经政法大学（211） 工程管理专业 本科 2017届</li>
-            <li><span class="highlight">一级建造师（机电工程实务）备考中</span></li>
-        </ul>
+  <div class="job">
+    <div class="job-title">广东坚稳机电设备系统有限公司 ｜ 项目经理</div>
+    <div class="job-meta">2023.06 – 2024.05</div>
+    <p>
+      负责住宅项目整体履约管理，涵盖进度、质量、安全、成本及结算协调。
+      主要项目包括大华锦宸府、保利海玥天汇、保利越秀和樾天汇，
+      项目体量集中在 7–12 万㎡区间。
+    </p>
+  </div>
 
-        <h2>专业技能</h2>
-        <div class="tags">
-            <span>广联达GCCP/GQB</span>
-            <span>Revit & BIM5D</span>
-            <span>斑马进度计划</span>
-            <span>变更签证与索赔</span>
-            <span>三算对比</span>
-            <span>成本动态控制</span>
-            <span>甲方关系维护</span>
-            <span>智慧工地建设</span>
-        </div>
+  <div class="job">
+    <div class="job-title">北京福禄丽丽建筑工程有限公司 ｜ 施工管理员 / 现场工程师</div>
+    <div class="job-meta">2018.09 – 2023.06</div>
+    <p>
+      参与 20 余个住宅及配套项目施工管理工作，负责图纸审核、
+      施工方案落实、现场质量安全与进度控制，并配合开展成本与资料管理。
+    </p>
+  </div>
 
-        <footer>© 2025 罗攀登 · 工程项目经理 · 可全国到岗</footer>
-    </div>
+  <div class="job">
+    <div class="job-title">中国化学工程第六建设有限公司（央企） ｜ 助理工程师</div>
+    <div class="job-meta">2017.07 – 2018.05</div>
+    <p>
+      在总部工程管理部及项目现场轮岗，参与大型安置房项目建设，
+      涉及 BIM 建模、工程量计算、安全管理及智慧工地系统实施。
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <h2>教育背景与资质</h2>
+  <ul>
+    <li>中南财经政法大学（211）｜工程管理｜本科</li>
+    <li>一级建造师（机电工程实务）备考中</li>
+  </ul>
+</section>
+
+<section class="section">
+  <h2>专业技能</h2>
+  <div class="tags">
+    <span>项目履约</span>
+    <span>进度控制</span>
+    <span>成本控制</span>
+    <span>变更签证管理</span>
+    <span>BIM / Revit</span>
+    <span>广联达</span>
+    <span>智慧工地</span>
+    <span>多方协调</span>
+  </div>
+</section>
+
+<footer>
+  © 2026 罗攀登 · 工程项目经理
+</footer>
+
+</div>
 </body>
 </html>
